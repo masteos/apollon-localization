@@ -1,0 +1,25 @@
+{
+  "name": "apollon-localization",
+  "version": "1.0.0",
+  "description": "Localization files for @masteos/apollon",
+  "main": "bin/index.js",
+  "repository": "https://github.com/masteos/apollon-localization.git",
+  "author": "Zao Soula <contact@zaosoula.fr>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "convert": "ts-node ./bin/index.ts convert"
+  },
+  "devDependencies": {
+    "@masteos/config": "^1.8.1",
+    "eslint": "^8.9.0",
+    "i18next-conv": "^12.0.1",
+    "jest": "^27.5.1",
+    "kleur": "^4.1.4",
+    "loading-cli": "^1.1.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5",
+    "yargs": "^17.3.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/@masteos/config/ts/server",
+  "include": [
+    "bin/**.ts"
+  ],
+  "compilerOptions": {
+    "noImplicitAny": false
+  }
+}
