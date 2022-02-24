@@ -1,17 +1,13 @@
 import { gettextToI18next, i18nextToPo } from 'i18next-conv';
-import { Argv, Arguments, CommandModule } from 'yargs';
+import { Argv, CommandModule } from 'yargs';
 
 import path from 'path';
 import fs from 'fs';
 
 import { print, kleur } from '../print';
+import { Args } from './arguments';
 
-type ConvertArgs = Arguments<{
-  file: string;
-  target?: string;
-}>;
-
-export const convert: CommandModule<Record<string, unknown>, ConvertArgs> = {
+export const convert: CommandModule<Record<string, unknown>, Args> = {
   builder: args =>
     args
       .positional('file', {
@@ -25,7 +21,7 @@ export const convert: CommandModule<Record<string, unknown>, ConvertArgs> = {
         describe: 'path to save to',
         normalize: true,
         type: 'string',
-      }) as Argv<ConvertArgs>,
+      }) as Argv<Args>,
   command: 'convert <file> [target]',
   describe: 'convert a file to .po or .json',
   handler: async args => {
