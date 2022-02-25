@@ -5,14 +5,18 @@
     "lib/**/*.ts"
   ],
   "compilerOptions": {
-    "noImplicitAny": false,
     "resolveJsonModule": true,
     "lib": ["ES2020"],
     "module": "commonjs",
     "declaration": true,
     "sourceMap": true,
-    "outDir": "./build",
     "rootDir": "./",
-    "strict": true
+    "strict": true,
+    "paths": {
+      "*": [
+        "./node_modules/*",
+        "./bin/types/*"
+      ]
+  },
   }
 }

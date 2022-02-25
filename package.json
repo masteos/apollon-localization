@@ -7,23 +7,16 @@
   "repository": "https://github.com/masteos/apollon-localization.git",
   "author": "Zao Soula <contact@zaosoula.fr>",
   "license": "MIT",
-  "private": true,
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
     "convert": "ts-node ./bin/index.ts convert",
     "sync": "ts-node ./bin/index.ts sync",
-    "prebuild": "rimraf build",
-    "build": "tsc -p tsconfig.build.json",
-    "prettier": "prettier \"*.{js,json,yml,yaml,md}\" \"src/**/*\"",
-    "format": "npm run prettier --write",
-    "format:check": "yarn prettier --check",
-    "lint": "yarn run eslint",
-    "lint:staged": "lint-staged --config .lintstagedrc",
-    "lint:fix": "npm run eslint:fix"
+    "postsync": "npm run build"
   },
   "devDependencies": {
     "@masteos/config": "^1.8.1",
     "eslint": "^8.9.0",
-    "i18next-conv": "^12.0.1",
+    "i18next-conv": "^12.0.2",
     "jest": "^27.5.1",
     "kleur": "^4.1.4",
     "loading-cli": "^1.1.0",
