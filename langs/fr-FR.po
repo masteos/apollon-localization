@@ -5,17 +5,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n >= 2)\n"
-"POT-Creation-Date: 2022-02-16T17:22:51.125Z\n"
-"PO-Revision-Date: 2022-02-16T17:22:51.125Z\n"
+"POT-Creation-Date: 2022-02-25T15:14:14.637Z\n"
+"PO-Revision-Date: 2022-02-25T15:14:14.637Z\n"
 
 msgid "advisor##appointmentDate"
 msgstr "Le {{day}} à {{hour}}h{{minutes}}"
 
 msgid "advisor##description"
 msgstr ""
-" Indiquez à votre conseiller que vous souhaitez vous positionner sur ce "
-"bien. Il reviendra vers vous au plus vite pour peaufiner les détails de "
-"l'opération avec vous."
+"Votre conseiller est informé de votre intérêt pour le bien. Il reviendra "
+"vers vous pour organiser une rencontre avec le chasseur en charge du projet "
+"et vous donner toutes les informations. S’il correspond à vos attentes, "
+"vous pourrez formuler une offre d’achat."
 
 msgid "advisor##bookAppointment"
 msgstr "Programmer un rendez-vous"
@@ -75,6 +76,12 @@ msgstr "Modifier"
 
 msgid "advisor##whatsAppSectionTitle"
 msgstr "WhatsApp"
+
+msgid "advisor##advisorWillContactYou"
+msgstr "Votre conseiller vous contactera"
+
+msgid "advisor##contactAdvisor"
+msgstr "Contacter directement mon conseiller"
 
 msgid "appointmentConfirmation##meetingTogether"
 msgstr "Nous avons rendez-vous ensemble le :"
@@ -984,23 +991,35 @@ msgstr "Fonctionnement de la sélection"
 msgid "propertyModals##closeButton"
 msgstr "Voir mes autres biens"
 
-msgid "propertyModals##AVERAGE##title"
+msgid "propertyModals##dislikeReasons##AESTHETICS##title"
+msgstr "Esthétisme"
+
+msgid "propertyModals##dislikeReasons##AESTHETICS##description"
+msgstr "L’immeuble / les parties communes ne sont pas à mon goût"
+
+msgid "propertyModals##dislikeReasons##AVERAGE##title"
 msgstr "Rentabilité"
 
-msgid "propertyModals##AVERAGE##description"
-msgstr "La rentabilité du bien est trop faible"
+msgid "propertyModals##dislikeReasons##AVERAGE##description"
+msgstr "La rentabilité du projet est trop faible"
 
-msgid "propertyModals##LOCATION##title"
+msgid "propertyModals##dislikeReasons##LOCATION##title"
 msgstr "Emplacement"
 
-msgid "propertyModals##LOCATION##description"
+msgid "propertyModals##dislikeReasons##LOCATION##description"
 msgstr "La localisation ne me convient pas"
 
-msgid "propertyModals##OTHER##title"
+msgid "propertyModals##dislikeReasons##OTHER##title"
 msgstr "Autre"
 
-msgid "propertyModals##OTHER##description"
+msgid "propertyModals##dislikeReasons##OTHER##description"
 msgstr "D'autres paramètres ne conviennent pas"
+
+msgid "propertyModals##dislikeReasons##RENOVATION##title"
+msgstr "Travaux"
+
+msgid "propertyModals##dislikeReasons##RENOVATION##description"
+msgstr "Le budget travaux du projet est trop élevé"
 
 msgid "propertyModals##description"
 msgstr ""
@@ -1022,35 +1041,11 @@ msgstr "ce bien m'intéresse"
 msgid "propertyModals##addressLabel"
 msgstr "Adresse"
 
-msgid "propertyModals##averageYieldSubtitle"
-msgstr "La rentabilité du bien est trop faible"
-
-msgid "propertyModals##averageYieldTitle"
-msgstr "Rentabilité"
-
-msgid "propertyModals##locationSubtitle"
-msgstr "La localisation ne me convient pas"
-
-msgid "propertyModals##locationTitle"
-msgstr "Emplacement"
-
-msgid "propertyModals##otherSubtitle"
-msgstr "D'autres paramètres ne conviennent pas"
-
-msgid "propertyModals##otherTitle"
-msgstr "Autre"
-
 msgid "propertyModals##subtitle"
 msgstr "Pourquoi n'êtes-vous pas intéressé(e) par ce bien ?"
 
 msgid "propertyModals##notInterested"
 msgstr "Je ne suis pas intéressé(e)"
-
-msgid "propertyModals##positionOnItTitle"
-msgstr "Me positionner"
-
-msgid "propertyModals##positionOnItSubtitle"
-msgstr "Je contacte mon conseiller afin de faire une offre d'achat"
 
 msgid "propertyModals##mandate"
 msgstr "Mandat de recherche"
@@ -1059,9 +1054,6 @@ msgid "propertyModals##mandateNeeded"
 msgstr ""
 "Vous devez signer votre mandat de recherche pour vous positionner et faire "
 "une offre d'achat."
-
-msgid "propertyModals##favoritesTitle"
-msgstr "Mettre en favoris"
 
 msgid "propertyModals##interestedMessageNoMandate"
 msgstr ""
@@ -1072,9 +1064,6 @@ msgid "propertyModals##noMandateModal"
 msgstr ""
 "Vous devez signer votre mandat de recherche pour vous positionner et faire "
 "une offre d'achat."
-
-msgid "propertyModals##favoritesSubtitle"
-msgstr "Ce bien est intéressant mais je veux attendre pour me positionner"
 
 msgid "propertyModals##modifyParameters"
 msgstr "Pour les modifier, vous pouvez prendre contact avec votre conseiller."
@@ -1097,19 +1086,21 @@ msgid "propertyModals##explanation##titleMobile"
 msgstr "Fonctionnement"
 
 msgid "propertyModals##interested"
-msgstr "Je suis intéressé"
+msgstr "Je suis intéressé(e)"
 
 msgid "propertyModals##bookmark##title"
 msgstr "Mettre en favoris"
 
 msgid "propertyModals##bookmark##description"
-msgstr "Je trouve ce bien intéressant mais souhaite attendre pour me positionner"
+msgstr "Ajoutez ce bien à votre liste de favoris pour le retrouver plus tard"
 
 msgid "propertyModals##select##title"
-msgstr "Me positionner"
+msgstr "Étudier le projet avec mon conseiller"
 
 msgid "propertyModals##select##description"
-msgstr "Je contacte mon conseiller afin de faire une offre d'achat"
+msgstr ""
+"Votre conseiller vous contactera pour discuter de ce projet et d’une offre "
+"d’achat éventuelle"
 
 msgid "propertyModals##interestedWhatsapp"
 msgstr ""

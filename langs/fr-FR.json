@@ -1,7 +1,7 @@
 {
     "advisor": {
         "appointmentDate": "Le {{day}} à {{hour}}h{{minutes}}",
-        "description": " Indiquez à votre conseiller que vous souhaitez vous positionner sur ce bien. Il reviendra vers vous au plus vite pour peaufiner les détails de l'opération avec vous.",
+        "description": "Votre conseiller est informé de votre intérêt pour le bien. Il reviendra vers vous pour organiser une rencontre avec le chasseur en charge du projet et vous donner toutes les informations. S’il correspond à vos attentes, vous pourrez formuler une offre d’achat.",
         "bookAppointment": "Programmer un rendez-vous",
         "noAppointmentSchedule": "Pas de rendez-vous prévu !",
         "phone": "Téléphone",
@@ -20,7 +20,9 @@
         "noAppointment": "Pas de rendez-vous",
         "title": "Mon conseiller",
         "updateAppointmentButton": "Modifier",
-        "whatsAppSectionTitle": "WhatsApp"
+        "whatsAppSectionTitle": "WhatsApp",
+        "advisorWillContactYou": "Votre conseiller vous contactera",
+        "contactAdvisor": "Contacter directement mon conseiller"
     },
     "appointmentConfirmation": {
         "meetingTogether": "Nous avons rendez-vous ensemble le :",
@@ -373,17 +375,27 @@
         "region": "Region(s)",
         "title": "Fonctionnement de la sélection",
         "closeButton": "Voir mes autres biens",
-        "AVERAGE": {
-            "title": "Rentabilité",
-            "description": "La rentabilité du bien est trop faible"
-        },
-        "LOCATION": {
-            "title": "Emplacement",
-            "description": "La localisation ne me convient pas"
-        },
-        "OTHER": {
-            "title": "Autre",
-            "description": "D'autres paramètres ne conviennent pas"
+        "dislikeReasons": {
+            "AESTHETICS": {
+                "title": "Esthétisme",
+                "description": "L’immeuble / les parties communes ne sont pas à mon goût"
+            },
+            "AVERAGE": {
+                "title": "Rentabilité",
+                "description": "La rentabilité du projet est trop faible"
+            },
+            "LOCATION": {
+                "title": "Emplacement",
+                "description": "La localisation ne me convient pas"
+            },
+            "OTHER": {
+                "title": "Autre",
+                "description": "D'autres paramètres ne conviennent pas"
+            },
+            "RENOVATION": {
+                "title": "Travaux",
+                "description": "Le budget travaux du projet est trop élevé"
+            }
         },
         "description": "Ce bien suscite la convoitise et n'est déjà plus disponible. Un autre investisseur s'est positionné dessus. Soyez attentif à vos alertes pour saisir la prochaine opportunité qui se présente.",
         "interestedModal": {
@@ -394,22 +406,12 @@
             }
         },
         "addressLabel": "Adresse",
-        "averageYieldSubtitle": "La rentabilité du bien est trop faible",
-        "averageYieldTitle": "Rentabilité",
-        "locationSubtitle": "La localisation ne me convient pas",
-        "locationTitle": "Emplacement",
-        "otherSubtitle": "D'autres paramètres ne conviennent pas",
-        "otherTitle": "Autre",
         "subtitle": "Pourquoi n'êtes-vous pas intéressé(e) par ce bien ?",
         "notInterested": "Je ne suis pas intéressé(e)",
-        "positionOnItTitle": "Me positionner",
-        "positionOnItSubtitle": "Je contacte mon conseiller afin de faire une offre d'achat",
         "mandate": "Mandat de recherche",
         "mandateNeeded": "Vous devez signer votre mandat de recherche pour vous positionner et faire une offre d'achat.",
-        "favoritesTitle": "Mettre en favoris",
         "interestedMessageNoMandate": "Bonjour {{firstName}}, ce bien m'intéresse {{propertyUrl}}, je souhaiterais en savoir plus pour me positionner dessus et signer mon mandat de recherche.",
         "noMandateModal": "Vous devez signer votre mandat de recherche pour vous positionner et faire une offre d'achat.",
-        "favoritesSubtitle": "Ce bien est intéressant mais je veux attendre pour me positionner",
         "modifyParameters": "Pour les modifier, vous pouvez prendre contact avec votre conseiller.",
         "explanation": {
             "1": "Nous vous proposons jusqu'à 6 projets simultanément. ",
@@ -418,14 +420,14 @@
             "title": "Fonctionnement de la sélection",
             "titleMobile": "Fonctionnement"
         },
-        "interested": "Je suis intéressé",
+        "interested": "Je suis intéressé(e)",
         "bookmark": {
             "title": "Mettre en favoris",
-            "description": "Je trouve ce bien intéressant mais souhaite attendre pour me positionner"
+            "description": "Ajoutez ce bien à votre liste de favoris pour le retrouver plus tard"
         },
         "select": {
-            "title": "Me positionner",
-            "description": "Je contacte mon conseiller afin de faire une offre d'achat"
+            "title": "Étudier le projet avec mon conseiller",
+            "description": "Votre conseiller vous contactera pour discuter de ce projet et d’une offre d’achat éventuelle"
         },
         "interestedWhatsapp": "Bonjour {{advisorFirstName}}, ce bien m'intéresse : {{propertyTitle}}, je souhaiterais en savoir plus pour me positionner dessus. {{propertyUrl}}"
     },
