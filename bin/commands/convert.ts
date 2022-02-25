@@ -4,8 +4,7 @@ import { Argv, CommandModule } from 'yargs';
 import path from 'path';
 import fs from 'fs';
 
-import { print, kleur } from '../print';
-import { Args } from './arguments';
+import { print, PrintFormats, Args } from '../utils';
 
 export const convert: CommandModule<Record<string, unknown>, Args> = {
   builder: args =>
@@ -26,12 +25,14 @@ export const convert: CommandModule<Record<string, unknown>, Args> = {
   describe: 'convert a file to .po or .json',
   handler: async args => {
     if (!fs.existsSync(args.file)) {
-      console.error('File not found');
+      print('File not found', {
+        format: PrintFormats.error,
+      });
       process.exit(1);
     }
 
     const pathMeta = path.parse(args.file);
-    const task = print(`Converting ${kleur.underline(args.file)}...`, {
+    const task = print(`Converting ${args.file}...`, {
       loading: true,
     });
     let data, target;
@@ -54,7 +55,7 @@ export const convert: CommandModule<Record<string, unknown>, Args> = {
     }
 
     fs.writeFileSync(target, data, { encoding: 'utf-8' });
-    task.succeed(`Saved to ${kleur.underline(target)}`);
+    task.succeed(`Saved to ${target}`);
     process.exit(0);
   },
 };

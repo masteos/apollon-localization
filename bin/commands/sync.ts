@@ -3,8 +3,7 @@ import { CommandModule } from 'yargs';
 import path from 'path';
 import fs from 'fs/promises';
 
-import { print, PrintLoading } from '../print';
-import { Args } from './arguments';
+import { print, Args } from '../utils';
 
 const langFolder = path.join(process.cwd(), 'langs');
 const lib = path.join(process.cwd(), '/lib/index.ts');
@@ -13,7 +12,7 @@ export const sync: CommandModule<Record<string, unknown>, Args> = {
   command: 'sync',
   describe: 'Sync localization file to the lib',
   handler: async args => {
-    let task: PrintLoading | undefined;
+    let task;
 
     task = print('Fetching languages', { loading: true });
 
@@ -31,8 +30,10 @@ export const sync: CommandModule<Record<string, unknown>, Args> = {
             .replace('-', '')} } from '../langs/${name}';`
       )
       .join('\n');
+    const disclamerComment =
+      '/*\n * This file is auto-generated using the sync command.\n * Do not edit directly.\n */\n\n';
 
-    await fs.writeFile(lib, libScript + '\n', {
+    await fs.writeFile(lib, disclamerComment + libScript + '\n', {
       encoding: 'utf-8',
     });
 

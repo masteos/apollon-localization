@@ -1,9 +1,12 @@
 import loading from 'loading-cli';
-import { option } from 'yargs';
+import { bold, red, green } from 'kleur/colors';
 
-export { default as kleur } from 'kleur';
+export const PrintFormats: Record<string, (str: string) => string> = {
+  error: str => bold(red(str)),
+  success: str => bold(green(str)),
+};
 
-interface Options {
+interface PrintOptions {
   clear?: boolean;
   format?: (str: string) => string;
   loading?: boolean;
@@ -14,17 +17,19 @@ export type PrintLoading = loading.Loading & {
   originalText: string;
 };
 
-interface OptionWithLoading extends Omit<Options, 'loading'> {
+interface OptionWithLoading extends Omit<PrintOptions, 'loading'> {
   loading: true;
 }
 
-type PrintReturn<T extends Options> = T extends OptionWithLoading ? PrintLoading : undefined;
+type PrintReturn<T extends PrintOptions> = T extends OptionWithLoading ? PrintLoading : undefined;
 
-export function print<T extends Options = Options>(...args: [...string[], T]): PrintReturn<T>;
+export function print<T extends PrintOptions = PrintOptions>(
+  ...args: [...string[], T]
+): PrintReturn<T>;
 
-export function print(...args: [...string[], Options]): PrintLoading | undefined {
+export function print(...args: [...string[], PrintOptions]): PrintLoading | undefined {
   let message = args.shift() as string;
-  let opts: Options = {
+  let opts: PrintOptions = {
     clear: false,
     loading: false,
   };
@@ -33,7 +38,7 @@ export function print(...args: [...string[], Options]): PrintLoading | undefined
     const lastParams = args.pop();
 
     if (typeof lastParams === 'object') {
-      opts = lastParams as Options;
+      opts = lastParams as PrintOptions;
     }
   }
 
@@ -63,10 +68,10 @@ export function print(...args: [...string[], Options]): PrintLoading | undefined
 
       const originalSucceed = this.succeed.bind(this);
 
-      this.succeed = function (...args) {
+      this.succeed = function (text?: string | undefined) {
         this.text = this.originalText;
 
-        return originalSucceed(...args);
+        return originalSucceed(text);
       };
 
       return task;
