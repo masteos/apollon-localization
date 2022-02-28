@@ -316,7 +316,9 @@
         "generalAbout": "À propos de ce bien",
         "moreInfos": "En découvrir plus sur la ville",
         "APPARTMENT": "Appartement",
+        "APPARTMENT_SHARING": "Colocation",
         "BUILDING": "Immeuble",
+        "COMMERCIAL_BUILDING": "Locaux commerciaux",
         "HOUSE": "Maison",
         "OFFICE": "Bureaux",
         "UNKNOWN": "Non renseigné",
@@ -333,9 +335,7 @@
         "strategyType": {
             "PATRIMONIAL": "Patrimonial",
             "YIELD": "Rendement"
-        },
-        "APPARTMENT_SHARING": "Colocation",
-        "COMMERCIAL_BUILDING": "Locaux commerciaux"
+        }
     },
     "propertyFinances": {
         "countYears": "{{count}} an",
@@ -380,7 +380,7 @@
                 "title": "Esthétisme",
                 "description": "L’immeuble / les parties communes ne sont pas à mon goût"
             },
-            "AVERAGE": {
+            "AVERAGE_YIELD": {
                 "title": "Rentabilité",
                 "description": "La rentabilité du projet est trop faible"
             },
@@ -438,15 +438,17 @@
         "NONE": "Aucun",
         "REFRESH": "Rafraîchissement",
         "RENOVATE": "Rénovation",
+        "HEAVY_WORK": "Grosse rénovation",
         "furniture": "Ameublement",
         "renovate": "Travaux",
         "description": "Description",
         "renovationType": "Type de travaux",
-        "descriptionTitle": "Description",
-        "HEAVY_WORK": "Grosse rénovation"
+        "descriptionTitle": "Description"
     },
     "propertyRent": {
         "EMPTY": "Vide",
+        "FULLY_RENTED": "Loué entièrement",
+        "PARTLY_RENTED": "Loué partièllement",
         "UNKNOWN": "Non renseigné",
         "annualRentDescription": "Loyers annuels hors charges générés par le projet d'investissement.",
         "charge": "Charges locataire",
@@ -461,8 +463,8 @@
         "annualRent": "Loyer annuel HC",
         "rentalSituation": {
             "EMPTY": "Vide",
-            "UNKNOWN": "",
             "FULLY_RENTED": "Loué",
+            "UNKNOWN": "",
             "PARTLY_RENTED": "Partiellement loué"
         },
         "annualCharges": "Charges locataire",
@@ -483,9 +485,7 @@
         "investFurnished": "Meublé",
         "investNotFurnished": "Non-meublé",
         "rentalSituationLabel": "État locatif",
-        "totalLots": "Lots",
-        "FULLY_RENTED": "Loué entièrement",
-        "PARTLY_RENTED": "Loué partièllement"
+        "totalLots": "Lots"
     },
     "register": {
         "cguTextNew": {
@@ -501,20 +501,20 @@
             "borrowingCapacityInfo": "Une attestation de financement établit votre capacité d'emprunt. Obtenez-la directement auprès de votre banque.",
             "hasBorrowingCapacityTitle": "Votre banque a-t-elle déjà validé votre capacité d'emprunt ?",
             "investBudget": {
-                "UNKNOWN": "Je ne connais pas mon budget",
                 "BELOW_300K": "Moins de 300 000 €",
                 "BETWEEN_300K_700K": "300 000 € - 700 000 €",
-                "ABOVE_700K": "Plus de 700 000 €"
+                "ABOVE_700K": "Plus de 700 000 €",
+                "UNKNOWN": "Je ne connais pas mon budget"
             }
         },
         "requiredField": "Ce champ est obligatoire",
         "required": "Ce champ est requis",
         "title": "Inscription",
         "investBudget": {
-            "UNKNOWN": "Je ne connais pas mon budget",
-            "BELOW_300K": "Moins de 300 000 €",
             "ABOVE_700K": "Plus de 700 000 €",
-            "BETWEEN_300K_700K": "300 000 € - 700 000 €"
+            "BELOW_300K": "Moins de 300 000 €",
+            "BETWEEN_300K_700K": "300 000 € - 700 000 €",
+            "UNKNOWN": "Je ne connais pas mon budget"
         },
         "alreadyEmailMessage": "Cet email est déjà utilisé",
         "invalidEmail": "Email invalide",
@@ -598,11 +598,11 @@
         "propertyTypes": {
             "UNKNOWN": "Non renseigné",
             "APPARTMENT": "Appartement",
-            "BUILDING": "Immeuble",
-            "HOUSE": "Maison",
-            "OFFICE": "Bureaux",
             "APPARTMENT_SHARING": "Colocation",
-            "COMMERCIAL_BUILDING": "Locaux commerciaux"
+            "BUILDING": "Immeuble",
+            "COMMERCIAL_BUILDING": "Locaux commerciaux",
+            "HOUSE": "Maison",
+            "OFFICE": "Bureaux"
         },
         "financialTool": {
             "expenses": "Charges annuelles",
@@ -696,22 +696,13 @@
             "withPropertyManagement": "Option gestion locative"
         },
         "documentCategory": {
-            "COMPROMIS": "Compromis",
-            "ENCAISSEMENT": "Encaissement",
-            "FACTURES": "Factures",
-            "PACS": "PACS",
-            "PROCURATION": "Procuration",
-            "QUITTANCES": "Quittances",
-            "QUOTE": "Devis",
-            "RAA": "RAA",
-            "UNKNOWN": "Document",
             "ACTE_AUTHENTIQUE_VENTE": "Acte authentique de vente",
             "AVIS_VALEUR_LOCATIVE": "Avis de valeur locative",
             "BAUX_LOCATAIRE": "Baux locataire",
+            "COMPROMIS": "Compromis",
             "CONTRAT_MARCHE": "Contrat marché",
             "CONTRAT_MARIAGE": "Contrat de mariage",
             "CONTRAT_PRET": "Contrat de prêt",
-            "OFFRE_PRET": "Offre de prêt",
             "DEVIS_DEFINITIF": "Devis définitif",
             "DEVIS_ESTIMATIF": "Devis estimatif",
             "DIAGNOSTIC_AMIANTE": "Diagnostic amiante",
@@ -720,6 +711,8 @@
             "DIAGNOSTIC_PERFORMANCE_ENERGETIQUE": "Diagnostic performance énergétique",
             "DIAGNOSTIC_PLOMB": "Diagnostic plomb",
             "DOSSIER_SYNTHESES": "Dossier de synthèses",
+            "ENCAISSEMENT": "Encaissement",
+            "FACTURES": "Factures",
             "FACTURES_PARTIES_COMMUNES": "Factures parties communes",
             "FINANCING_CERTIFICATE": "Attestation de financement",
             "INTENTION_LETTER": "Lettre d'intention",
@@ -727,8 +720,14 @@
             "LIVRET_FAMILLE": "Livret de famille",
             "OFFRE_ACHAT": "Offre d'achat",
             "OFFRE_ACHAT_CONTRESIGNEE": "Offre d'achat contresignée",
+            "OFFRE_PRET": "Offre de prêt",
+            "PACS": "PACS",
             "PIECE_IDENTITE": "Pièce d'identité",
+            "PROCURATION": "Procuration",
             "PV_FIN_CHANTIER": "PV fin de chantier",
+            "QUITTANCES": "Quittances",
+            "QUOTE": "Devis",
+            "RAA": "RAA",
             "RAPPORT_EXPERTISE_STUCTURE": "Rapport d'expertise structure",
             "RAPPORT_EXPERTISE_TALT": "Rapport d'expertise TALT",
             "RAPPORT_EXPERTISE_TOITURE": "Rapport d'expertise toiture",
@@ -739,7 +738,8 @@
             "SEARCH_MANDATE": "Mandat de recherche",
             "STATUT_SOCIETE": "Statut société",
             "SYNDIC_PV_AG": "Syndic PV AG",
-            "TAXE_FONCIERE": "Taxe foncière"
+            "TAXE_FONCIERE": "Taxe foncière",
+            "UNKNOWN": "Document"
         },
         "descriptionFields": {
             "access": "Localisation du bien",

@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n >= 2)\n"
-"POT-Creation-Date: 2022-02-25T15:14:14.637Z\n"
-"PO-Revision-Date: 2022-02-25T15:14:14.637Z\n"
+"POT-Creation-Date: 2022-02-28T13:32:09.217Z\n"
+"PO-Revision-Date: 2022-02-28T13:32:09.217Z\n"
 
 msgid "advisor##appointmentDate"
 msgstr "Le {{day}} à {{hour}}h{{minutes}}"
@@ -2019,20 +2019,20 @@ msgid "propertyRenovation##HEAVY"
 msgstr "Grosse rénovation"
 
 msgctxt "RENTED"
-msgid "propertyRent##rentalSituation##FULLY"
-msgstr "Loué"
-
-msgctxt "RENTED"
-msgid "propertyRent##rentalSituation##PARTLY"
-msgstr "Partiellement loué"
-
-msgctxt "RENTED"
 msgid "propertyRent##FULLY"
 msgstr "Loué entièrement"
 
 msgctxt "RENTED"
 msgid "propertyRent##PARTLY"
 msgstr "Loué partièllement"
+
+msgctxt "RENTED"
+msgid "propertyRent##rentalSituation##FULLY"
+msgstr "Loué"
+
+msgctxt "RENTED"
+msgid "propertyRent##rentalSituation##PARTLY"
+msgstr "Partiellement loué"
 
 msgctxt "300K"
 msgid "register##investPreferencesStep##investBudget##BELOW"
