@@ -1,13 +1,9 @@
 {
     "advisor": {
-        "nextAppointmentMessage": "{{appointmentDate}} avec {{advisorName}}",
         "appointmentDate": "Le {{day}} à {{hour}}h{{minutes}}",
         "description": "Votre conseiller est informé de votre intérêt pour le bien. Il reviendra vers vous pour organiser une rencontre avec le chasseur en charge du projet et vous donner toutes les informations. S’il correspond à vos attentes, vous pourrez formuler une offre d’achat.",
         "bookAppointment": "Programmer un rendez-vous",
-        "noAppointmentSchedule": "Pas de rendez-vous prévu",
-        "noAppointmentSearchResult": "Aucun rendez-vous de prévu",
-        "signDocument": "Signer le mandat",
-        "documentSignatureMissing": "Profitez pleinement des fonctionnalités de l’application.",
+        "noAppointmentSchedule": "Pas de rendez-vous prévu !",
         "phone": "Téléphone",
         "emailUnavailable": "Email indisponible",
         "email": "Mail",
@@ -27,6 +23,10 @@
         "whatsAppSectionTitle": "WhatsApp",
         "advisorWillContactYou": "Votre conseiller vous contactera",
         "contactAdvisor": "Contacter directement mon conseiller",
+        "nextAppointmentMessage": "{{appointmentDate}} avec {{advisorName}}",
+        "noAppointmentSearchResult": "Aucun rendez-vous de prévu",
+        "signDocument": "Signer le mandat",
+        "documentSignatureMissing": "Profitez pleinement des fonctionnalités de l’application.",
         "knownMoreLabel": "Pour profiter des fonctionnalités complètes de l’application, il vous suffit de signer le mandat de recherche reçu par mail. Gratuit et non-exclusif, il reste cependant une obligation légale ! Vous pourrez ainsi :",
         "knowMoreNotify": "Être notifié dès qu’un bien est disponible",
         "knowMorePictures": "Découvrir les photos et l’adresse du bien",
@@ -128,7 +128,7 @@
         "emailStepButton": "Recevoir mon code de vérification",
         "emailStepTitle": "Entrez votre e-mail pour recevoir un code de vérification",
         "error": {
-            "code": "Une erreur a eu lieu lors de la validation du code",
+            "code": "Une erreur a eu lieue lors de la validation du code",
             "email": "Adresse email invalide"
         },
         "header": "Mot de passe oublié",
@@ -181,13 +181,6 @@
         "titleMobile": "Fonctionnement"
     },
     "navigation": {
-        "mySearch": "Ma recherche",
-        "all": "Tous",
-        "favorites": "Favoris",
-        "selected": "Pré-sélection",
-        "search": "Recherche",
-        "profileNav": "Profil",
-        "logout": "Déconnexion",
         "documents": "Mes documents",
         "property": "Fiche de bien",
         "login": "Login",
@@ -197,7 +190,14 @@
         "home": "Projets",
         "profileButton": "Profil",
         "advisorButton": "Conseiller",
-        "skholeButton": "Skholè"
+        "skholeButton": "Skholè",
+        "mySearch": "Ma recherche",
+        "all": "Tous",
+        "favorites": "Favoris",
+        "selected": "Pré-sélection",
+        "search": "Recherche",
+        "profileNav": "Profil",
+        "logout": "Déconnexion"
     },
     "profile": {
         "deleteAccountModal": {
@@ -302,14 +302,11 @@
         "header": "Propriétés",
         "appointmentConfirmed": "Rendez-vous confirmé",
         "noProperties": "Actuellement il n'y a malheureusement aucun bien qui correspond à vos critères",
-        "noResults": "Aucun résultat ne correspond à ces critères, élargissez vos critères pour obtenir plus de résultats.",
         "titleTransactions": "Transactions",
         "subTitleTransactions": "Voici vos transactions en cours",
         "aboutProposedSelection2": "sur la sélection proposée",
         "noFavoritesMessage": "Aucun bien en favoris",
-        "noFavorites": "Les biens que vous mettez en favoris sont affichés ici.\nVous n'avez encore aucun bien en favori.",
         "noPreSelectionMessage": "Vous n'êtes positionné sur aucun bien",
-        "noPreSelection": "Les biens présélectionnés dont vous souhaitez parler à votre conseiller sont affichés ici.\nVous n'avez encore présélectionné aucun bien.",
         "propertyMiniatureTitle": "{{title}} ({{length}})",
         "preCallTitle": "Voici des exemples de biens disponibles.\nCes propositions seront à affiner une fois que vous aurez eu votre RDV avec votre conseiller.",
         "searchTitle": "Nos projets sélectionnés spécialement pour vous :\nCes projets seront visibles pendant deux jours, ajoutez-les en favoris ou pré-sélection pour les conserver dans votre liste",
@@ -320,34 +317,16 @@
         "criteria": "Votre mandat de recherche contient {{value}} critères fixes :",
         "button": "Voir mon bien",
         "content": "Prochaine étape : ",
-        "result": "{{ count }} résultat",
-        "result_plural": "{{ count }} résultats"
-    },
-    "propertiesPreferences": {
-        "typology": "Typologie",
-        "roomsNumber": "Nombre de pièces",
-        "withColocation": "Avec colocation",
-        "conditions": "Conditions",
-        "hasNeedRenovation": "Avec présence de travaux",
-        "propertyRented": "Bien déjà loué",
-        "propertyOnTheGroundFloor": "Bien en rez-de-chaussée",
-        "budget": "Votre budget",
-        "formErrors": {
-            "budgetMinSupMax": "Le budget minimum doit être inférieur\n au budget maximum",
-            "budgetMaxSupMandate": "Votre budget max est de {{ amount }}"
-        },
-        "minimalBudget": "Budget min.",
-        "maximalBudget": "Budget max.",
-        "sixAndMore": "6 et plus",
-        "noMatter": "Peu importe",
-        "erase": "Effacer",
-        "preferences": "Préférences"
+        "noResults": "Aucun résultat ne correspond à ces critères, élargissez vos critères pour obtenir plus de résultats.",
+        "noFavorites": "Les biens que vous mettez en favoris sont affichés ici.\nVous n'avez encore aucun bien en favori.",
+        "noPreSelection": "Les biens présélectionnés dont vous souhaitez parler à votre conseiller sont affichés ici.\nVous n'avez encore présélectionné aucun bien.",
+        "result": {
+            "one": "{{ count }} résultat",
+            "other": "{{ count }} résultats"
+        }
     },
     "propertyActions": {
         "takeAppointment": "Prendre rendez-vous"
-    },
-    "propertyMap": {
-        "seeMap": "Voir la carte"
     },
     "propertyDescription": {
         "groundFloor": "RDC",
@@ -359,7 +338,6 @@
         "theProperty": "Le bien",
         "generalAbout": "À propos de ce bien",
         "moreInfos": "En découvrir plus sur la ville",
-        "APARTMENT": "Appartement",
         "APPARTMENT": "Appartement",
         "APPARTMENT_SHARING": "Colocation",
         "BUILDING": "Immeuble",
@@ -374,13 +352,14 @@
         "grossReturn": "Rendement brut",
         "guide": "{{city}} (guide)",
         "lokimo": "*Valorisation à 5 ans du foncier sur la zone. (Source : Lokimo).",
-        "pricePerMeter": "Prix/m2 actuel",
+        "pricePerMeter": "Prix\/m2 actuel",
         "renovation": "Travaux",
         "sellingPrice": "Prix de vente",
         "strategyType": {
             "PATRIMONIAL": "Patrimonial",
             "YIELD": "Rendement"
-        }
+        },
+        "APARTMENT": "Appartement"
     },
     "propertyFinances": {
         "countYears": "{{count}} an",
@@ -410,7 +389,7 @@
         "body": "Ce bien attise les convoitises et n'est déjà plus disponible. Un autre investisseur s'est positionné dessus. Soyez attentif à la prochaine alerte pour être prioritaire sur la prochaine pépite.",
         "registerTitle": "Inscrivez-vous ou connectez-vous pour\n accéder à plus de détails.",
         "address": "{{ city }}, {{ postalCode }}, {{ country }}",
-        "addressWithBreak": "{{ street }}\n{{ city }}, {{ postalCode }}, {{ country }}"
+        "addressWithBreak": "{{ street }},\n{{ city }}, {{ postalCode }}, {{ country }}"
     },
     "propertyModals": {
         "budget": "Budget",
@@ -423,7 +402,7 @@
         "dislikeReasons": {
             "AESTHETICS": {
                 "title": "Esthétisme",
-                "description": "L’immeuble / les parties communes ne sont pas à mon goût"
+                "description": "L’immeuble \/ les parties communes ne sont pas à mon goût"
             },
             "AVERAGE_YIELD": {
                 "title": "Rentabilité",
@@ -552,9 +531,9 @@
         },
         "philocativeCheckbox": "S'abonner à la newsletter philocative",
         "investPreferencesStep": {
-            "investBudgetTitle": "Quel est votre budget d'investissement ?",
+            "investBudgetTitle": "Quel est votre budget d'investissement ?",
             "borrowingCapacityInfo": "Une attestation de financement établit votre capacité d'emprunt. Obtenez-la directement auprès de votre banque.",
-            "hasBorrowingCapacityTitle": "Votre banque a-t-elle déjà validé votre capacité d'emprunt ?",
+            "hasBorrowingCapacityTitle": "Votre banque a-t-elle déjà validé votre capacité d'emprunt ?",
             "investBudget": {
                 "BELOW_300K": "Moins de 300 000 €",
                 "BETWEEN_300K_700K": "300 000 € - 700 000 €",
@@ -594,10 +573,6 @@
         "newsletterLabel": "S'abonner à la newsletter philocative"
     },
     "shared": {
-        "loading": "Chargement en cours...",
-        "to": "à",
-        "with": "Avec",
-        "copiedToClipboard": "Lien copié!",
         "save": "Enregistrer",
         "email": "E-mail",
         "login": "Se connecter",
@@ -620,22 +595,19 @@
         "accessTitle": "Accès",
         "preselected": "Pré-sélectionné",
         "neighborhoodTitle": "Quartier",
-        "appointment": "Rendez-vous",
         "modifyMeeting": "Modifier le rendez-vous",
         "lot": "lot",
-        "m2": "m²",
         "lot_plural": "lots",
         "connexion": "Connexion",
         "register": "S'inscrire",
         "contactAdvisor": "Contacter mon conseiller",
         "continue": "Continuer",
-        "notInterested": "Pas intéressé",
+        "notInterested": "Pas intéressé(e)",
         "gallery": "Galerie",
         "myAdvisor": "Mon conseiller",
         "newPassword": "Nouveau mot de passe",
         "unavailableProperty": "Bien indisponible",
         "confirmButton": "Confirmer",
-        "show": "Afficher",
         "moreInfos": "En savoir plus",
         "appointmentSummaryTitle": "Discutons de votre projet",
         "appointmentSummaryDescription": "La première rencontre avec votre conseiller est consacrée à la définition de vos critères de recherche. Cela lui permettra de vous proposer les biens les plus pertinents pour votre investissement.",
@@ -650,19 +622,21 @@
         "somethingHappened": "Une erreur est survenue",
         "password": "Mot de passe",
         "whatsapp": "WhatsApp",
-        "selected": "Me positionner",
-        "interested": "Intéressé",
+        "interested": "Intéressé(e)",
         "noLongerinterested": "Plus intéressé(e)",
         "virtualVisit": "Visite 3D",
-        "virtualVisitLabel": "3D",
         "passwordConfirmationNotSame": "Les mots de passe ne sont pas identiques",
         "genericError": "Une erreur est survenue.",
         "defaultErrorFieldName": "Ce champ",
         "whichAdvisor": "Avec lequel de ces conseillers avez-vous été en contact ?",
-        "propertyKind": {
-            "Apartment": "Appartement",
-            "Building": "Immeuble",
-            "House": "Maison"
+        "propertyTypes": {
+            "UNKNOWN": "Non renseigné",
+            "APPARTMENT": "Appartement",
+            "APPARTMENT_SHARING": "Colocation",
+            "BUILDING": "Immeuble",
+            "COMMERCIAL_BUILDING": "Locaux commerciaux",
+            "HOUSE": "Maison",
+            "OFFICE": "Bureaux"
         },
         "financialTool": {
             "expenses": "Charges annuelles",
@@ -673,7 +647,7 @@
             "totalBudget": "Budget Total",
             "renovationAmount": "Travaux",
             "renovationType": "Type de travaux",
-            "pricePerMeter": "Prix/m2 actuel",
+            "pricePerMeter": "Prix\/m2 actuel",
             "lokimo1": "*Valorisation à 5 ans du foncier sur la zone. (Source : Lokimo).",
             "lokimo2": "Source : Lokimo - prévision 5 prochaines années",
             "invest": "Investissement",
@@ -713,7 +687,7 @@
             "annualCumultiveSavingsBeforeTax": "Effort d'épargne annuel",
             "cumultiveSavingsBeforeTax": "Effort d'épargne mensuel",
             "financialModel": "Modélisation financière",
-            "grossReturnRateDescription": "Revenus annuels brut / (Prix de vente + Travaux)",
+            "grossReturnRateDescription": "Revenus annuels brut \/ (Prix de vente + Travaux)",
             "incomes": "Revenus",
             "loanInterestRate": "Taux d'emprunt TAEG",
             "loanMonthlyAmount": "Mensualité du prêt",
@@ -737,14 +711,14 @@
                 "rentalVacation": "Vacance locative",
                 "rentalVacationDescription": "Coût de la vacance locative (période entre deux locations durant laquelle le bien ne génère pas de revenu). Pour ce projet, nous estimons que la vacance sera de {{value}} mois par an",
                 "grossReturn": "Taux de rendement brut",
-                "grossReturnDescription": "( ( Revenus annuels + Charges annuelles ) / ( Prix de vente + Travaux + Ameublement ) ) * 100",
+                "grossReturnDescription": "( ( Revenus annuels + Charges annuelles ) \/ ( Prix de vente + Travaux + Ameublement ) ) * 100",
                 "loanDown": "Apport",
                 "loanDownDescription": "Somme versée par l'investisseur pour financer une partie de l'opération. Il est nécessaire d'avoir un apport équivalent à 10% du coût total du projet",
                 "annualHomeOwnerInsurance": "Assurance PNO",
                 "annualCurrentExpenses": "Charges de copropriété",
                 "bankCommission": "Frais bancaires",
                 "netReturn": "Rendement opérationnel",
-                "netReturnDescription": "( revenus annuels - charges de copropriété - taxe foncière - assurance PNO - gestion locative ) / ( prix de vente + travaux + ameublement ) * 100\nLe rendement opérationnel permet de comparer deux projets d'investissement locatif dans leur capacité à générer du cash-flow indépendamment du mode de financement du projet et du régime fiscal choisi par l'investisseur.",
+                "netReturnDescription": "( revenus annuels - charges de copropriété - taxe foncière - assurance PNO - gestion locative ) \/ ( prix de vente + travaux + ameublement ) * 100\nLe rendement opérationnel permet de comparer deux projets d'investissement locatif dans leur capacité à générer du cash-flow indépendamment du mode de financement du projet et du régime fiscal choisi par l'investisseur.",
                 "annualCurrentExpensesDescription": "Charges dont le propriétaire est redevable pour couvrir l'entretien du bien. Inclut les charges locatives (récupérables auprès du locataire) et les charges supportées par le propriétaire (charges non-récupérables)",
                 "annualHomeOwnerInsuranceDescription": "Assurance propriétaire non-occupant. Cette assurance fournit au propriétaire toutes les garanties pour couvrir aussi bien le logement que les dommages qui pourraient être causés aux locataires.",
                 "annualPropertyManagement": "Gestion locative",
@@ -812,14 +786,27 @@
             "plans": "Plans",
             "renovation": "Travaux"
         },
-
+        "loading": "Chargement en cours...",
+        "to": "à",
+        "with": "Avec",
+        "copiedToClipboard": "Lien copié!",
+        "appointment": "Rendez-vous",
+        "m2": "m²",
+        "show": "Afficher",
+        "selected": "Me positionner",
+        "virtualVisitLabel": "3D",
+        "propertyKind": {
+            "Apartment": "Appartement",
+            "Building": "Immeuble",
+            "House": "Maison"
+        },
         "performanceIndicator": {
             "DPE": {
                 "acronym": "DPE",
                 "title": "Consommations énergétiques",
                 "labelLowest": "Logement économe",
                 "labelHighest": "Logement énergivore",
-                "caption": "Unité de mesure exprimée en kWhEP/m².an",
+                "caption": "Unité de mesure exprimée en kWhEP\/m².an",
                 "aLabel": "< 50",
                 "aDescription": "Bien très économe en énergie : il ne nécessite pas de travaux de rénovation thermique avant 2050.",
                 "bLabel": "51 à 90",
@@ -829,9 +816,9 @@
                 "dLabel": "151 à 230",
                 "dDescription": "Bien moyennement économe en énergie. Il est probable qu'il nécessite dans le futur des travaux de rénovation thermique : isolations (murs, combles, sols, toitures, verrières…) ou remplacement de chaudière.",
                 "eLabel": "230 à 330",
-                "eDescription": "En janvier 2034 ces biens seront interdits à la location. Des travaux de rénovation thermiques (par exemple une amélioration de l'isolation et/ou le remplacement du système de chauffage) seront nécessaires pour continuer à louer le bien d’ici là.",
+                "eDescription": "En janvier 2034 ces biens seront interdits à la location. Des travaux de rénovation thermiques (par exemple une amélioration de l'isolation et\/ou le remplacement du système de chauffage) seront nécessaires pour continuer à louer le bien d’ici là.",
                 "fLabel": "331 à 450",
-                "fDescription": "En janvier 2028 ces biens seront interdits à la location. Des travaux de rénovation thermiques (par exemple une amélioration de l'isolation et/ou le remplacement du système de chauffage) sont inclus dans le budget rénovation afin de permettre au bien d’être loué en toute légalité.",
+                "fDescription": "En janvier 2028 ces biens seront interdits à la location. Des travaux de rénovation thermiques (par exemple une amélioration de l'isolation et\/ou le remplacement du système de chauffage) sont inclus dans le budget rénovation afin de permettre au bien d’être loué en toute légalité.",
                 "gLabel": "> 450",
                 "gDescription": "En janvier 2023 les biens classé G avec chauffage au Fioul et Gaz seront interdits à la location. Puis en janvier 2025 tous les biens classés G ne seront plus louables. Des travaux de rénovation thermiques sont inclus dans le budget rénovation afin de permettre au bien d’être loué en toute légalité."
             },
@@ -841,13 +828,13 @@
                 "subtitle": "",
                 "labelLowest": "Faible émission",
                 "labelHighest": "Forte émission",
-                "caption": "Unité de mesure exprimée en kgeqCO2/m².an",
+                "caption": "Unité de mesure exprimée en kgeqCO2\/m².an",
                 "aLabel": "< 5",
-                "aDescription": "Bien qui émet très peu de gaz à effet de serre. Il utilise des énergies renouvelables et/ou est doté d’une bonne isolation.",
+                "aDescription": "Bien qui émet très peu de gaz à effet de serre. Il utilise des énergies renouvelables et\/ou est doté d’une bonne isolation.",
                 "bLabel": "6 à 10",
-                "bDescription": "Bien qui émet peu de gaz à effet de serre. Il utilise des énergies renouvelables et/ou est doté d’une bonne isolation.",
+                "bDescription": "Bien qui émet peu de gaz à effet de serre. Il utilise des énergies renouvelables et\/ou est doté d’une bonne isolation.",
                 "cLabel": "11 à 20",
-                "cDescription": "Bien qui a des performances environnementales standard. Il a un impact écologique raisonnable qui peut être amélioré : travaux de rénovation thermique et/ou passage aux énergies renouvelables.",
+                "cDescription": "Bien qui a des performances environnementales standard. Il a un impact écologique raisonnable qui peut être amélioré : travaux de rénovation thermique et\/ou passage aux énergies renouvelables.",
                 "dLabel": "21 à 35",
                 "dDescription": "Bien plutôt polluant. Il nécessite des rénovations pour limiter l’impact carbone de l’habitation.",
                 "eLabel": "36 à 55",
@@ -911,9 +898,32 @@
         "bookCardTitle": "Le texte sacré de l'investissement locatif",
         "subtitle": "Toutes les connaissances sur le locatif, accumulées depuis l'Antiquité. Rien que ça.",
         "subtitle2": "Nos analyses détaillées par ville",
-        "text": "Le texte sacré de<1/> l'investissement locatif"
+        "text": "Le texte sacré de<1\/> l'investissement locatif"
     },
     "ui": {
         "closeButton": "Fermer"
+    },
+    "propertiesPreferences": {
+        "typology": "Typologie",
+        "roomsNumber": "Nombre de pièces",
+        "withColocation": "Avec colocation",
+        "conditions": "Conditions",
+        "hasNeedRenovation": "Avec présence de travaux",
+        "propertyRented": "Bien déjà loué",
+        "propertyOnTheGroundFloor": "Bien en rez-de-chaussée",
+        "budget": "Votre budget",
+        "formErrors": {
+            "budgetMinSupMax": "Le budget minimum doit être inférieur\n au budget maximum",
+            "budgetMaxSupMandate": "Votre budget max est de {{ amount }}"
+        },
+        "minimalBudget": "Budget min.",
+        "maximalBudget": "Budget max.",
+        "sixAndMore": "6 et plus",
+        "noMatter": "Peu importe",
+        "erase": "Effacer",
+        "preferences": "Préférences"
+    },
+    "propertyMap": {
+        "seeMap": "Voir la carte"
     }
 }
