@@ -915,5 +915,9 @@
     },
     "ui": {
         "closeButton": "Fermer"
+    },
+    "propertyPreview": {
+        "studio": "studio",
+        "rooms": "{{count}} ch."
     }
 }
