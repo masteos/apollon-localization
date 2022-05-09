@@ -4,7 +4,7 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     ["@semantic-release/changelog", {
-      "changelogTitle": "# Aphrodite ESLint Plugin Changelog"
+      "changelogTitle": "# Apollon Localization Changelog"
     }],
     "@semantic-release/git",
     "@semantic-release/npm",
