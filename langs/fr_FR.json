@@ -42,6 +42,7 @@
   "authTunnel": {
     "title": "Votre compte a été supprimé",
     "header": "Inscription",
+    "financeHeader": "Profil financier",
     "appointmentHeader": "Votre rendez-vous",
     "appointmentDate": "Veuillez Prendre un RDV",
     "invalidEmail": "L'email est invalide",
@@ -569,7 +570,8 @@
     },
     "requiredField": "Ce champ est obligatoire",
     "required": "Ce champ est requis",
-    "title": "Inscription",
+    "registerTitle": "Inscription",
+    "financialTitle": "Profil financier",
     "investBudget": {
       "ABOVE_700K": "Plus de 700 000 €",
       "BELOW_300K": "Moins de 300 000 €",
@@ -642,6 +644,7 @@
     "confirmButton": "Confirmer",
     "show": "Afficher",
     "moreInfos": "En savoir plus",
+    "acceptAndContinue": "Accepter & Continuer",
     "appointmentSummaryTitle": "Discutons de votre projet",
     "appointmentSummaryDescription": "La première rencontre avec votre conseiller est consacrée à la définition de vos critères de recherche. Cela lui permettra de vous proposer les biens les plus pertinents pour votre investissement.",
     "dateAndHourLabel": "Choisissez la date et l'heure de votre rendez-vous",
