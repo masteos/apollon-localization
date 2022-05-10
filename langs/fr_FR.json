@@ -322,8 +322,12 @@
       "criteria": "Votre mandat de recherche contient {{value}} critères fixes :",
       "button": "Voir mon bien",
       "content": "Prochaine étape : ",
-      "result": "{{ count }} résultat",
-      "result_plural": "{{ count }} résultats"
+      "resultAll": "{{ count }} résultat",
+      "resultAll_plural": "{{ count }} résultats",
+      "resultFavorites": "{{ count }} favori",
+      "resultFavorites_plural": "{{ count }} favoris",
+      "resultSelected": "{{ count }} Pré-sélectionné",
+      "resultSelected_plural": "{{ count }} Pré-sélectionnés"
     },
     "propertiesPreferences": {
       "typology": "Typologie",
@@ -336,7 +340,7 @@
       "budget": "Votre budget",
       "formErrors": {
         "budgetMinSupMax": "Le budget minimum doit être inférieur\n au budget maximum",
-        "budgetMaxSupMandate": "Votre budget max est de {{ amount }}"
+        "budgetMaxSupMandate": "Le budget max de votre mandat est de {{ amount }}"
       },
       "minimalBudget": "Budget min.",
       "maximalBudget": "Budget max.",
