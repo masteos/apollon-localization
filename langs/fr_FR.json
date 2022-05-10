@@ -326,8 +326,8 @@
     "resultAll_plural": "{{ count }} résultats",
     "resultFavorites": "{{ count }} favori",
     "resultFavorites_plural": "{{ count }} favoris",
-    "resultSelected": "{{ count }} Pré-sélectionné",
-    "resultSelected_plural": "{{ count }} Pré-sélectionnés"
+    "resultSelected": "{{ count }} pré-sélectionné",
+    "resultSelected_plural": "{{ count }} pré-sélectionnés"
   },
   "propertiesPreferences": {
     "typology": "Typologie",
