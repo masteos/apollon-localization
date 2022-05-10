@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.5.0](https://github.com/masteos/apollon-localization/compare/v1.4.1...v1.5.0) (2022-05-10)
+
+
+### Features
+
+* **onboarding:** step email ([#12](https://github.com/masteos/apollon-localization/issues/12)) ([2f5015d](https://github.com/masteos/apollon-localization/commit/2f5015d8ad1817360a1725a5f51badf3772d5b1d))
+
 ## [1.4.1](https://github.com/masteos/apollon-localization/compare/v1.4.0...v1.4.1) (2022-05-10)
 
 
