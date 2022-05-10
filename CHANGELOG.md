@@ -1,5 +1,13 @@
 # Apollon Localization Changelog
 
+## [1.4.1](https://github.com/masteos/apollon-localization/compare/v1.4.0...v1.4.1) (2022-05-10)
+
+
+### Bug Fixes
+
+* **app:** lowercase ([734488a](https://github.com/masteos/apollon-localization/commit/734488a8eed9459f32164039fb1085457da2ed22))
+* **app:** lowercase ([733572e](https://github.com/masteos/apollon-localization/commit/733572e4e930a015108dfc39f9f9ca645050f79e))
+
 # [1.4.0](https://github.com/masteos/apollon-localization/compare/v1.3.0...v1.4.0) (2022-05-10)
 
 
