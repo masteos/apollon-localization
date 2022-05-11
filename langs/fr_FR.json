@@ -951,7 +951,7 @@
   },
   "propertyPreview": {
     "room": "{{count}} ch.",
-    "room_zero": "Studio"
+    "roomZero": "Studio"
   },
   "startup": {
     "loading": "Chargement...",
