@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.8.0](https://github.com/masteos/apollon-localization/compare/v1.7.0...v1.8.0) (2022-05-11)
+
+
+### Features
+
+* **i18n lot1:** add translation switch ([#16](https://github.com/masteos/apollon-localization/issues/16)) ([49f3564](https://github.com/masteos/apollon-localization/commit/49f3564caaecd3f30aedff0a79125b81158a032a))
+
 # [1.7.0](https://github.com/masteos/apollon-localization/compare/v1.6.0...v1.7.0) (2022-05-11)
 
 
