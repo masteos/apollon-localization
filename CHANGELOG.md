@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.7.0](https://github.com/masteos/apollon-localization/compare/v1.6.0...v1.7.0) (2022-05-11)
+
+
+### Features
+
+* **financialTab:** financial tab restructuration ([#15](https://github.com/masteos/apollon-localization/issues/15)) ([f1539aa](https://github.com/masteos/apollon-localization/commit/f1539aa4cc618c32d93154f9d503d9d73142b593))
+
 # [1.6.0](https://github.com/masteos/apollon-localization/compare/v1.5.0...v1.6.0) (2022-05-11)
 
 
