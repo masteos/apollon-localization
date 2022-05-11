@@ -594,6 +594,9 @@
     "newsletterLabel": ""
   },
   "shared": {
+    "translatedBy": "",
+    "showOriginal": "",
+    "showTranslated": "",
     "save": "",
     "email": "",
     "login": "",
@@ -882,10 +885,7 @@
         "gLabel": "> 80",
         "gDescription": ""
       }
-    },
-    "translatedBy": "Translated with {{providerName}}",
-    "showOriginal": "",
-    "showTranslated": ""
+    }
   },
   "skhole": {
     "locativeTension": "",
