@@ -601,6 +601,9 @@
     "newsletterLabel": "S'abonner à la newsletter philocative"
   },
   "shared": {
+    "translatedBy": "Traduit avec {{providerName}}",
+    "showOriginal": "Afficher l’original",
+    "showTranslated": "Afficher la traduction",
     "loading": "Chargement en cours...",
     "to": "à",
     "with": "Avec",
