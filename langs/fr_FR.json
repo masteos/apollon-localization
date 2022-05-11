@@ -941,7 +941,17 @@
     "myProjects": "Mes projets",
     "noProjectYet": "Vous n'avez pas encore fait d'offre sur un bien",
     "searchButton": "Continuer votre recherche",
-    "investmentStepsTitle": "Comment se passe un investissement avec Masteos ?"
+    "investmentStepsTitle": "Comment se passe un investissement avec Masteos ?",
+    "status": {
+      "onGoing": "En cours",
+      "finished": "Terminé",
+      "canceled": "Annulé"
+    },
+    "finishedProjectMessage": "Vous êtes propriétaire de ce bien locatif acquis clés en main avec Masteos. 🔑"
+  },
+  "propertyPreview": {
+    "room": "{{count}} ch.",
+    "roomZero": "Studio"
   },
   "startup": {
     "loading": "Chargement...",
