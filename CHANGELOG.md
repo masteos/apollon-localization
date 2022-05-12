@@ -1,5 +1,33 @@
 # Apollon Localization Changelog
 
+# [1.10.0](https://github.com/masteos/apollon-localization/compare/v1.9.0...v1.10.0) (2022-05-12)
+
+
+### Features
+
+* **onboarding:** fix step email text ([#19](https://github.com/masteos/apollon-localization/issues/19)) ([541a255](https://github.com/masteos/apollon-localization/commit/541a25513d0b2bb01edd799a57ad1f3ccfc2ee5b))
+
+# [1.9.0](https://github.com/masteos/apollon-localization/compare/v1.8.1...v1.9.0) (2022-05-12)
+
+
+### Features
+
+* **financialTab:** Lot 2 - keys tooltip added ([#17](https://github.com/masteos/apollon-localization/issues/17)) ([4ae6d15](https://github.com/masteos/apollon-localization/commit/4ae6d15629b8f3d193a936edbc9e31b563289152))
+
+## [1.8.1](https://github.com/masteos/apollon-localization/compare/v1.8.0...v1.8.1) (2022-05-12)
+
+
+### Bug Fixes
+
+* **financial-tab:** corrected label values ([#18](https://github.com/masteos/apollon-localization/issues/18)) ([6cf1b99](https://github.com/masteos/apollon-localization/commit/6cf1b998199ffedfda21229d4148542bc1626b8e))
+
+# [1.8.0](https://github.com/masteos/apollon-localization/compare/v1.7.0...v1.8.0) (2022-05-11)
+
+
+### Features
+
+* **i18n lot1:** add translation switch ([#16](https://github.com/masteos/apollon-localization/issues/16)) ([49f3564](https://github.com/masteos/apollon-localization/commit/49f3564caaecd3f30aedff0a79125b81158a032a))
+
 # [1.7.0](https://github.com/masteos/apollon-localization/compare/v1.6.0...v1.7.0) (2022-05-11)
 
 
