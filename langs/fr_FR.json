@@ -374,7 +374,7 @@
     "Office": "Bureaux",
     "Unknown": "Non renseigné",
     "annualRent": "Revenus annuels bruts",
-    "annualRevalorisation": "Prise de valeur à 5 ans",
+    "annualRevalorisation": "Hist. prise de valeur annuelle",
     "coOwnership": "Copropriété",
     "furniture": "Ameublement",
     "grossReturn": "Rendement brut",
@@ -675,6 +675,11 @@
       "Building": "Immeuble",
       "House": "Maison"
     },
+    "trending": {
+      "NO_DATA": "NO_DATA",
+      "CITY": "la commune",
+      "NEIGHBORHOOD": "le quartier"
+    },
     "financialTool": {
       "resellingYear": "Durée de détention",
       "resellingPrice": "Prix de revente",
@@ -694,7 +699,7 @@
       "renovationAmount": "Travaux",
       "renovationType": "Type de travaux",
       "pricePerMeter": "Prix/m2 actuel",
-      "lokimo1": "*Valorisation à 5 ans du foncier sur la zone. (Source : Lokimo).",
+      "lokimo1": "*Le prix de l'immobilier a augmenté en moyenne de {{avgLast5Years}} par an dans {{dataLevel}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone.",
       "lokimo2": "Source : Lokimo - prévision 5 prochaines années",
       "invest": "Investissement",
       "projectCost": "Coût du projet",
