@@ -662,6 +662,11 @@
       "HOUSE": "",
       "OFFICE": ""
     },
+    "trending": {
+      "NO_DATA": "",
+      "CITY": "",
+      "NEIGHBORHOOD": ""
+    },
     "financialTool": {
       "resellingYear": "",
       "resellingPrice": "",
