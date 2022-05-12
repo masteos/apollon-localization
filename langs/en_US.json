@@ -743,6 +743,8 @@
       "netReturn": "",
       "netSeller": "",
       "notaryCommission": "",
+      "cumulativeCashFlowPositive": "",
+      "cumulativeCashFlowNegative": "",
       "paymentCash": "",
       "projectCashFlow": "",
       "projectTotal": "",
