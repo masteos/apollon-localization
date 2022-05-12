@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.8.1](https://github.com/masteos/apollon-localization/compare/v1.8.0...v1.8.1) (2022-05-12)
+
+
+### Bug Fixes
+
+* **financial-tab:** corrected label values ([#18](https://github.com/masteos/apollon-localization/issues/18)) ([6cf1b99](https://github.com/masteos/apollon-localization/commit/6cf1b998199ffedfda21229d4148542bc1626b8e))
+
 # [1.8.0](https://github.com/masteos/apollon-localization/compare/v1.7.0...v1.8.0) (2022-05-11)
 
 
