@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.9.0](https://github.com/masteos/apollon-localization/compare/v1.8.1...v1.9.0) (2022-05-12)
+
+
+### Features
+
+* **financialTab:** Lot 2 - keys tooltip added ([#17](https://github.com/masteos/apollon-localization/issues/17)) ([4ae6d15](https://github.com/masteos/apollon-localization/commit/4ae6d15629b8f3d193a936edbc9e31b563289152))
+
 ## [1.8.1](https://github.com/masteos/apollon-localization/compare/v1.8.0...v1.8.1) (2022-05-12)
 
 
