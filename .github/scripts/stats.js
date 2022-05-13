@@ -73,7 +73,7 @@ module.exports = async (githubContext) => {
     const markdownModified = `### Modified\n${modifiedKeys.map(key => formatTemplate('modified', {key, base: baseContent[key], head: headContent[key]})).join('\n')}`;
     const markdownRemoved = `### Removed\n${removedKeys.map(key => formatTemplate('removed', {key, base: baseContent[key]})).join('\n')}`;
     const markdownGif = Math.random() <= 0.25 ? '\n![the secret gif](https://media.giphy.com/media/FVZoYkTx3cuVCkEavD/giphy.gif)' : '';
-    markdown += `\n## ${path.basename(file.filename)}${addedKeys ? '\n\n'+markdownAdded : ''}${modifiedKeys ? '\n\n'+markdownModified : ''}${removedKeys ? '\n\n'+markdownRemoved : ''}${markdownGif}`;
+    markdown += `\n## ${path.basename(file.filename)}${addedKeys.length ? '\n\n'+markdownAdded : ''}${modifiedKeys.length ? '\n\n'+markdownModified : ''}${removedKeys.length ? '\n\n'+markdownRemoved : ''}${markdownGif}`;
   }
 
 
