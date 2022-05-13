@@ -804,6 +804,7 @@
         "annualPropertyManagementDescription": "Frais de mise en location (10€ par m2 loué) et de gestion courante (4.99% des loyers encaissés).",
         "annualTurnoverIndice": "Taux d'occupation annuel",
         "annualTurnoverIndiceDescription": "Nombre de mois durant lesquels le bien sera occupé. Masteos prend une hypothèse d'occupation conservatrice pour le calcul du revenu annuel.",
+        "flagEnrichment_annualTurnoverIndiceDescription": "Taux d'occupation annuel du bien exprimé en nombre de mois. La vacance locative sur ce projet représente un manque à gagner de {{ amount }} €",
         "bankCapitalStillDue": "Somme à rembourser à la banque l'année de la revente du bien lorsque ce dernier est vendu avant la date d'échéance du prêt. Cette somme est connue à l’avance car elle figure dans le tableau d’amortissement du prêt fourni par la banque. ",
         "bankCommission": "Frais bancaires",
         "bankCommissionDescription": "Frais de dossier prélevés par la banque (800€) et frais de garantie de prêt immobilier (1% du capital emprunté) ",
