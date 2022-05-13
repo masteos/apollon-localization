@@ -430,7 +430,7 @@
     "generalTitle": "Général",
     "hunterName": "Chasseur : {{ firstName }} {{ lastName }}",
     "insideTitle": "Intérieurs",
-    "investStrategy": "Strategie d'investissement",
+    "investStrategy": "Stratégie d'investissement",
     "investStrategyModal": "Ce bien est idéal si vous visez une stratégie d'investissement dynamique. Pourquoi ? Parce qu'il est autofinancé : les loyers qu'il génère sont supérieurs aux coûts (emprunt, charges et impôts). Il présente un profil plus risqué qu'un investissement patrimonial, mais il est aussi plus rentable.",
     "outsideTitle": "Extérieur",
     "registerTitle": "Inscrivez-vous ou connectez-vous pour\n accéder à plus de détails.",
