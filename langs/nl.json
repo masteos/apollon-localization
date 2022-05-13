@@ -40,7 +40,7 @@
   },
   "authTunnel": {
     "title": "",
-    "header": "Registration",
+    "header": "",
     "appointmentHeader": "",
     "appointmentDate": "",
     "invalidEmail": "",
@@ -56,7 +56,7 @@
       "title": ""
     },
     "createAccount": "",
-    "title1": "Welcome",
+    "title1": "",
     "title2": "",
     "financeHeader": ""
   },
@@ -153,7 +153,7 @@
     "warningMessage": ""
   },
   "login": {
-    "title": "Welcome",
+    "title": "",
     "email": "",
     "header": "",
     "register": "",
@@ -192,14 +192,14 @@
     "profileButton": "",
     "advisorButton": "",
     "skholeButton": "",
-    "mySearch": "My research",
+    "mySearch": "",
     "all": "",
     "favorites": "",
     "selected": "",
     "search": "",
     "profileNav": "",
     "logout": "",
-    "projects": "Projects"
+    "projects": ""
   },
   "profile": {
     "deleteAccountModal": {
@@ -217,14 +217,14 @@
       "badPassword": "",
       "samePassword": ""
     },
-    "profileSectionSubtitle": "Modify your profile information (name, first name, ...)",
+    "profileSectionSubtitle": "",
     "passwordSectionSubtitle": "",
     "documentsSectionTitle": "",
     "documentsSectionSubtitle": "",
     "title": "",
     "profileDocumentMenu": "",
     "noDocumentsMessage": "",
-    "profileSectionTitle": "My information",
+    "profileSectionTitle": "",
     "searchDocumentSubtitle": "",
     "updatePasswordMessage": "",
     "newPasswordLengthError": "",
@@ -252,7 +252,7 @@
     "errorBadPassword": "",
     "errorUpdatePassword": "",
     "errorSamePassword": "",
-    "headerMyInfo": "My information",
+    "headerMyInfo": "",
     "headerMyDocuments": "",
     "noDocuments": "",
     "documentsSubtitle": "",
@@ -352,12 +352,12 @@
     "pricePerMeter": "",
     "renovation": "",
     "sellingPrice": "",
-    "Apartment": "Apartment",
+    "Apartment": "",
     "ApartmentSharing": "",
-    "Building": "Building",
+    "Building": "",
     "CommercialBuilding": "",
-    "House": "House",
-    "Office": "Offices",
+    "House": "",
+    "Office": "",
     "Unknown": "",
     "strategyType": {
       "Patrimonial": "",
@@ -476,9 +476,9 @@
       "title": ""
     },
     "Unknown": "",
-    "None": "No",
+    "None": "",
     "Refresh": "",
-    "Renovate": "Renovation",
+    "Renovate": "",
     "HeavyWork": ""
   },
   "propertyRent": {
@@ -512,15 +512,15 @@
     "investNotFurnished": "",
     "rentalSituationLabel": "",
     "totalLots": "",
-    "Empty": "Empty",
-    "FullyRented": "Partially rented",
-    "PartlyRented": "Partially rented",
-    "Unknown": "Not specified",
+    "Empty": "",
+    "FullyRented": "",
+    "PartlyRented": "",
+    "Unknown": "",
     "rentalSituation": {
-      "Empty": "Empty",
-      "FullyRented": "Rented",
+      "Empty": "",
+      "FullyRented": "",
       "Unknown": "",
-      "PartlyRented": "Partially rented"
+      "PartlyRented": ""
     }
   },
   "register": {
@@ -572,7 +572,7 @@
     "hasBorrowingCapacityTitle": "",
     "investBudgetTitle": "",
     "newsletterLabel": "",
-    "registerTitle": "Registration",
+    "registerTitle": "",
     "financialTitle": ""
   },
   "shared": {
@@ -586,8 +586,8 @@
     "preSelection": "",
     "no": "",
     "yes": "",
-    "firstName": "First name",
-    "lastName": "Name",
+    "firstName": "",
+    "lastName": "",
     "dateLabel": "",
     "advisorLabel": "",
     "appointmentLabel": "",
@@ -877,13 +877,13 @@
         "eLabel": "",
         "eDescription": "",
         "fLabel": "",
-        "fDescription": "Very polluting property and of old construction. It requires major renovations to limit the carbon impact of the house.",
-        "gLabel": "> 80",
+        "fDescription": "",
+        "gLabel": "",
         "gDescription": ""
       }
     },
     "acceptAndContinue": "",
-    "translatedBy": "Translated with {{providerName}}",
+    "translatedBy": "",
     "showOriginal": "",
     "showTranslated": ""
   },
@@ -933,22 +933,22 @@
       "desc": "",
       "blogLink": ""
     },
-    "lastAdvices": "Our latest tips",
-    "averageYield": "Average yield",
-    "bookCardButton": "Discover",
-    "bookCardTitle": "The sacred text of the rental investment",
-    "subtitle": "All the knowledge about renting, accumulated since antiquity. That's all there is to it.",
-    "subtitle2": "Our detailed analyzes by city",
-    "text": "The sacred text of the rental investment"
+    "lastAdvices": "",
+    "averageYield": "",
+    "bookCardButton": "",
+    "bookCardTitle": "",
+    "subtitle": "",
+    "subtitle2": "",
+    "text": ""
   },
   "ui": {
-    "closeButton": "Close"
+    "closeButton": ""
   },
   "propertiesPreferences": {
     "typology": "",
     "roomsNumber": "",
     "withColocation": "",
-    "conditions": "Conditions",
+    "conditions": "",
     "hasNeedRenovation": "",
     "propertyRented": "",
     "propertyOnTheGroundFloor": "",
@@ -977,13 +977,13 @@
       "renovation": "",
       "furnishing": "",
       "renting": "",
-      "performanceManagement": "Performance management and monitoring"
+      "performanceManagement": ""
     }
   },
   "projectList": {
-    "myProjects": "My projects",
+    "myProjects": "",
     "noProjectYet": "",
-    "searchButton": "Continue your search",
+    "searchButton": "",
     "investmentStepsTitle": "",
     "status": {
       "onGoing": "",
@@ -993,11 +993,11 @@
     "finishedProjectMessage": ""
   },
   "startup": {
-    "loading": "Loading...",
+    "loading": "",
     "forceUpdate": {
-      "title": "Mandatory update",
-      "description": "Your version of the application will no longer be supported, update it to continue using it and take advantage of our new features.",
-      "openButton": "Update"
+      "title": "",
+      "description": "",
+      "openButton": ""
     }
   },
   "propertyPreview": {
