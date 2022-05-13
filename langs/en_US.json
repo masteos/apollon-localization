@@ -384,6 +384,7 @@
     "Unknown": "",
     "annualRent": "",
     "annualRevalorisation": "",
+    "flagEnrichment_annualRevalorisation": "",
     "coOwnership": "",
     "floor": "",
     "furniture": "",
@@ -708,6 +709,11 @@
       "SYNDIC_PV_AG": "",
       "TAXE_FONCIERE": "",
       "UNKNOWN": ""
+    },
+    "trending": {
+      "NO_DATA": "",
+      "CITY": "",
+      "NEIGHBORHOOD": ""
     },
     "email": "",
     "favorites": "",

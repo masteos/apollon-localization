@@ -386,7 +386,8 @@
     "Office": "Bureaux",
     "Unknown": "Non renseigné",
     "annualRent": "Revenus annuels bruts",
-    "annualRevalorisation": "Prise de valeur à 5 ans",
+    "annualRevalorisation": "Hist. prise de valeur annuelle",
+    "flagEnrichment_annualRevalorisation": "Prise de valeur à 5 ans",
     "coOwnership": "Copropriété",
     "floor": "Étage",
     "furniture": "Ameublement",
@@ -703,6 +704,11 @@
       "TAXE_FONCIERE": "Taxe foncière",
       "UNKNOWN": "Document"
     },
+    "trending": {
+      "NO_DATA": "NO_DATA",
+      "CITY": "la commune",
+      "NEIGHBORHOOD": "le quartier"
+    },
     "email": "E-mail",
     "favorites": "Favoris",
     "financialTool": {
@@ -758,7 +764,8 @@
       "loanMonthlyAmount": "Mensualité d'emprunt",
       "loanMonthlyLabel": "Mensualités du prêt",
       "lokimo": "*Prise de valeur annuelle moyenne du foncier sur la zone \nSource : Lokimo - prévision 5 prochaines années",
-      "lokimo1": "*Valorisation à 5 ans du foncier sur la zone. (Source : Lokimo).",
+      "lokimo1": "*Le prix de l'immobilier a augmenté en moyenne de {{avgLast5Years}} par an dans {{dataLevel}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone.",
+      "flagEnrichment_lokimo1": "*Le prix de l'immobilier a augmenté en moyenne de {{avgLast5Years}} par an dans {{dataLevel}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone.",
       "lokimo2": "Source : Lokimo - prévision 5 prochaines années",
       "masteosCommission": "Frais Masteos",
       "masteosCommissionSubtitle": "5 % net vendeur",
