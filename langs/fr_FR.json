@@ -387,8 +387,8 @@
     "Unknown": "Non renseigné",
     "annualRent": "Revenus annuels bruts",
     "annualRevalorisation": "Hist. prise de valeur annuelle",
-    "flagEnrichment_annualRevalorisation": "Prise de valeur à 5 ans",
     "coOwnership": "Copropriété",
+    "flagEnrichment_annualRevalorisation": "Prise de valeur à 5 ans",
     "floor": "Étage",
     "furniture": "Ameublement",
     "generalAbout": "À propos de ce bien",
@@ -704,11 +704,6 @@
       "TAXE_FONCIERE": "Taxe foncière",
       "UNKNOWN": "Document"
     },
-    "trending": {
-      "NO_DATA": "NO_DATA",
-      "CITY": "la commune",
-      "NEIGHBORHOOD": "le quartier"
-    },
     "email": "E-mail",
     "favorites": "Favoris",
     "financialTool": {
@@ -750,6 +745,7 @@
       "financialModel": "Modélisation financière",
       "financials": "Finances",
       "financialsTitle": "Financement du projet",
+      "flagEnrichment_lokimo1": "*Le prix de l'immobilier a augmenté en moyenne de {{avgLast5Years}} par an dans {{dataLevel}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone.",
       "funding": "Financement",
       "furnituresAmount": "Ameublement",
       "grossReturn": "Rendement brut",
@@ -765,7 +761,6 @@
       "loanMonthlyLabel": "Mensualités du prêt",
       "lokimo": "*Prise de valeur annuelle moyenne du foncier sur la zone \nSource : Lokimo - prévision 5 prochaines années",
       "lokimo1": "*Le prix de l'immobilier a augmenté en moyenne de {{avgLast5Years}} par an dans {{dataLevel}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone.",
-      "flagEnrichment_lokimo1": "*Le prix de l'immobilier a augmenté en moyenne de {{avgLast5Years}} par an dans {{dataLevel}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone.",
       "lokimo2": "Source : Lokimo - prévision 5 prochaines années",
       "masteosCommission": "Frais Masteos",
       "masteosCommissionSubtitle": "5 % net vendeur",
@@ -811,7 +806,6 @@
         "annualPropertyManagementDescription": "Frais de mise en location (10€ par m2 loué) et de gestion courante (4.99% des loyers encaissés).",
         "annualTurnoverIndice": "Taux d'occupation annuel",
         "annualTurnoverIndiceDescription": "Nombre de mois durant lesquels le bien sera occupé. Masteos prend une hypothèse d'occupation conservatrice pour le calcul du revenu annuel.",
-        "flagEnrichment_annualTurnoverIndiceDescription": "Taux d'occupation annuel du bien exprimé en nombre de mois. La vacance locative sur ce projet représente un manque à gagner de {{ amount }} €",
         "bankCapitalStillDue": "Somme à rembourser à la banque l'année de la revente du bien lorsque ce dernier est vendu avant la date d'échéance du prêt. Cette somme est connue à l’avance car elle figure dans le tableau d’amortissement du prêt fourni par la banque. ",
         "bankCommission": "Frais bancaires",
         "bankCommissionDescription": "Frais de dossier prélevés par la banque (800€) et frais de garantie de prêt immobilier (1% du capital emprunté) ",
@@ -822,6 +816,7 @@
         "cumulativeCashFlowPositive": "Cumul des excédents de trésorerie tout au long de la durée de détention du bien.\nFormule : excédent trésorerie année 1 + excédent trésorerie année 2 + ... + excédent trésorerie année X",
         "enrichmentResellingYearNegative": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport - cumul des efforts d'épargne",
         "enrichmentResellingYearPositive": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport +/- cumul des excédents de trésorerie",
+        "flagEnrichment_annualTurnoverIndiceDescription": "Taux d'occupation annuel du bien exprimé en nombre de mois. La vacance locative sur ce projet représente un manque à gagner de {{ amount }} €",
         "grossReturn": "Taux de rendement brut",
         "grossReturnDescription": "Permet de mesurer la rentabilité brute de l'investissement.\nFormule : ( Loyer mensuel charges comprises * 12 ) / ( Prix de vente FAI + Travaux + Ameublement )",
         "investCapitalMultiplier": "Enrichissement net exprimé comme multiple des capitaux investis.\nFormule : ( Enrichissement net + capitaux investis ) / capitaux investis",
@@ -940,6 +935,11 @@
     "telephoneUnavailable": "Téléphone indisponible",
     "to": "à",
     "translatedBy": "Traduit avec {{providerName}}",
+    "trending": {
+      "CITY": "la commune",
+      "NEIGHBORHOOD": "le quartier",
+      "NO_DATA": "NO_DATA"
+    },
     "unavailableProperty": "Bien indisponible",
     "virtualVisit": "Visite 3D",
     "virtualVisitLabel": "3D",
