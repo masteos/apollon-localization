@@ -52,7 +52,7 @@
     "emailConflict": "",
     "errorAuthenticateMessage": "",
     "financeHeader": "",
-    "header": "Registration",
+    "header": "",
     "invalidEmail": "",
     "modalDeletedAccount": {
       "button": "",
@@ -62,7 +62,7 @@
     "passwordLength": "",
     "takeAnAppointmentErrorMessage": "",
     "title": "",
-    "title1": "Welcome",
+    "title1": "",
     "title2": ""
   },
   "calendar": {
@@ -174,7 +174,7 @@
     "passwordPlaceholder": "",
     "register": "",
     "subtitle": "",
-    "title": "Welcome"
+    "title": ""
   },
   "matchingInfoModal": {
     "budget": "",
@@ -195,11 +195,11 @@
     "home": "",
     "login": "",
     "logout": "",
-    "mySearch": "My research",
+    "mySearch": "",
     "profile": "",
     "profileButton": "",
     "profileNav": "",
-    "projects": "Projects",
+    "projects": "",
     "property": "",
     "register": "",
     "search": "",
@@ -242,7 +242,7 @@
     "firstNamePlaceholder": "",
     "header": "",
     "headerMyDocuments": "",
-    "headerMyInfo": "My information",
+    "headerMyInfo": "",
     "headerPasswordChange": "",
     "imagePickerErrors": {
       "cameraUnavailable": {
@@ -276,8 +276,8 @@
     "passwordSectionTitle": "",
     "phoneNumber": "",
     "profileDocumentMenu": "",
-    "profileSectionSubtitle": "Modify your profile information (name, first name, ...)",
-    "profileSectionTitle": "My information",
+    "profileSectionSubtitle": "",
+    "profileSectionTitle": "",
     "promoCode": "",
     "removeCurrentPhoto": "",
     "searchDocumentSubtitle": "",
@@ -296,9 +296,9 @@
   "projectList": {
     "finishedProjectMessage": "",
     "investmentStepsTitle": "",
-    "myProjects": "My projects",
+    "myProjects": "",
     "noProjectYet": "",
-    "searchButton": "Continue your search",
+    "searchButton": "",
     "status": {
       "canceled": "",
       "finished": "",
@@ -311,7 +311,7 @@
       "furnishing": "",
       "makeProposalOffer": "",
       "obtainFinancing": "",
-      "performanceManagement": "Performance management and monitoring",
+      "performanceManagement": "",
       "renovation": "",
       "renting": "",
       "signCompromise": "",
@@ -361,7 +361,7 @@
   },
   "propertiesPreferences": {
     "budget": "",
-    "conditions": "Conditions",
+    "conditions": "",
     "erase": "",
     "formErrors": {
       "budgetMaxSupMandate": "",
@@ -383,12 +383,12 @@
     "takeAppointment": ""
   },
   "propertyDescription": {
-    "Apartment": "Apartment",
+    "Apartment": "",
     "ApartmentSharing": "",
-    "Building": "Building",
+    "Building": "",
     "CommercialBuilding": "",
-    "House": "House",
-    "Office": "Offices",
+    "House": "",
+    "Office": "",
     "Unknown": "",
     "annualRent": "",
     "annualRevalorisation": "",
@@ -527,9 +527,9 @@
       "title": ""
     },
     "HeavyWork": "",
-    "None": "No",
+    "None": "",
     "Refresh": "",
-    "Renovate": "Renovation",
+    "Renovate": "",
     "Unknown": "",
     "description": "",
     "descriptionTitle": "",
@@ -540,10 +540,10 @@
     "renovationType": ""
   },
   "propertyRent": {
-    "Empty": "Empty",
-    "FullyRented": "Partially rented",
-    "PartlyRented": "Partially rented",
-    "Unknown": "Not specified",
+    "Empty": "",
+    "FullyRented": "",
+    "PartlyRented": "",
+    "Unknown": "",
     "annualCharges": "",
     "annualChargesTooltip": {
       "content": "",
@@ -572,9 +572,9 @@
     "ownerCharge": "",
     "ownerChargeDescription": "",
     "rentalSituation": {
-      "Empty": "Empty",
-      "FullyRented": "Rented",
-      "PartlyRented": "Partially rented",
+      "Empty": "",
+      "FullyRented": "",
+      "PartlyRented": "",
       "Unknown": ""
     },
     "rentalSituationLabel": "",
@@ -629,7 +629,7 @@
     "passwordLabel": "",
     "passwordLength": "",
     "philocativeCheckbox": "",
-    "registerTitle": "Registration",
+    "registerTitle": "",
     "required": "",
     "requiredField": ""
   },
@@ -845,14 +845,14 @@
       "withPropertyManagement": "",
       "yearlyRentIncomeNoCharges": ""
     },
-    "firstName": "First name",
+    "firstName": "",
     "gallery": "",
     "genericError": "",
     "hourLabel": "",
     "interested": "",
     "invalidEmail": "",
     "knowMore": "",
-    "lastName": "Name",
+    "lastName": "",
     "loading": "",
     "login": "",
     "lot": "",
@@ -905,10 +905,10 @@
         "dLabel": "",
         "eDescription": "",
         "eLabel": "",
-        "fDescription": "Very polluting property and of old construction. It requires major renovations to limit the carbon impact of the house.",
+        "fDescription": "",
         "fLabel": "",
         "gDescription": "",
-        "gLabel": "> 80",
+        "gLabel": "",
         "labelHighest": "",
         "labelLowest": "",
         "subtitle": "",
@@ -936,7 +936,7 @@
     "synthesis": "",
     "telephoneUnavailable": "",
     "to": "",
-    "translatedBy": "Translated with {{providerName}}",
+    "translatedBy": "",
     "unavailableProperty": "",
     "virtualVisit": "",
     "virtualVisitLabel": "",
@@ -948,7 +948,7 @@
   },
   "skhole": {
     "allCitiesLink": "",
-    "averageYield": "Average yield",
+    "averageYield": "",
     "blog": {
       "blogLink": "",
       "desc": "",
@@ -970,8 +970,8 @@
       "text": "",
       "textDesc": ""
     },
-    "bookCardButton": "Discover",
-    "bookCardTitle": "The sacred text of the rental investment",
+    "bookCardButton": "",
+    "bookCardTitle": "",
     "citiesLink": "",
     "citiesTitle": "",
     "faq": {
@@ -987,28 +987,28 @@
       "cityDesc": "",
       "cityLink": ""
     },
-    "lastAdvices": "Our latest tips",
+    "lastAdvices": "",
     "locativeTension": "",
     "orderWhiteBookLink": "",
     "pdfWhiteBookLink": "",
     "postsLink": "",
     "readingTime": "",
-    "subtitle": "All the knowledge about renting, accumulated since antiquity. That's all there is to it.",
-    "subtitle2": "Our detailed analyzes by city",
-    "text": "The sacred text of the rental investment",
+    "subtitle": "",
+    "subtitle2": "",
+    "text": "",
     "title": "",
     "whiteBookSubtitle": "",
     "whiteBookTitle": ""
   },
   "startup": {
     "forceUpdate": {
-      "description": "Your version of the application will no longer be supported, update it to continue using it and take advantage of our new features.",
-      "openButton": "Update",
-      "title": "Mandatory update"
+      "description": "",
+      "openButton": "",
+      "title": ""
     },
-    "loading": "Loading..."
+    "loading": ""
   },
   "ui": {
-    "closeButton": "Close"
+    "closeButton": ""
   }
 }
