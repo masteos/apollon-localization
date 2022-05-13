@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.11.1](https://github.com/masteos/apollon-localization/compare/v1.11.0...v1.11.1) (2022-05-13)
+
+
+### Bug Fixes
+
+* **annualTurnoverExpenses:** key changed on feature flag ([#35](https://github.com/masteos/apollon-localization/issues/35)) ([6703a4a](https://github.com/masteos/apollon-localization/commit/6703a4ad61c4ddefe7c42bb187451f5f1c8f31f0))
+
 # [1.11.0](https://github.com/masteos/apollon-localization/compare/v1.10.0...v1.11.0) (2022-05-13)
 
 
