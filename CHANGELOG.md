@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.13.0](https://github.com/masteos/apollon-localization/compare/v1.12.0...v1.13.0) (2022-05-13)
+
+
+### Features
+
+* **financial:** update trending keys ([#21](https://github.com/masteos/apollon-localization/issues/21)) ([1a7933b](https://github.com/masteos/apollon-localization/commit/1a7933b26e6883ec8d0be6e94fcc0b694c11a643))
+
 # [1.12.0](https://github.com/masteos/apollon-localization/compare/v1.11.1...v1.12.0) (2022-05-13)
 
 
