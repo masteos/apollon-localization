@@ -1,5 +1,14 @@
 # Apollon Localization Changelog
 
+## [1.14.1](https://github.com/masteos/apollon-localization/compare/v1.14.0...v1.14.1) (2022-05-16)
+
+
+### Bug Fixes
+
+* **financial:** fix wording and trigger release ([06ca6a7](https://github.com/masteos/apollon-localization/commit/06ca6a7264638ef6bb4818236527f2fd79e85480))
+* **financial:** update financial wording key ([#40](https://github.com/masteos/apollon-localization/issues/40)) ([6ca25df](https://github.com/masteos/apollon-localization/commit/6ca25dfb4074cd7003026df8c654c5e9ecfb3b73))
+* **github sync:** remove filter on files ([ea6ad8b](https://github.com/masteos/apollon-localization/commit/ea6ad8babe80fd90b97727b925c891847ed884e6))
+
 # [1.14.0](https://github.com/masteos/apollon-localization/compare/v1.13.0...v1.14.0) (2022-05-16)
 
 
