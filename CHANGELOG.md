@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.14.4](https://github.com/masteos/apollon-localization/compare/v1.14.3...v1.14.4) (2022-05-17)
+
+
+### Bug Fixes
+
+* **financialTab:** wordings tooltip fixed ([#43](https://github.com/masteos/apollon-localization/issues/43)) ([782ebde](https://github.com/masteos/apollon-localization/commit/782ebde479655c0d7bbfefc781249eda284b59d8))
+
 ## [1.14.3](https://github.com/masteos/apollon-localization/compare/v1.14.2...v1.14.3) (2022-05-17)
 
 
