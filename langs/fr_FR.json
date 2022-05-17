@@ -833,6 +833,7 @@
         "rentalVacation": "Vacance locative",
         "rentalVacationDescription": "Coût de la vacance locative (période entre deux locations durant laquelle le bien ne génère pas de revenu). Pour ce projet, nous estimons que la vacance sera de {{value}} mois par an",
         "resellingPrice": "Prix de revente du bien projeté sur {{resellingYear}} ans à un taux d'évolution annuel du foncier de {{ evaluationRate}} %",
+        "evaluationRateUnavaible": "L’historique de transactions disponibles sur cette zone n’est pas suffisant pour rendre compte avec précision de l’évolution des prix de l’immobilier”",
         "resellingYearCashFlow": "Somme à disposition de l’investisseur l’année de la revente du bien, après remboursement de la banque, si la revente a lieu avant la date d'échéance du prêt.\n Formule : Prix de revente - capital restant dû",
         "resellingYearDescription": "Nombre d’années de détention du bien jusqu’à sa revente.",
         "salePrice": "Le prix de vente frais d'agences inclus. Il comprend le prix négocié avec le vendeur majoré des honoraires de l'agence représentant le vendeur.",
