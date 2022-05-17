@@ -1,0 +1,21 @@
+name: 🤖 Stats
+
+on:
+  workflow_dispatch:
+  pull_request:
+     types: [opened, reopened]
+
+jobs:
+  Stats:
+    runs-on: ubuntu-latest
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const script = require('${{ github.workspace }}/.github/scripts/stats.js')
+            await script({github, context, core, glob, io, exec, workspace: '${{ github.workspace }}'})

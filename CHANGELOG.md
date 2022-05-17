@@ -1,5 +1,50 @@
 # Apollon Localization Changelog
 
+## [1.14.1](https://github.com/masteos/apollon-localization/compare/v1.14.0...v1.14.1) (2022-05-16)
+
+
+### Bug Fixes
+
+* **financial:** fix wording and trigger release ([06ca6a7](https://github.com/masteos/apollon-localization/commit/06ca6a7264638ef6bb4818236527f2fd79e85480))
+* **financial:** update financial wording key ([#40](https://github.com/masteos/apollon-localization/issues/40)) ([6ca25df](https://github.com/masteos/apollon-localization/commit/6ca25dfb4074cd7003026df8c654c5e9ecfb3b73))
+* **github sync:** remove filter on files ([ea6ad8b](https://github.com/masteos/apollon-localization/commit/ea6ad8babe80fd90b97727b925c891847ed884e6))
+
+# [1.14.0](https://github.com/masteos/apollon-localization/compare/v1.13.0...v1.14.0) (2022-05-16)
+
+
+### Features
+
+* **onboarding:** step email - update Newsletter text ([#38](https://github.com/masteos/apollon-localization/issues/38)) ([29eb2d7](https://github.com/masteos/apollon-localization/commit/29eb2d73f60e0387a5f33bdc5875358cf6d8c04b))
+
+# [1.13.0](https://github.com/masteos/apollon-localization/compare/v1.12.0...v1.13.0) (2022-05-13)
+
+
+### Features
+
+* **financial:** update trending keys ([#21](https://github.com/masteos/apollon-localization/issues/21)) ([1a7933b](https://github.com/masteos/apollon-localization/commit/1a7933b26e6883ec8d0be6e94fcc0b694c11a643))
+
+# [1.12.0](https://github.com/masteos/apollon-localization/compare/v1.11.1...v1.12.0) (2022-05-13)
+
+
+### Features
+
+* update translation files ([#36](https://github.com/masteos/apollon-localization/issues/36)) ([660b8ae](https://github.com/masteos/apollon-localization/commit/660b8ae72250a5f8a9af4ebbbc6e9dbf9995cfbd))
+
+## [1.11.1](https://github.com/masteos/apollon-localization/compare/v1.11.0...v1.11.1) (2022-05-13)
+
+
+### Bug Fixes
+
+* **annualTurnoverExpenses:** key changed on feature flag ([#35](https://github.com/masteos/apollon-localization/issues/35)) ([6703a4a](https://github.com/masteos/apollon-localization/commit/6703a4ad61c4ddefe7c42bb187451f5f1c8f31f0))
+
+# [1.11.0](https://github.com/masteos/apollon-localization/compare/v1.10.0...v1.11.0) (2022-05-13)
+
+
+### Features
+
+* update lib ([4012fca](https://github.com/masteos/apollon-localization/commit/4012fcaf2dc21ac21d04d9844336792d4ba4b7f2))
+* update translation files ([#34](https://github.com/masteos/apollon-localization/issues/34)) ([c67f161](https://github.com/masteos/apollon-localization/commit/c67f161f6c683299f1e76c8e16822ebc34c24df6))
+
 # [1.10.0](https://github.com/masteos/apollon-localization/compare/v1.9.0...v1.10.0) (2022-05-12)
 
 
