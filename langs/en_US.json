@@ -384,8 +384,8 @@
     "Unknown": "",
     "annualRent": "",
     "annualRevalorisation": "",
-    "flagEnrichment_annualRevalorisation": "",
     "coOwnership": "",
+    "flagEnrichment_annualRevalorisation": "",
     "floor": "",
     "furniture": "",
     "generalAbout": "",
@@ -710,11 +710,6 @@
       "TAXE_FONCIERE": "",
       "UNKNOWN": ""
     },
-    "trending": {
-      "NO_DATA": "",
-      "CITY": "",
-      "NEIGHBORHOOD": ""
-    },
     "email": "",
     "favorites": "",
     "financialTool": {
@@ -953,6 +948,11 @@
     "telephoneUnavailable": "",
     "to": "",
     "translatedBy": "",
+    "trending": {
+      "CITY": "",
+      "NEIGHBORHOOD": "",
+      "NO_DATA": ""
+    },
     "unavailableProperty": "",
     "virtualVisit": "",
     "virtualVisitLabel": "",
