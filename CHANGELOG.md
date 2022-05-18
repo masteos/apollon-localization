@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.14.6](https://github.com/masteos/apollon-localization/compare/v1.14.5...v1.14.6) (2022-05-18)
+
+
+### Bug Fixes
+
+* **financial:** remove spacing ([#45](https://github.com/masteos/apollon-localization/issues/45)) ([4e7c3c3](https://github.com/masteos/apollon-localization/commit/4e7c3c33358503d5e6d3a923d533126f900a057e))
+
 ## [1.14.5](https://github.com/masteos/apollon-localization/compare/v1.14.4...v1.14.5) (2022-05-18)
 
 
