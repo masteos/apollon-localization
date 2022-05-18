@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.14.5](https://github.com/masteos/apollon-localization/compare/v1.14.4...v1.14.5) (2022-05-18)
+
+
+### Bug Fixes
+
+* **financialTab:** annual cashflow key ([#44](https://github.com/masteos/apollon-localization/issues/44)) ([b6f4f79](https://github.com/masteos/apollon-localization/commit/b6f4f7995671751e4cf843161b290db1c6de37c4))
+
 ## [1.14.4](https://github.com/masteos/apollon-localization/compare/v1.14.3...v1.14.4) (2022-05-17)
 
 
