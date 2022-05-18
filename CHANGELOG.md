@@ -1,5 +1,13 @@
 # Apollon Localization Changelog
 
+# [1.15.0](https://github.com/masteos/apollon-localization/compare/v1.14.6...v1.15.0) (2022-05-18)
+
+
+### Features
+
+* add propertyPreview keys ([1a3f0af](https://github.com/masteos/apollon-localization/commit/1a3f0af83d6b6c95b7a34e45c4969615038cbb7d))
+* update translation files ([#47](https://github.com/masteos/apollon-localization/issues/47)) ([0b1184c](https://github.com/masteos/apollon-localization/commit/0b1184cff6296c84051ea34a4fced40d7bd92e54))
+
 ## [1.14.6](https://github.com/masteos/apollon-localization/compare/v1.14.5...v1.14.6) (2022-05-18)
 
 
