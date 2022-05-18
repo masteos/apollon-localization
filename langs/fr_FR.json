@@ -507,10 +507,6 @@
     "subtitle": "Pourquoi n'êtes-vous pas intéressé(e) par ce bien ?",
     "title": "Fonctionnement de la sélection"
   },
-  "propertyPreview": {
-    "room": "{{count}} ch.",
-    "roomZero": "Studio"
-  },
   "propertyRenovation": {
     "DPE": {
       "data": "Classe {{value}}",
@@ -1015,5 +1011,12 @@
   },
   "ui": {
     "closeButton": "Fermer"
+  },
+  "propertyPreview": {
+    "roomZero": "Studio",
+    "room": "{{count}} ch.",
+    "netReturn": "Rendement net",
+    "revaluationRate": "Prise de valeur",
+    "projectCost": "(Coût du projet)"
   }
 }
