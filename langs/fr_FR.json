@@ -813,7 +813,7 @@
         "cumulativeCashFlowPositive": "Cumul des excédents de trésorerie tout au long de la durée de détention du bien.\nFormule : excédent trésorerie année 1 + excédent trésorerie année 2 + ... + excédent trésorerie année X",
         "enrichmentResellingYearNegative": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport - cumul des efforts d'épargne",
         "enrichmentResellingYearPositive": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport + cumul des excédents de trésorerie",
-        "evaluationRateUnavaible": "L’historique de transactions disponibles sur cette zone n’est pas suffisant pour rendre compte avec précision de l’évolution des prix de l’immobilier”",
+        "evaluationRateUnavaible": "L’historique de transactions disponibles sur cette zone n’est pas suffisant pour rendre compte avec précision de l’évolution des prix de l’immobilier",
         "flagEnrichment_annualTurnoverIndiceDescription": "Taux d'occupation annuel du bien exprimé en nombre de mois. La vacance locative sur ce projet représente un manque à gagner de {{ amount }} €",
         "grossReturn": "Taux de rendement brut",
         "grossReturnDescription": "Permet de mesurer la rentabilité brute de l'investissement.\nFormule : ( Loyer mensuel charges comprises * 12 ) / ( Prix de vente FAI + Travaux + Ameublement )",
