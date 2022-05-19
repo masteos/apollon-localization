@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.15.5](https://github.com/masteos/apollon-localization/compare/v1.15.4...v1.15.5) (2022-05-19)
+
+
+### Bug Fixes
+
+* **app:** i18next change _plural to _other v20.x.x to v21.0.0 ([5ce8f49](https://github.com/masteos/apollon-localization/commit/5ce8f499bd750dd932b691d0dc98c0bd5438bf01))
+
 ## [1.15.4](https://github.com/masteos/apollon-localization/compare/v1.15.3...v1.15.4) (2022-05-19)
 
 
