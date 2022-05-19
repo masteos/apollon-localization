@@ -359,7 +359,7 @@
     "conditions": "Conditions",
     "erase": "Delete",
     "formErrors": {
-      "budgetMaxSupMandate": "The maximum budget for your mandate is {{amount}}",
+      "budgetMaxSupMandate": "The maximum budget for your mandate is ",
       "budgetMinSupMax": "The minimum budget must be less than\n the maximum budget"
     },
     "hasNeedRenovation": "With the presence of works",
