@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.15.4](https://github.com/masteos/apollon-localization/compare/v1.15.3...v1.15.4) (2022-05-19)
+
+
+### Bug Fixes
+
+* **app:** wording budget max ([6063292](https://github.com/masteos/apollon-localization/commit/6063292eeaf3a1db378b01c7963d97eb9feebb79))
+
 ## [1.15.3](https://github.com/masteos/apollon-localization/compare/v1.15.2...v1.15.3) (2022-05-19)
 
 
