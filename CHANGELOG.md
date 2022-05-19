@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.15.2](https://github.com/masteos/apollon-localization/compare/v1.15.1...v1.15.2) (2022-05-19)
+
+
+### Bug Fixes
+
+* **financial:** remove added quote ([#50](https://github.com/masteos/apollon-localization/issues/50)) ([3cf939c](https://github.com/masteos/apollon-localization/commit/3cf939c50242f5299aac2832a587e393ce5c0c90))
+
 ## [1.15.1](https://github.com/masteos/apollon-localization/compare/v1.15.0...v1.15.1) (2022-05-19)
 
 
