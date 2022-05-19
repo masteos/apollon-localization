@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.15.1](https://github.com/masteos/apollon-localization/compare/v1.15.0...v1.15.1) (2022-05-19)
+
+
+### Bug Fixes
+
+* **financial:** Fix type error, % twice ([#49](https://github.com/masteos/apollon-localization/issues/49)) ([cbc560b](https://github.com/masteos/apollon-localization/commit/cbc560b00350df7a16ad0bf021117436a6dfdd98))
+
 # [1.15.0](https://github.com/masteos/apollon-localization/compare/v1.14.6...v1.15.0) (2022-05-18)
 
 
