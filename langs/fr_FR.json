@@ -338,10 +338,13 @@
     "propertyMiniatureTitle": "{{title}} ({{length}})",
     "regions": "Région(s)",
     "resultAll": "{{count}} résultat",
+    "resultAll_plural": "{{count}} résultats",
     "resultAll_other": "{{count}} résultats",
     "resultFavorites": "{{count}} favori",
+    "resultFavorites_plural": "{{count}} favoris",
     "resultFavorites_other": "{{count}} favoris",
     "resultSelected": "{{count}} pré-sélectionné",
+    "resultSelected_plural": "",
     "resultSelected_other": "{{count}} pré-sélectionnés",
     "searchTitle": "Nos projets sélectionnés spécialement pour vous :\nCes projets seront visibles pendant deux jours, ajoutez-les en favoris ou pré-sélection pour les conserver dans votre liste",
     "selectedLink": {
@@ -412,6 +415,7 @@
   },
   "propertyFinances": {
     "countYears": "{{count}} an",
+    "countYears_plural": "",
     "countYears_other": "{{count}} ans",
     "funding": "Financement",
     "year": "an",
@@ -506,6 +510,13 @@
     },
     "subtitle": "Pourquoi n'êtes-vous pas intéressé(e) par ce bien ?",
     "title": "Fonctionnement de la sélection"
+  },
+  "propertyPreview": {
+    "netReturn": "Rendement net",
+    "projectCost": "(Coût du projet)",
+    "revaluationRate": "Prise de valeur",
+    "room": "{{count}} ch.",
+    "roomZero": "Studio"
   },
   "propertyRenovation": {
     "DPE": {
@@ -851,6 +862,7 @@
     "loading": "Chargement en cours...",
     "login": "Se connecter",
     "lot": "lot",
+    "lot_plural": "",
     "lot_other": "lots",
     "m2": "m²",
     "modifyMeeting": "Modifier le rendez-vous",
@@ -1010,12 +1022,5 @@
   },
   "ui": {
     "closeButton": "Fermer"
-  },
-  "propertyPreview": {
-    "roomZero": "Studio",
-    "room": "{{count}} ch.",
-    "netReturn": "Rendement net",
-    "revaluationRate": "Prise de valeur",
-    "projectCost": "(Coût du projet)"
   }
 }
