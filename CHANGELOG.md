@@ -1,5 +1,19 @@
 # Apollon Localization Changelog
 
+## [1.15.7](https://github.com/masteos/apollon-localization/compare/v1.15.6...v1.15.7) (2022-05-20)
+
+
+### Bug Fixes
+
+* **lang:** remove unused flag ([#53](https://github.com/masteos/apollon-localization/issues/53)) ([f5c5aed](https://github.com/masteos/apollon-localization/commit/f5c5aed4fe4f829d35da449e388f834579275ef3))
+
+## [1.15.6](https://github.com/masteos/apollon-localization/compare/v1.15.5...v1.15.6) (2022-05-20)
+
+
+### Bug Fixes
+
+* **lang:** remove spaces on vars ([#52](https://github.com/masteos/apollon-localization/issues/52)) ([b4bc0c3](https://github.com/masteos/apollon-localization/commit/b4bc0c3d8d325be4e3432affa55ba51211f6b05d))
+
 ## [1.15.5](https://github.com/masteos/apollon-localization/compare/v1.15.4...v1.15.5) (2022-05-19)
 
 
