@@ -798,7 +798,7 @@
         "annualCurrentExpensesDescription": "Charges dont le propriétaire est redevable pour couvrir l'entretien de la copropriété. Ces charges inclues :\n- Charges locatives (récupérées auprès du locataire) : {{annualCharges}}\n- Charges supportées par le propriétaire (charges non-récupérables) : {{tenantCharges}}",
         "annualHomeOwnerInsurance": "Assurance PNO",
         "annualHomeOwnerInsuranceDescription": "Assurance propriétaire non-occupant. Cette assurance fournit au propriétaire toutes les garanties pour couvrir aussi bien le logement que les dommages qui pourraient être causés aux locataires.",
-        "annualPercentEvolution": "Le prix de l'immobilier a augmenté en moyenne de {{ evaluationRate }} par an sur la zone ces 5 dernières années.\nProjetez différents scénarios en modifiant l'hypothèse d'évolution du prix du marché.",
+        "annualPercentEvolution": "Le prix de l'immobilier a augmenté en moyenne de {{evaluationRate}} par an dans {{zone}} ces 5 dernières années.\nCette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone. Il est important de projeter différents scénarios en modifiant l'hypothèse d'évolution du prix du marché.",
         "annualPropertyManagement": "Gestion locative",
         "annualPropertyManagementDescription": "Frais de mise en location (10€ par m2 loué) et de gestion courante (4.99% des loyers encaissés).",
         "annualTurnoverIndice": "Taux d'occupation annuel",
