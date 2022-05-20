@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.15.8](https://github.com/masteos/apollon-localization/compare/v1.15.7...v1.15.8) (2022-05-20)
+
+
+### Bug Fixes
+
+* **financial:** fix trending tooltip ([#54](https://github.com/masteos/apollon-localization/issues/54)) ([88bf075](https://github.com/masteos/apollon-localization/commit/88bf075c5f92503fa2ae7bcd4559b41ba5d4736f))
+
 ## [1.15.7](https://github.com/masteos/apollon-localization/compare/v1.15.6...v1.15.7) (2022-05-20)
 
 
