@@ -419,7 +419,7 @@
   },
   "propertyInfo": {
     "3DLink": "Visite 3D",
-    "address": "{{city}}, {{postalCode}}, {{country}}",
+    "address": "{{street}}, {{city}}, {{postalCode}}, {{country}}",
     "addressWithBreak": "{{street}}\n{{city}}, {{postalCode}}, {{country}}",
     "body": "Ce bien attise les convoitises et n'est déjà plus disponible. Un autre investisseur s'est positionné dessus. Soyez attentif à la prochaine alerte pour être prioritaire sur la prochaine pépite.",
     "commonTitle": "Partie communes",
