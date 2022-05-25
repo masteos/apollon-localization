@@ -582,6 +582,9 @@
   "register": {
     "alreadyEmailMessage": "Cet email est déjà utilisé",
     "borrowingCapacityInfo": "Une attestation de financement établit votre capacité d'emprunt. Obtenez-la directement auprès de votre banque.",
+    "cgu1": "En sélectionnant “Continuer” ci-dessous, j'accepte les ",
+    "cgu2": "Conditions générales d'utilisation",
+    "cgu3": " et la ",
     "cgu4": "Politique de confidentialité",
     "cgu5": " de Masteos.",
     "cguStep1": "J'accepte les",
