@@ -168,6 +168,12 @@
     "networkError": "Pas de connexion internet",
     "passwordPlaceholder": "******",
     "register": "Créer un compte",
+    "steps": {
+      "1": "Rencontrez un conseiller pour discuter de votre projet",
+      "2": "Découvrez des projets qui correspondent à vos attentes",
+      "3": "Réalisez une offre d'achat",
+      "4": "Suivez les étapes de votre investissement"
+    },
     "subtitle": "Connectez-vous ou créez votre compte pour retrouver les opportunités de Masteos",
     "title": "Bienvenue"
   },
@@ -581,6 +587,10 @@
     "cgu3": " et la ",
     "cgu4": "Politique de confidentialité",
     "cgu5": " de Masteos.",
+    "cguStep1": "J'accepte les",
+    "cguStep2": "Conditions générales d'utilisation",
+    "cguStep3": " et la ",
+    "cguStep4": "Politique de confidentialité de Masteos.",
     "cguTextNew": {
       "cgu": "Conditions générales d'utilisation ",
       "confidentiality": "Politique de confidentialité",
