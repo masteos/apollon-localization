@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.17.0](https://github.com/masteos/apollon-localization/compare/v1.16.0...v1.17.0) (2022-05-25)
+
+
+### Features
+
+* **onboarding:** onboarding register ([#48](https://github.com/masteos/apollon-localization/issues/48)) ([e4dc6ca](https://github.com/masteos/apollon-localization/commit/e4dc6ca93f1cd50dca9e86eaa77254be86223d2d))
+
 # [1.16.0](https://github.com/masteos/apollon-localization/compare/v1.15.8...v1.16.0) (2022-05-25)
 
 
