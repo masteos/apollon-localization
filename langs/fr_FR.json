@@ -160,14 +160,20 @@
     "header": "En créant votre compte Masteos...",
     "invalidCreds": "Email ou mot de passe incorrect",
     "list": {
+      "1": "Vous rencontrez un conseiller et accédez à nos opportunités d'investissements locatifs.",
+      "2": "Vous êtes alerté en temps réel des nouvelles opportunités qui correspondent à vos critères.",
+      "3": "Vous gérez toutes les étapes de votre investissement depuis l'interface : signature électronique, upload de document...",
+      "4": "Vous visualisez la performance de votre investissement une fois votre bien en location."
+    },
+    "networkError": "Pas de connexion internet",
+    "passwordPlaceholder": "******",
+    "register": "Créer un compte",
+    "steps": {
       "1": "Rencontrez un conseiller pour discuter de votre projet",
       "2": "Découvrez des projets qui correspondent à vos attentes",
       "3": "Réalisez une offre d'achat",
       "4": "Suivez les étapes de votre investissement"
     },
-    "networkError": "Pas de connexion internet",
-    "passwordPlaceholder": "******",
-    "register": "Créer un compte",
     "subtitle": "Connectez-vous ou créez votre compte pour retrouver les opportunités de Masteos",
     "title": "Bienvenue"
   },
@@ -576,10 +582,19 @@
   "register": {
     "alreadyEmailMessage": "Cet email est déjà utilisé",
     "borrowingCapacityInfo": "Une attestation de financement établit votre capacité d'emprunt. Obtenez-la directement auprès de votre banque.",
-    "cgu1": "J'accepte les",
-    "cgu2": "Conditions générales d'utilisation",
-    "cgu3": " et la ",
-    "cgu4": "Politique de confidentialité de Masteos.",
+    "cgu4": "Politique de confidentialité",
+    "cgu5": " de Masteos.",
+    "cguStep1": "J'accepte les",
+    "cguStep2": "Conditions générales d'utilisation",
+    "cguStep3": " et la ",
+    "cguStep4": "Politique de confidentialité de Masteos.",
+    "cguTextNew": {
+      "cgu": "Conditions générales d'utilisation ",
+      "confidentiality": "Politique de confidentialité",
+      "first": "En sélectionnant “Accepter & Continuer” ci-dessous, j'accepte les ",
+      "second": "et la ",
+      "third": " de Masteos"
+    },
     "confirmPasswordLabel": "Confirmer le mot de passe",
     "emailLabel": "Adresse mail",
     "emailPlaceholder": "Ex : juliette.dupont@mail.com",
