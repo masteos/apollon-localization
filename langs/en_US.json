@@ -360,7 +360,7 @@
     "erase": "Delete",
     "formErrors": {
       "budgetMaxSupPostMandate": "The maximum budget for your mandate is ",
-      "budgetMaxSupPreMandate": "The maximum budge is too high",
+      "budgetMaxSupPreMandate": "The maximum budget is too high",
       "budgetMinSupMax": "The minimum budget must be less than\n the maximum budget"
     },
     "hasNeedRenovation": "With the presence of works",
