@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.17.1](https://github.com/masteos/apollon-localization/compare/v1.17.0...v1.17.1) (2022-05-29)
+
+
+### Bug Fixes
+
+* **onboarding:** missing space ([#60](https://github.com/masteos/apollon-localization/issues/60)) ([25f7495](https://github.com/masteos/apollon-localization/commit/25f749576859320bc338ab0591b7ccd40435ecb2))
+
 # [1.17.0](https://github.com/masteos/apollon-localization/compare/v1.16.0...v1.17.0) (2022-05-25)
 
 
