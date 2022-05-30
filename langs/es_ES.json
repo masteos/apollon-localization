@@ -362,7 +362,8 @@
     "conditions": "Condiciones",
     "erase": "Borrar",
     "formErrors": {
-      "budgetMaxSupMandate": "El presupuesto máximo para su mandato es de {{amount}}",
+      "budgetMaxSupPostMandate": "El presupuesto máximo para su mandato es de ",
+      "budgetMaxSupPreMandate": "El presupuesto máximo es demasiado importante",
       "budgetMinSupMax": "El presupuesto mínimo debe ser inferior a\n el presupuesto máximo"
     },
     "hasNeedRenovation": "Con la presencia de obras",
