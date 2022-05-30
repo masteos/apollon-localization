@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.19.0](https://github.com/masteos/apollon-localization/compare/v1.18.0...v1.19.0) (2022-05-30)
+
+
+### Features
+
+* **register:** add key to invalid terms ([#62](https://github.com/masteos/apollon-localization/issues/62)) ([c8e76d1](https://github.com/masteos/apollon-localization/commit/c8e76d11730a2f993fbf986fac52c4ad324512e5))
+
 # [1.18.0](https://github.com/masteos/apollon-localization/compare/v1.17.1...v1.18.0) (2022-05-30)
 
 
