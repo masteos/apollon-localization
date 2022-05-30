@@ -607,6 +607,7 @@
     "firstNamePlaceholder": "ex: Michel",
     "hasBorrowingCapacityTitle": "Votre banque a-t-elle déjà validé votre capacité d'emprunt ?",
     "invalidEmail": "Email invalide",
+    "invalidTerms": "Veuillez accepter les conditions générales d’utilisation.",
     "investBudget": {
       "ABOVE_700K": "Plus de 700 000 €",
       "BELOW_300K": "Moins de 300 000 €",
