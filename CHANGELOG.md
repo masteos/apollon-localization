@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.18.0](https://github.com/masteos/apollon-localization/compare/v1.17.1...v1.18.0) (2022-05-30)
+
+
+### Features
+
+* **app:** handle max errors on pre and post mandat ([#61](https://github.com/masteos/apollon-localization/issues/61)) ([96619dd](https://github.com/masteos/apollon-localization/commit/96619dd097a4c804ba77199bbc63e93845e8a4c2))
+
 ## [1.17.1](https://github.com/masteos/apollon-localization/compare/v1.17.0...v1.17.1) (2022-05-29)
 
 
