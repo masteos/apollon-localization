@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.20.0](https://github.com/masteos/apollon-localization/compare/v1.19.0...v1.20.0) (2022-05-30)
+
+
+### Features
+
+* **property-preview:** add 'seen' translation ([#63](https://github.com/masteos/apollon-localization/issues/63)) ([47237b3](https://github.com/masteos/apollon-localization/commit/47237b3087034e216c4ddd75e4fe5d26694c98ff))
+
 # [1.19.0](https://github.com/masteos/apollon-localization/compare/v1.18.0...v1.19.0) (2022-05-30)
 
 
