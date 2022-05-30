@@ -517,7 +517,8 @@
     "projectCost": "(Coste del proyecto)",
     "revaluationRate": "Revalorización",
     "room": "{{count}} ch.",
-    "roomZero": "Estudio"
+    "roomZero": "Estudio",
+    "seen": "Visto"
   },
   "propertyRenovation": {
     "DPE": {
