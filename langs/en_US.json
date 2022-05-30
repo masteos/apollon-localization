@@ -338,11 +338,11 @@
     "propertyMiniatureTitle": "{{title}} ({{length}})",
     "regions": "Region(s)",
     "resultAll": "{{count}} result",
-    "resultAll_other": "{{count}} results",
+    "resultAll_plural": "{{count}} results",
     "resultFavorites": "{{count}} favorite",
-    "resultFavorites_other": "{{count}} favorites",
+    "resultFavorites_plural": "{{count}} favorites",
     "resultSelected": "{{count}} pre-selected",
-    "resultSelected_other": "{{count}} pre-selected",
+    "resultSelected_plural": "{{count}} pre-selected",
     "searchTitle": "Our projects selected especially for you:\nThese projects will be visible for two days, add them to your favourites or pre-selection to keep them in your list",
     "selectedLink": {
       "subtitle": "Properties I am positioned on",
@@ -413,7 +413,7 @@
   },
   "propertyFinances": {
     "countYears": "{{count}} an",
-    "countYears_other": "{{count}} years",
+    "countYears_plural": "{{count}} years",
     "funding": "Financing",
     "year": "an",
     "years": "years"
@@ -861,7 +861,7 @@
     "loading": "Loading in progress...",
     "login": "Log in",
     "lot": "lot",
-    "lot_other": "lots",
+    "lot_plural": "lots",
     "m2": "m²",
     "modifyMeeting": "Modify the appointment",
     "moreInfos": "Read more",

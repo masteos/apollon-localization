@@ -339,13 +339,10 @@
     "regions": "Región(es)",
     "resultAll": "{{count}} resultado",
     "resultAll_plural": "{{count}} resultados",
-    "resultAll_other": "resultados",
     "resultFavorites": "{{count}} favorito",
     "resultFavorites_plural": "{{count}} favoritos",
-    "resultFavorites_other": "favoritos",
     "resultSelected": "{{count}} preseleccionado",
     "resultSelected_plural": "{{count}} preseleccionado",
-    "resultSelected_other": "preselectionados",
     "searchTitle": "Nuestros proyectos seleccionados especialmente para usted:\nEstos proyectos serán visibles durante dos días, añádelos a tus favoritos o a tu preselección para mantenerlos en tu lista",
     "selectedLink": {
       "subtitle": "Propiedades en las que estoy posicionado",
@@ -417,7 +414,6 @@
   "propertyFinances": {
     "countYears": "{{count}} un",
     "countYears_plural": "{{count}} años",
-    "countYears_other": "años",
     "funding": "Financiación",
     "year": "un",
     "years": "años"
@@ -863,9 +859,8 @@
     "lastName": "Apellido",
     "loading": "Carga en curso...",
     "login": "Entrar en el sistema",
-    "lot": "",
-    "lot_plural": "",
-    "lot_other": "número de vecinos",
+    "lot": "vecino",
+    "lot_plural": "número de vecinos",
     "m2": "m²",
     "modifyMeeting": "Modificar la cita",
     "moreInfos": "Leer más",
