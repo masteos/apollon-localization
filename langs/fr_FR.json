@@ -635,7 +635,8 @@
     "philocativeCheckbox": "S'abonner à la newsletter philocative",
     "registerTitle": "Inscription",
     "required": "Ce champ est requis",
-    "requiredField": "Ce champ est obligatoire"
+    "requiredField": "Ce champ est obligatoire",
+    "submitButton": "S’inscrire"
   },
   "shared": {
     "acceptAndContinue": "Accepter & Continuer",
