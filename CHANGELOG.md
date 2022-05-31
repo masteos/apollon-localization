@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.21.0](https://github.com/masteos/apollon-localization/compare/v1.20.1...v1.21.0) (2022-05-31)
+
+
+### Features
+
+* **register:** add key to submit button ([#65](https://github.com/masteos/apollon-localization/issues/65)) ([74d3a7f](https://github.com/masteos/apollon-localization/commit/74d3a7f6379eef574bd1bbeac8a12f5e6835c7b1))
+
 ## [1.20.1](https://github.com/masteos/apollon-localization/compare/v1.20.0...v1.20.1) (2022-05-30)
 
 
