@@ -80,8 +80,6 @@ export function print(...args: [...string[], PrintOptions]): PrintLoading | unde
     return task;
   }
 
-  console.log(opts);
-
   if (message != null) {
     console.log(message, ...args);
   }

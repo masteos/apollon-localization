@@ -1,3 +1,3 @@
-export * from './Args';
+export * from './types';
 
 export * from './print';
