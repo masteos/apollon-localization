@@ -514,6 +514,14 @@
     "subtitle": "Pourquoi n'êtes-vous pas intéressé(e) par ce bien ?",
     "title": "Fonctionnement de la sélection"
   },
+  "propertyPreview": {
+    "netReturn": "Rendement net",
+    "projectCost": "(Coût du projet)",
+    "revaluationRate": "Prise de valeur",
+    "room": "{{count}} ch.",
+    "roomZero": "Studio",
+    "seen": "Vu"
+  },
   "propertyRenovation": {
     "DPE": {
       "data": "Classe {{value}}",
@@ -784,7 +792,7 @@
       "netSeller": "Prix net vendeur",
       "notaryCommission": "Frais de notaire",
       "paymentCash": "Achat 100% cash",
-      "positiveMonthlyCashflowLabel": "Excédent de trésoserie mensuel",
+      "positiveMonthlyCashflowLabel": "Excédent de trésorerie mensuel",
       "pricePerMeter": "Prix/m² actuel",
       "projectAmount": "Coût total du projet",
       "projectCashFlow": "Projet autofinancé à partir de {{loanDownValue}} d'apport sur {{loanDurationValue}} ans",
@@ -1023,13 +1031,5 @@
   },
   "ui": {
     "closeButton": "Fermer"
-  },
-  "propertyPreview": {
-    "roomZero": "Studio",
-    "room": "{{count}} ch.",
-    "netReturn": "Rendement net",
-    "revaluationRate": "Prise de valeur",
-    "projectCost": "(Coût du projet)",
-    "seen": "Vu"
   }
 }
