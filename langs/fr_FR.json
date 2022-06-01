@@ -520,7 +520,11 @@
     "revaluationRate": "Prise de valeur",
     "room": "{{count}} ch.",
     "roomZero": "Studio",
-    "seen": "Vu"
+    "seen": "Vu",
+    "tooltip": {
+      "noRevaluationRate": "La valeur n'est pas disponible pour cette ville.",
+      "revaluationRate": "Le prix de l'immobilier a augmenté en moyenne de {{value}} par an sur la zone ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone."
+    }
   },
   "propertyRenovation": {
     "DPE": {
