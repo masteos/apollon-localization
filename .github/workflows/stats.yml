@@ -1,12 +1,14 @@
-name: 🤖 Stats
+name: 🤖 Smart Diff
 
 on:
   workflow_dispatch:
   pull_request:
      types: [opened, reopened]
+  push:
 
 jobs:
-  Stats:
+  analysis:
+    name: 🔎 Analysis
     runs-on: ubuntu-latest
     env:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -16,6 +18,7 @@ jobs:
 
       - uses: actions/github-script@v6
         with:
+          # github-token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           script: |
             const script = require('${{ github.workspace }}/.github/scripts/stats.js')
             await script({github, context, core, glob, io, exec, workspace: '${{ github.workspace }}'})
