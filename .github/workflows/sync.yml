@@ -17,6 +17,8 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          persist-credentials: false
 
       - name: Setup Node
         uses: actions/setup-node@v2
@@ -49,7 +51,6 @@ jobs:
         uses: cycjimmy/semantic-release-action@v2.7.0
         with:
           semantic_version: 17
-          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
