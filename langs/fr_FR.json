@@ -614,6 +614,7 @@
     "firstNameLabel": "Quel est votre prénom ? ",
     "firstNamePlaceholder": "ex: Michel",
     "hasBorrowingCapacityTitle": "Votre banque a-t-elle déjà validé votre capacité d'emprunt ?",
+    "header": "En créant votre compte Masteos...",
     "invalidEmail": "Email invalide",
     "invalidTerms": "Veuillez accepter les conditions générales d’utilisation.",
     "investBudget": {
