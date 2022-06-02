@@ -635,6 +635,12 @@
       "investBudgetTitle": "Quel est votre budget d'investissement ?"
     },
     "lastNameLabel": "Et votre nom ? ",
+    "list": {
+      "1": "Rencontrez un conseiller pour discuter de votre projet",
+      "2": "Découvrez des projets qui correspondent à vos attentes",
+      "3": "Réalisez une offre d’achat",
+      "4": "Suivez les étapes de votre investissement"
+    },
     "newsletterLabel": "Recevoir les communications Masteos",
     "passwordConfirmationError": "Les mots de passe doivent être identiques",
     "passwordConfirmationLabel": "Confirmer le mot de passe",
