@@ -37,6 +37,8 @@ module.exports = async (githubContext) => {
   let markdown = "";
 
   for (const file of files) {
+    if(!file.filename.startsWith('langs/')) return;
+    
     console.log('===========================');
     console.log(file.filename, file.status);
 
