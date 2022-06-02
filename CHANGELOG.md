@@ -1,5 +1,22 @@
 # Apollon Localization Changelog
 
+# [1.23.0](https://github.com/masteos/apollon-localization/compare/v1.22.0...v1.23.0) (2022-06-02)
+
+
+### Bug Fixes
+
+* **ci:** do not persist credentials for checkout ([cf6cb12](https://github.com/masteos/apollon-localization/commit/cf6cb12874c57181c5432ce22d8a43b76a1adbba))
+* **ci:** use custom github token for CI ([7e71713](https://github.com/masteos/apollon-localization/commit/7e71713743c2ac258556ebb90bf093cd0a6cf980))
+* **ci:** use token in semantic release action ([5c3249f](https://github.com/masteos/apollon-localization/commit/5c3249f493cbb1cdf110c83c1be49faa62c319ce))
+* **typo:** Fix typo errors in property page ([#71](https://github.com/masteos/apollon-localization/issues/71)) ([b16d824](https://github.com/masteos/apollon-localization/commit/b16d8241dd4519bd83e15b09f8584de73ce447e7))
+
+
+### Features
+
+* **register:** new keys for side texte of the register ([#72](https://github.com/masteos/apollon-localization/issues/72)) ([176081d](https://github.com/masteos/apollon-localization/commit/176081d179af86cde9e799fb881a21f752e37b54))
+* add preview tooltips ([#70](https://github.com/masteos/apollon-localization/issues/70)) ([691062b](https://github.com/masteos/apollon-localization/commit/691062b848eee06234f7d3ebd0c927400b624f33))
+* update translation files ([#69](https://github.com/masteos/apollon-localization/issues/69)) ([992b598](https://github.com/masteos/apollon-localization/commit/992b598477ddd67d0e54eb0dd082802b34ce776b))
+
 # [1.22.0](https://github.com/masteos/apollon-localization/compare/v1.21.0...v1.22.0) (2022-05-31)
 
 
