@@ -1,5 +1,20 @@
 # Apollon Localization Changelog
 
+# [1.24.0](https://github.com/masteos/apollon-localization/compare/v1.23.0...v1.24.0) (2022-06-03)
+
+
+### Bug Fixes
+
+* **ci:** do not push with add and commit step ([e0afafd](https://github.com/masteos/apollon-localization/commit/e0afafd284e5b65b781126eb38877b4c2519d7a1))
+* **ci:** trigger deployment ([8034a6f](https://github.com/masteos/apollon-localization/commit/8034a6fd3f4b92925540e0b0f25f799f6a6d52a7))
+* **pv:** add key for pv chantier ([#75](https://github.com/masteos/apollon-localization/issues/75)) ([a721167](https://github.com/masteos/apollon-localization/commit/a7211674e7e20997a9704bf5319570668ca79ec2))
+
+
+### Features
+
+* update lib ([2409bb7](https://github.com/masteos/apollon-localization/commit/2409bb78eee0c66917beebb97ed5aa06767329b3))
+* update translation files ([#73](https://github.com/masteos/apollon-localization/issues/73)) ([12ff73a](https://github.com/masteos/apollon-localization/commit/12ff73a9eca4854e343982ac24cf6819303926b2))
+
 # [1.23.0](https://github.com/masteos/apollon-localization/compare/v1.22.0...v1.23.0) (2022-06-02)
 
 
