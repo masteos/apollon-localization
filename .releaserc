@@ -6,8 +6,13 @@
     ["@semantic-release/changelog", {
       "changelogTitle": "# Apollon Localization Changelog"
     }],
-    "@semantic-release/git",
     "@semantic-release/npm",
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md"]
+      }
+    ],
     "@semantic-release/github"
   ]
 }

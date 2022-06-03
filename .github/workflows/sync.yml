@@ -45,6 +45,7 @@ jobs:
         with:
           message: "feat: update lib"
           default_author: github_actions
+          push: false
 
       - name: Semantic Release
         id: semantic
