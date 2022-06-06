@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.25.0](https://github.com/masteos/apollon-localization/compare/v1.24.0...v1.25.0) (2022-06-06)
+
+
+### Features
+
+* **register:** remove useless dot ([#77](https://github.com/masteos/apollon-localization/issues/77)) ([0b0d09b](https://github.com/masteos/apollon-localization/commit/0b0d09b147eb099a5f7754e8f38eb7a42dc039bf))
+
 # [1.24.0](https://github.com/masteos/apollon-localization/compare/v1.23.0...v1.24.0) (2022-06-03)
 
 
