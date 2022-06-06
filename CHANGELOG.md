@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.26.0](https://github.com/masteos/apollon-localization/compare/v1.25.0...v1.26.0) (2022-06-06)
+
+
+### Features
+
+* **Fr/FR:** add new labels for advisor page ([#78](https://github.com/masteos/apollon-localization/issues/78)) ([287e859](https://github.com/masteos/apollon-localization/commit/287e859e6c646fc7193e28588caf5424f54d04d4))
+
 # [1.25.0](https://github.com/masteos/apollon-localization/compare/v1.24.0...v1.25.0) (2022-06-06)
 
 
