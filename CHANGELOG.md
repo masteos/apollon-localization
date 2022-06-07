@@ -1,5 +1,65 @@
 # Apollon Localization Changelog
 
+## [1.27.1](https://github.com/masteos/apollon-localization/compare/v1.27.0...v1.27.1) (2022-06-07)
+
+
+### Bug Fixes
+
+* remove revaluation rate tooltip message `%` token ([#80](https://github.com/masteos/apollon-localization/issues/80)) ([346e72d](https://github.com/masteos/apollon-localization/commit/346e72d2e420c8908d4cfa3ac3bb2a25d8bcaba3))
+
+# [1.27.0](https://github.com/masteos/apollon-localization/compare/v1.26.0...v1.27.0) (2022-06-07)
+
+
+### Features
+
+* **preview:** reformat tooltip revaluation rate ([#79](https://github.com/masteos/apollon-localization/issues/79)) ([e8830ed](https://github.com/masteos/apollon-localization/commit/e8830ed2fad3fd9e2b77c964807967e8605cf41a))
+
+# [1.26.0](https://github.com/masteos/apollon-localization/compare/v1.25.0...v1.26.0) (2022-06-06)
+
+
+### Features
+
+* **Fr/FR:** add new labels for advisor page ([#78](https://github.com/masteos/apollon-localization/issues/78)) ([287e859](https://github.com/masteos/apollon-localization/commit/287e859e6c646fc7193e28588caf5424f54d04d4))
+
+# [1.25.0](https://github.com/masteos/apollon-localization/compare/v1.24.0...v1.25.0) (2022-06-06)
+
+
+### Features
+
+* **register:** remove useless dot ([#77](https://github.com/masteos/apollon-localization/issues/77)) ([0b0d09b](https://github.com/masteos/apollon-localization/commit/0b0d09b147eb099a5f7754e8f38eb7a42dc039bf))
+
+# [1.24.0](https://github.com/masteos/apollon-localization/compare/v1.23.0...v1.24.0) (2022-06-03)
+
+
+### Bug Fixes
+
+* **ci:** do not push with add and commit step ([e0afafd](https://github.com/masteos/apollon-localization/commit/e0afafd284e5b65b781126eb38877b4c2519d7a1))
+* **ci:** trigger deployment ([8034a6f](https://github.com/masteos/apollon-localization/commit/8034a6fd3f4b92925540e0b0f25f799f6a6d52a7))
+* **pv:** add key for pv chantier ([#75](https://github.com/masteos/apollon-localization/issues/75)) ([a721167](https://github.com/masteos/apollon-localization/commit/a7211674e7e20997a9704bf5319570668ca79ec2))
+
+
+### Features
+
+* update lib ([2409bb7](https://github.com/masteos/apollon-localization/commit/2409bb78eee0c66917beebb97ed5aa06767329b3))
+* update translation files ([#73](https://github.com/masteos/apollon-localization/issues/73)) ([12ff73a](https://github.com/masteos/apollon-localization/commit/12ff73a9eca4854e343982ac24cf6819303926b2))
+
+# [1.23.0](https://github.com/masteos/apollon-localization/compare/v1.22.0...v1.23.0) (2022-06-02)
+
+
+### Bug Fixes
+
+* **ci:** do not persist credentials for checkout ([cf6cb12](https://github.com/masteos/apollon-localization/commit/cf6cb12874c57181c5432ce22d8a43b76a1adbba))
+* **ci:** use custom github token for CI ([7e71713](https://github.com/masteos/apollon-localization/commit/7e71713743c2ac258556ebb90bf093cd0a6cf980))
+* **ci:** use token in semantic release action ([5c3249f](https://github.com/masteos/apollon-localization/commit/5c3249f493cbb1cdf110c83c1be49faa62c319ce))
+* **typo:** Fix typo errors in property page ([#71](https://github.com/masteos/apollon-localization/issues/71)) ([b16d824](https://github.com/masteos/apollon-localization/commit/b16d8241dd4519bd83e15b09f8584de73ce447e7))
+
+
+### Features
+
+* **register:** new keys for side texte of the register ([#72](https://github.com/masteos/apollon-localization/issues/72)) ([176081d](https://github.com/masteos/apollon-localization/commit/176081d179af86cde9e799fb881a21f752e37b54))
+* add preview tooltips ([#70](https://github.com/masteos/apollon-localization/issues/70)) ([691062b](https://github.com/masteos/apollon-localization/commit/691062b848eee06234f7d3ebd0c927400b624f33))
+* update translation files ([#69](https://github.com/masteos/apollon-localization/issues/69)) ([992b598](https://github.com/masteos/apollon-localization/commit/992b598477ddd67d0e54eb0dd082802b34ce776b))
+
 # [1.22.0](https://github.com/masteos/apollon-localization/compare/v1.21.0...v1.22.0) (2022-05-31)
 
 
