@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.27.0](https://github.com/masteos/apollon-localization/compare/v1.26.0...v1.27.0) (2022-06-07)
+
+
+### Features
+
+* **preview:** reformat tooltip revaluation rate ([#79](https://github.com/masteos/apollon-localization/issues/79)) ([e8830ed](https://github.com/masteos/apollon-localization/commit/e8830ed2fad3fd9e2b77c964807967e8605cf41a))
+
 # [1.26.0](https://github.com/masteos/apollon-localization/compare/v1.25.0...v1.26.0) (2022-06-06)
 
 
