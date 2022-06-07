@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.27.1](https://github.com/masteos/apollon-localization/compare/v1.27.0...v1.27.1) (2022-06-07)
+
+
+### Bug Fixes
+
+* remove revaluation rate tooltip message `%` token ([#80](https://github.com/masteos/apollon-localization/issues/80)) ([346e72d](https://github.com/masteos/apollon-localization/commit/346e72d2e420c8908d4cfa3ac3bb2a25d8bcaba3))
+
 # [1.27.0](https://github.com/masteos/apollon-localization/compare/v1.26.0...v1.27.0) (2022-06-07)
 
 
