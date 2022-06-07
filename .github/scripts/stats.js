@@ -2,17 +2,22 @@ const path = require("path");
 const { useHelpers } = require('./helpers');
 
 const flatten = (obj, roots=[], sep='.') => Object.keys(obj).reduce((memo, prop) => Object.assign({}, memo, Object.prototype.toString.call(obj[prop]) === '[object Object]' ? flatten(obj[prop], roots.concat([prop]), sep) : {[roots.concat([prop]).join(sep)]: obj[prop]}), {})
-
-const diffStartTag = '\n<!-- diff_start -->';
-const diffEndTag = '\n<!-- diff_end -->';
-// const diffTagRegex = new RegExp(`${diffStartTag}(.|\n)*${diffEndTag}`, 'gim');
+const markdownCollapsable = (title, content, isOpen = true) => `<details${isOpen ? ' open' : ''}><summary>\n\n${title}\n\n</summary>\n\n${content}\n\n</details>\n`;
+const markdownKeyDiff = (key, addition, deletion) => `*${key}*\n\`\`\`diff\n${deletion ? `- ${deletion}\n`: ''}${addition ? `+ ${addition}\n`: ''}\`\`\``;
+const markdownDiffs = (keys, headContent, baseContent) => keys.map(key => markdownKeyDiff(key, headContent[key], baseContent[key])).join('\n\n');
+const markdownTextImage = (text, color, alt) => `![${alt}](https://dummyimage.com/20/${color}/000000.png&text=${text})`;
 
 module.exports = async (githubContext) => {
   const { context, github } = githubContext;
-  const { getCurrentPullRequest, getPullRequestNumber } = useHelpers(githubContext);
+  const { getPullRequestNumber, smartComment } = useHelpers(githubContext);
 
   const getFile = async (url) => {
-    const file = (await github.request(url)).data;
+    let file;
+    try {
+      file = (await github.request(url)).data;
+    } catch (error) {
+      return { file, content: {} };
+    }
       
     if(file.encoding === 'base64') {
       file.content = Buffer.from(file.content, 'base64').toString()
@@ -21,15 +26,6 @@ module.exports = async (githubContext) => {
     const content = flatten(JSON.parse(file.content));
     return { file, content };
   }
-
-  const updatePr = (options) => {
-    return github.request('PATCH /repos/{owner}/{repo}/pulls/{pull_number}', {
-      ...context.repo,
-      pull_number: getPullRequestNumber(),
-      ...options
-    })
-  }
-
 
   const headSha = context.payload.pull_request.head.sha;
   const baseSha = context.payload.pull_request.base.sha;
@@ -41,6 +37,8 @@ module.exports = async (githubContext) => {
   let markdown = "";
 
   for (const file of files) {
+    if(!file.filename.startsWith('langs/')) return;
+    
     console.log('===========================');
     console.log(file.filename, file.status);
 
@@ -54,34 +52,20 @@ module.exports = async (githubContext) => {
     const removedKeys = baseKeys.filter((key) => !headKeys.includes(key)); 
     const addedKeys = headKeys.filter((key) => !baseKeys.includes(key));
     const modifiedKeys = headKeys.filter((key) => baseKeys.includes(key) && headContent[key] !== baseContent[key]);
-    
     console.log({
       removedKeys,
       addedKeys,
       modifiedKeys
     });
 
-    const templates = {
-      added: `#### *{{key}}*\n\`\`\`diff\n+ {{head}}\n\`\`\``,
-      modified: `#### *{{key}}*\n\`\`\`diff\n- {{base}}\n+ {{head}}\n\`\`\``,
-      removed: `#### *{{key}}*\n\`\`\`diff\n- {{base}}\n\`\`\``,
-    }
+    const markdownTextImages = `${addedKeys.length ? markdownTextImage(addedKeys.length, 'dafbe1', 'Added') : ''}${modifiedKeys.length ? markdownTextImage(modifiedKeys.length, 'BF8800', 'Modified'):''}${modifiedKeys.length ? markdownTextImage(removedKeys.length, 'C6575E', 'Removed'):''}`;
 
-    const formatTemplate = (template, {key, base, head}) => templates[template].replace('{{key}}', key).replace('{{base}}', base).replace('{{head}}', head)
-
-    const markdownAdded = `### Added\n${addedKeys.map(key => formatTemplate('added', {key, head: headContent[key]})).join('\n')}`;
-    const markdownModified = `### Modified\n${modifiedKeys.map(key => formatTemplate('modified', {key, base: baseContent[key], head: headContent[key]})).join('\n')}`;
-    const markdownRemoved = `### Removed\n${removedKeys.map(key => formatTemplate('removed', {key, base: baseContent[key]})).join('\n')}`;
-    const markdownGif = Math.random() <= 0.25 ? '\n![the secret gif](https://media.giphy.com/media/FVZoYkTx3cuVCkEavD/giphy.gif)' : '';
-    markdown += `\n## ${path.basename(file.filename)}${addedKeys.length ? '\n\n'+markdownAdded : ''}${modifiedKeys.length ? '\n\n'+markdownModified : ''}${removedKeys.length ? '\n\n'+markdownRemoved : ''}${markdownGif}`;
+    const markdownAdded = markdownCollapsable('#### Added', markdownDiffs(addedKeys, headContent, baseContent));
+    const markdownModified = markdownCollapsable('#### Modified', markdownDiffs(modifiedKeys, headContent, baseContent));
+    const markdownRemoved = markdownCollapsable('#### Removed', markdownDiffs(removedKeys, headContent, baseContent));
+    const markdownFile = markdownCollapsable(`## 📑 ${path.basename(file.filename)} ${markdownTextImages}`, `${addedKeys.length ? '\n\n'+markdownAdded : ''}${modifiedKeys.length ? '\n\n'+markdownModified : ''}${removedKeys.length ? '\n\n'+markdownRemoved : ''}`, false);
+    markdown += `\n${markdownFile}\n`;
   }
 
-
-  markdown = `${diffStartTag}${markdown}${diffEndTag}`
-
-  // const body = (await getCurrentPullRequest()).body;
-
-  await updatePr({
-    body: /*(body || '').replace(diffTagRegex, '') + */markdown
-  });
+  await smartComment(markdown);
 }
