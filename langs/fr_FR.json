@@ -525,8 +525,8 @@
     "roomZero": "Studio",
     "seen": "Vu",
     "tooltip": {
-      "noRevaluationRate": "L’historique de transactions disponibles sur cette zone n’est pas suffisant pour rendre compte avec précision de l’évolution des prix de l’immobilier",
-      "revaluationRate": "Le prix de l'immobilier a augmenté en moyenne de {{value}} % par an dans {{location}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone."
+      "noRevaluationRate": "L’historique de transactions disponibles sur cette zone n’est pas suffisant pour rendre compte avec précision de l’évolution des prix de l’immobilier.",
+      "revaluationRate": "Le prix de l'immobilier a augmenté en moyenne de {{value}} par an dans {{location}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone."
     }
   },
   "propertyRenovation": {
