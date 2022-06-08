@@ -591,22 +591,10 @@
   "register": {
     "alreadyEmailMessage": "Este correo electrónico ya está en uso",
     "borrowingCapacityInfo": "Un certificado de financiación establece su capacidad de endeudamiento. Obténgalo directamente de su banco.",
-    "cgu1": "Al seleccionar \"Continuar\" a continuación, acepto la ",
-    "cgu2": "Condiciones de uso",
-    "cgu3": " y el ",
-    "cgu4": "Política de privacidad",
-    "cgu5": " de Masteos.",
     "cguStep1": "",
     "cguStep2": "Condiciones de uso",
     "cguStep3": " y el ",
     "cguStep4": "",
-    "cguTextNew": {
-      "cgu": "Condiciones de uso ",
-      "confidentiality": "Política de privacidad",
-      "first": "Al seleccionar \"Aceptar y continuar\" a continuación, acepto la ",
-      "second": "y el ",
-      "third": " de Masteos"
-    },
     "confirmPasswordLabel": "Confirmar contraseña",
     "emailLabel": "Dirección de correo electrónico",
     "emailPlaceholder": "Ej: juliette.dupont@mail.com",

@@ -595,22 +595,10 @@
   "register": {
     "alreadyEmailMessage": "Cet email est déjà utilisé",
     "borrowingCapacityInfo": "Une attestation de financement établit votre capacité d'emprunt. Obtenez-la directement auprès de votre banque.",
-    "cgu1": "En sélectionnant “Continuer” ci-dessous, j'accepte les ",
-    "cgu2": "Conditions générales d'utilisation",
-    "cgu3": " et la ",
-    "cgu4": "Politique de confidentialité",
-    "cgu5": " de Masteos.",
     "cguStep1": "J'accepte les ",
     "cguStep2": "Conditions générales d'utilisation",
     "cguStep3": " et la ",
     "cguStep4": "Politique de confidentialité de Masteos.",
-    "cguTextNew": {
-      "cgu": "Conditions générales d'utilisation ",
-      "confidentiality": "Politique de confidentialité",
-      "first": "En sélectionnant “Accepter & Continuer” ci-dessous, j'accepte les ",
-      "second": "et la ",
-      "third": " de Masteos"
-    },
     "confirmPasswordLabel": "Confirmer le mot de passe",
     "emailLabel": "Adresse mail",
     "emailPlaceholder": "Ex : juliette.dupont@mail.com",
