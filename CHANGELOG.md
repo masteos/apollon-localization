@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.28.0](https://github.com/masteos/apollon-localization/compare/v1.27.1...v1.28.0) (2022-06-09)
+
+
+### Features
+
+* use i18next V4 format ([#85](https://github.com/masteos/apollon-localization/issues/85)) ([c896ac3](https://github.com/masteos/apollon-localization/commit/c896ac325d1015012232ae2c1c4b64ede2053933))
+
 ## [1.27.1](https://github.com/masteos/apollon-localization/compare/v1.27.0...v1.27.1) (2022-06-07)
 
 
