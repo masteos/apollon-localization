@@ -3,4 +3,4 @@
 
 yarn format
 yarn migrate
-git add langs/*
+# git add langs/*
