@@ -337,12 +337,12 @@
     "preCallTitle": "Here are some examples of available properties.\nThese proposals will be refined once you have had your meeting with your advisor.",
     "propertyMiniatureTitle": "{{title}} ({{length}})",
     "regions": "Region(s)",
-    "resultAll": "{{count}} result",
-    "resultAll_plural": "{{count}} results",
-    "resultFavorites": "{{count}} favorite",
-    "resultFavorites_plural": "{{count}} favorites",
-    "resultSelected": "{{count}} pre-selected",
-    "resultSelected_plural": "{{count}} pre-selected",
+    "resultAll_one": "{{count}} result",
+    "resultAll_other": "{{count}} results",
+    "resultFavorites_one": "{{count}} favorite",
+    "resultFavorites_other": "{{count}} favorites",
+    "resultSelected_one": "{{count}} pre-selected",
+    "resultSelected_other": "{{count}} pre-selected",
     "searchTitle": "Our projects selected especially for you:\nThese projects will be visible for two days, add them to your favourites or pre-selection to keep them in your list",
     "selectedLink": {
       "subtitle": "Properties I am positioned on",
@@ -412,8 +412,8 @@
     "type": "Type of property"
   },
   "propertyFinances": {
-    "countYears": "{{count}} an",
-    "countYears_plural": "{{count}} years",
+    "countYears_one": "{{count}} an",
+    "countYears_other": "{{count}} years",
     "funding": "Financing",
     "year": "an",
     "years": "years"
@@ -509,11 +509,11 @@
     "title": "How the selection works"
   },
   "propertyPreview": {
-    "roomZero": "Studio",
-    "room": "{{count}} rooms",
     "netReturn": "Net return",
-    "revaluationRate": "Revaluation",
     "projectCost": "(Project cost)",
+    "revaluationRate": "Revaluation",
+    "room": "{{count}} rooms",
+    "roomZero": "Studio",
     "seen": "Seen"
   },
   "propertyRenovation": {
@@ -860,8 +860,8 @@
     "lastName": "Name",
     "loading": "Loading in progress...",
     "login": "Log in",
-    "lot": "lot",
-    "lot_plural": "lots",
+    "lot_one": "lot",
+    "lot_other": "lots",
     "m2": "m²",
     "modifyMeeting": "Modify the appointment",
     "moreInfos": "Read more",
