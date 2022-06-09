@@ -13,17 +13,17 @@ const replacements: ReplacementDict = {
 let changedKeys = 0;
 
 const formatKey = (key: string, value: string) => {
-  let formated = value;
+  let formatted = value;
 
   Object.values(replacements).forEach(([search, replace]) => {
-    formated = formated.replace(search, replace);
+    formatted = formatted.replace(search, replace);
   });
 
-  if (formated !== value) {
+  if (formatted !== value) {
     changedKeys += 1;
   }
 
-  return [key, formated];
+  return [key, formatted];
 };
 
 const formatDict = (dict: Dict): Dict =>
@@ -51,10 +51,10 @@ const formatFile = async (file: string) => {
   const filePath = path.join(langFolder, file);
   const fileContent = JSON.parse(await fs.readFile(filePath, { encoding: 'utf-8' }));
 
-  let formatedContent = formatDict(fileContent);
-  formatedContent = sortDict(fileContent);
+  let formattedContent = formatDict(fileContent);
+  formattedContent = sortDict(fileContent);
 
-  await fs.writeFile(filePath, JSON.stringify(formatedContent, null, 2) + '\n', {
+  await fs.writeFile(filePath, JSON.stringify(formattedContent, null, 2) + '\n', {
     encoding: 'utf-8',
   });
 };
