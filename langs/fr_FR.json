@@ -860,7 +860,7 @@
         "masteosCommissionLink": "[Voir la grille tarifaire]",
         "monthlyCashflowDescription": "- Si positif :\nTrésorerie excédentaire contribuant à l'enrichissement lié au projet\n- Si négatif :\nSomme que l'investisseur devra débourser pour couvrir les charges non-couvertes par les loyers",
         "netReturn": "Rendement opérationnel",
-        "netReturnDescription": "Permet de mesurer la rentabilité nette de charges.\nFormule : ( Loyer mensuel charges comprises - charges annuelles ) / ( Prix de vente FAI + Travaux + Ameublement )",
+        "netReturnDescription": "Permet de mesurer la rentabilité nette de charges.\nFormule : ( Loyer annuel charges comprises - charges annuelles ) / ( Prix de vente FAI + Travaux + Ameublement )",
         "projectAmountDescription": "Formule : Prix de vente FAI + Travaux + Ameublement + Frais de notaire + Frais Masteos + Frais bancaires + Frais de courtage",
         "rentalVacation": "Vacance locative",
         "rentalVacationDescription": "Coût de la vacance locative (période entre deux locations durant laquelle le bien ne génère pas de revenu). Pour ce projet, nous estimons que la vacance sera de {{value}} mois par an",
