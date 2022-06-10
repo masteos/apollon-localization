@@ -20,6 +20,8 @@
     "knowMorePictures": "Descubra las fotos y la dirección de la propiedad",
     "knownMoreLabel": "Para aprovechar toda la funcionalidad de la aplicación, basta con firmar el mandato de búsqueda recibido por correo electrónico. Gratuito y no exclusivo, ¡sigue siendo una obligación legal! Podrá..:",
     "mailSectionTitle": "Enviar un correo",
+    "newAppointment": "",
+    "newResearch": "",
     "nextAppointment": "Próxima reunión",
     "nextAppointmentMessage": "{{appointmentDate}} con {{advisorName}}",
     "noAppointment": "Sin cita previa",

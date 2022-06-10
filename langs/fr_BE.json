@@ -20,6 +20,8 @@
     "knowMorePictures": "Découvrir les photos et l’adresse du bien",
     "knownMoreLabel": "Pour profiter des fonctionnalités complètes de l’application, il vous suffit de signer le mandat de recherche reçu par mail. Gratuit et non-exclusif, il reste cependant une obligation légale ! Vous pourrez ainsi :",
     "mailSectionTitle": "Email",
+    "newAppointment": "",
+    "newResearch": "",
     "nextAppointment": "Prochain rendez-vous",
     "nextAppointmentMessage": "{{appointmentDate}} avec {{advisorName}}",
     "noAppointment": "Pas de rendez-vous",

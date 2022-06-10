@@ -20,6 +20,8 @@
     "knowMorePictures": "Discover the photos and the address of the property",
     "knownMoreLabel": "To take advantage of the full functionality of the application, all you have to do is sign the search mandate received by e-mail. Free and non-exclusive, it remains a legal obligation! You will be able to :",
     "mailSectionTitle": "Email",
+    "newAppointment": "",
+    "newResearch": "",
     "nextAppointment": "Next meeting",
     "nextAppointmentMessage": "{{appointmentDate}} with {{advisorName}}",
     "noAppointment": "No appointment",
