@@ -3,9 +3,9 @@ name: 🤖 Smart Diff
 on:
   pull_request:
      types: [opened, reopened]
-  push:
-    branches-ignore:
-      - main
+  # push:
+  #   branches-ignore:
+  #     - main
 
 jobs:
   analysis:
