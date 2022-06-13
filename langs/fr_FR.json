@@ -35,6 +35,10 @@
     "whatsAppSectionTitle": "WhatsApp",
     "whatsapp": "Whatsapp"
   },
+  "advisorAppointment": {
+    "takeAppointment": "Prendre un rendez-vous",
+    "goToAdvisorPage": "Retour à la page conseiller"
+  },
   "appointmentConfirmation": {
     "content": "Nous avons rendez-vous ensemble le {{date}}",
     "goToApp": "Accéder à l'app",
