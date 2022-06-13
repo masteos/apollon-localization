@@ -1,0 +1,75 @@
+name: "Publish development branch"
+
+on: workflow_dispatch
+  inputs:
+      name:
+        type: text
+        description: Prerelease name
+
+jobs:
+  Publish:
+    runs-on: self-hosted
+    if: github.ref_name != 'main'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: Restore node modules
+        uses: masteos/always-upload-cache@v3.0.1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-modules-${{ hashFiles('yarn.lock') }}
+
+      - name: Install node modules
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn install
+
+      - name: Generate lib
+        run: yarn sync
+  
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v8
+        with:
+          message: "feat: update lib"
+          author_name: Argos
+          author_email: tech@masteos.com
+          push: false
+
+      - name: publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          set -euox pipefail
+
+          echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+
+          git config --global user.email "tech@masteos.com"
+          git config --global user.name "Argos"
+
+          git_branch="${{ github.ref_name }}"
+          COMMIT_MESSAGE_FORMAT="chore(dev-version-bump): {{currentTag}}
+
+          [skip ci]"
+
+          formatted_branch="${{ github.event.inputs.name }}" 
+          formatted_branch=`echo "$formatted_branch" | sed "s/\//-/g"`
+          formatted_branch=`echo "$formatted_branch" | sed "s/ /-/g"`
+
+          yarn standard-version \
+              --skip.changelog \
+              --skip.tag  \
+              --prerelease $formatted_branch \
+              --releaseCommitMessageFormat "$COMMIT_MESSAGE_FORMAT"
+
+          git push origin "$git_branch"
+          npm publish --tag "$formatted_branch"
