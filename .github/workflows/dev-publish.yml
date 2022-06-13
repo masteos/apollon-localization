@@ -44,7 +44,7 @@ jobs:
           author_email: tech@masteos.com
           push: false
 
-      - name: publish
+      - name: Publish to NPM
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
