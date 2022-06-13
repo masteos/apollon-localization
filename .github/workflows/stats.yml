@@ -2,10 +2,9 @@ name: 🤖 Smart Diff
 
 on:
   pull_request:
-     types: [opened, reopened]
-  # push:
-  #   branches-ignore:
-  #     - main
+    types: [opened, reopened, synchronize]
+    paths:
+      - langs/**
 
 jobs:
   analysis:
