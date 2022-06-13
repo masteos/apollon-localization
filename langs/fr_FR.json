@@ -855,7 +855,7 @@
         "enrichmentResellingYearPositive": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport + cumul des excédents de trésorerie",
         "evaluationRateUnavaible": "L’historique de transactions disponibles sur cette zone n’est pas suffisant pour rendre compte avec précision de l’évolution des prix de l’immobilier",
         "grossReturn": "Taux de rendement brut",
-        "grossReturnDescription": "Permet de mesurer la rentabilité brute de l'investissement.\nFormule : ( Loyer mensuel charges comprises * 12 ) / ( Prix de vente FAI + Travaux + Ameublement )",
+        "grossReturnDescription": "Permet de mesurer la rentabilité brute de l'investissement.\nFormule : ( Loyer annuel charges comprises * 12 ) / ( Prix de vente FAI + Travaux + Ameublement )",
         "investCapitalMultiplier": "Enrichissement net exprimé comme multiple des capitaux investis.\nFormule : ( Enrichissement net + capitaux investis ) / capitaux investis",
         "loanDown": "Apport",
         "loanDownDescription": "Somme versée par l'investisseur pour financer la partie de l'acquisition non couverte par le prêt. Les banques requièrent un apport de 10 à 15% du coût du projet.",
