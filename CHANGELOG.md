@@ -1,5 +1,17 @@
 # Apollon Localization Changelog
 
+# [1.29.0](https://github.com/masteos/apollon-localization/compare/v1.28.1...v1.29.0) (2022-06-13)
+
+
+### Bug Fixes
+
+* **financial:** tooltip wording ([#91](https://github.com/masteos/apollon-localization/issues/91)) ([b3c35cb](https://github.com/masteos/apollon-localization/commit/b3c35cbd18216022dac879954858cd4cfb2dbba9))
+
+
+### Features
+
+* **advisor:** add advisor appointment traductions ([#92](https://github.com/masteos/apollon-localization/issues/92)) ([df513b2](https://github.com/masteos/apollon-localization/commit/df513b2242524f69eb969cebf1d30f592f4d5d98))
+
 ## [1.28.1](https://github.com/masteos/apollon-localization/compare/v1.28.0...v1.28.1) (2022-06-13)
 
 
