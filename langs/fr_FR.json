@@ -21,6 +21,8 @@
     "knowMorePictures": "Découvrir les photos et l’adresse du bien",
     "knownMoreLabel": "Pour profiter des fonctionnalités complètes de l’application, il vous suffit de signer le mandat de recherche reçu par mail. Gratuit et non-exclusif, il reste cependant une obligation légale ! Vous pourrez ainsi :",
     "mailSectionTitle": "Email",
+    "newAppointment": "Vous avez une offre en cours. Pour entamer une nouvelle recherche, vous devez prendre rendez-vous avec votre conseiller.",
+    "newResearch": "Faire une nouvelle recherche",
     "nextAppointment": "Prochain rendez-vous",
     "nextAppointmentMessage": "{{appointmentDate}} avec {{advisorName}}",
     "noAppointment": "Pas de rendez-vous",
@@ -36,8 +38,8 @@
     "whatsapp": "Whatsapp"
   },
   "advisorAppointment": {
-    "takeAppointment": "Prendre un rendez-vous",
-    "goToAdvisorPage": "Retour à la page conseiller"
+    "goToAdvisorPage": "Retour à la page conseiller",
+    "takeAppointment": "Prendre un rendez-vous"
   },
   "appointmentConfirmation": {
     "content": "Nous avons rendez-vous ensemble le {{date}}",
@@ -400,9 +402,8 @@
     "Office": "Bureaux",
     "Unknown": "Non renseigné",
     "annualRent": "Revenus annuels bruts",
-    "annualRevalorisation": "Prise de valeur à 5 ans",
+    "annualRevalorisation": "Hist. prise de valeur annuelle",
     "coOwnership": "Copropriété",
-    "flagEnrichment_annualRevalorisation": "Hist. prise de valeur annuelle",
     "floor": "Étage",
     "furniture": "Ameublement",
     "generalAbout": "À propos de ce bien",
@@ -432,6 +433,8 @@
     "years": "ans"
   },
   "propertyInfo": {
+    "3DButton": "Découvrir",
+    "3DDescription": "Visitez ce bien grâce à la visite virtuelle",
     "3DLink": "Visite 3D",
     "address": "{{city}}, {{postalCode}}, {{country}}",
     "addressWithBreak": "{{street}}\n{{city}}, {{postalCode}}, {{country}}",
@@ -782,7 +785,6 @@
       "financialModel": "Modélisation financière",
       "financials": "Finances",
       "financialsTitle": "Financement du projet",
-      "flagEnrichment_lokimo1": "*Le prix de l'immobilier a augmenté en moyenne de {{avgLast5Years}} par an dans {{dataLevel}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone.",
       "funding": "Financement",
       "furnituresAmount": "Ameublement",
       "grossReturn": "Rendement brut",
@@ -797,7 +799,7 @@
       "loanMonthlyAmount": "Mensualité d'emprunt",
       "loanMonthlyLabel": "Mensualités du prêt",
       "lokimo": "*Prise de valeur annuelle moyenne du foncier sur la zone \nSource : Lokimo - prévision 5 prochaines années",
-      "lokimo1": "*Valorisation à 5 ans du foncier sur la zone. (Source : Lokimo).",
+      "lokimo1": "*Le prix de l'immobilier a augmenté en moyenne de {{avgLast5Years}} par an dans {{dataLevel}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone.",
       "lokimo2": "Source : Lokimo - prévision 5 prochaines années",
       "masteosCommission": "Frais Masteos",
       "masteosCommissionSubtitle": "5 % net vendeur",
