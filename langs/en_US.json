@@ -799,7 +799,7 @@
       "loanMonthlyAmount": "Monthly loan payment",
       "loanMonthlyLabel": "Monthly loan payments",
       "lokimo": "*Average annual increase in land value in the area \nSource: Lokimo - 5 year forecast",
-      "lokimo1": "",
+      "lokimo1": "*Property prices have risen by an average of {{avgLast5Years}} per year in {{dataLevel}} over the last 5 years. This value is not a prediction of future developments but gives a trend for the area.",
       "lokimo2": "Source: Lokimo - next 5 years forecast",
       "masteosCommission": "Fresh Masteos",
       "masteosCommissionSubtitle": "5% net seller",

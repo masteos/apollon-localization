@@ -799,7 +799,7 @@
       "loanMonthlyAmount": "Cuota mensual",
       "loanMonthlyLabel": "Hipoteca mensual",
       "lokimo": "*Incremento medio anual del valor del suelo en la zona \nFuente: Lokimo - Previsión a 5 años",
-      "lokimo1": "",
+      "lokimo1": "*El precio de la vivienda ha aumentado un promedio de  {{avgLast5Years}} por año {{dataLevel}} durante los últimos 5 años. Este valor es orientativo y no sirve como base de càlculo de la evolución futura.",
       "lokimo2": "Fuente: Lokimo - previsión de los próximos 5 años",
       "masteosCommission": "Honorarios de Masteos",
       "masteosCommissionSubtitle": "5% vendedor neto",
