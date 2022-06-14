@@ -14,12 +14,15 @@
     "email": "Mail",
     "emailUnavailable": "Email not available",
     "formattedDate": "On {{date}}",
+    "hasAppointment": "",
     "header": "My advisor",
     "knowMoreNotify": "Be notified as soon as a property is available",
     "knowMoreNotifyOffers": "Formulate your bids",
     "knowMorePictures": "Discover the photos and the address of the property",
     "knownMoreLabel": "To take advantage of the full functionality of the application, all you have to do is sign the search mandate received by e-mail. Free and non-exclusive, it remains a legal obligation! You will be able to :",
     "mailSectionTitle": "Email",
+    "newAppointment": "You have a current offer. To start a new search, you must make an appointment with your advisor.",
+    "newResearch": "Do a new search",
     "nextAppointment": "Next meeting",
     "nextAppointmentMessage": "{{appointmentDate}} with {{advisorName}}",
     "noAppointment": "No appointment",
@@ -27,10 +30,16 @@
     "noAppointmentSearchResult": "No appointments scheduled",
     "phone": "Telephone",
     "signDocument": "Sign the mandate",
+    "takeAppointment": "Make an appointment",
+    "takeFirstAppointment": "",
     "title": "My advisor",
     "updateAppointmentButton": "Edit",
     "whatsAppSectionTitle": "WhatsApp",
     "whatsapp": "Whatsapp"
+  },
+  "advisorAppointment": {
+    "goToAdvisorPage": "",
+    "takeAppointment": ""
   },
   "appointmentConfirmation": {
     "content": "We have an appointment together on {{date}}",
@@ -168,6 +177,12 @@
     "networkError": "No internet connection",
     "passwordPlaceholder": "******",
     "register": "Create an account",
+    "steps": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
     "subtitle": "Log in or create your account to find Masteos opportunities",
     "title": "Welcome"
   },
@@ -337,12 +352,12 @@
     "preCallTitle": "Here are some examples of available properties.\nThese proposals will be refined once you have had your meeting with your advisor.",
     "propertyMiniatureTitle": "{{title}} ({{length}})",
     "regions": "Region(s)",
-    "resultAll_one": "{{count}} result",
-    "resultAll_other": "{{count}} results",
-    "resultFavorites_one": "{{count}} favorite",
-    "resultFavorites_other": "{{count}} favorites",
-    "resultSelected_one": "{{count}} pre-selected",
-    "resultSelected_other": "{{count}} pre-selected",
+    "resultAll_one": "",
+    "resultAll_other": "",
+    "resultFavorites_one": "",
+    "resultFavorites_other": "",
+    "resultSelected_one": "",
+    "resultSelected_other": "",
     "searchTitle": "Our projects selected especially for you:\nThese projects will be visible for two days, add them to your favourites or pre-selection to keep them in your list",
     "selectedLink": {
       "subtitle": "Properties I am positioned on",
@@ -359,8 +374,8 @@
     "conditions": "Conditions",
     "erase": "Delete",
     "formErrors": {
-      "budgetMaxSupPostMandate": "The maximum budget for your mandate is ",
-      "budgetMaxSupPreMandate": "The maximum budget is too high",
+      "budgetMaxSupPostMandate": "",
+      "budgetMaxSupPreMandate": "",
       "budgetMinSupMax": "The minimum budget must be less than\n the maximum budget"
     },
     "hasNeedRenovation": "With the presence of works",
@@ -387,9 +402,8 @@
     "Office": "Offices",
     "Unknown": "Not known",
     "annualRent": "Gross annual income",
-    "annualRevalorisation": "Value increase at 5 years",
+    "annualRevalorisation": "Annual value taking history",
     "coOwnership": "Co-ownership",
-    "flagEnrichment_annualRevalorisation": "Annual value taking history",
     "floor": "Floor",
     "furniture": "Furniture",
     "generalAbout": "About this property",
@@ -412,13 +426,15 @@
     "type": "Type of property"
   },
   "propertyFinances": {
-    "countYears_one": "{{count}} an",
-    "countYears_other": "{{count}} years",
+    "countYears_one": "",
+    "countYears_other": "",
     "funding": "Financing",
     "year": "an",
     "years": "years"
   },
   "propertyInfo": {
+    "3DButton": "Discover",
+    "3DDescription": "Visit this property with the virtual tour",
     "3DLink": "3D visit",
     "address": "{{city}}, {{postalCode}}, {{country}}",
     "addressWithBreak": "{{street}}\n{{city}}, {{postalCode}}, {{country}}",
@@ -510,11 +526,15 @@
   },
   "propertyPreview": {
     "netReturn": "Net return",
-    "projectCost": "(Project cost)",
-    "revaluationRate": "Revaluation",
-    "room": "{{count}} rooms",
+    "projectCost": "",
+    "revaluationRate": "",
+    "room": "{{count}} ch.",
     "roomZero": "Studio",
-    "seen": "Seen"
+    "seen": "",
+    "tooltip": {
+      "noRevaluationRate": "",
+      "revaluationRate": ""
+    }
   },
   "propertyRenovation": {
     "DPE": {
@@ -590,6 +610,10 @@
     "cgu3": " and the ",
     "cgu4": "Privacy Policy",
     "cgu5": " of Masteos.",
+    "cguStep1": "",
+    "cguStep2": "Terms and conditions of use",
+    "cguStep3": " and the ",
+    "cguStep4": "",
     "cguTextNew": {
       "cgu": "Terms and conditions of use ",
       "confidentiality": "Privacy Policy",
@@ -604,7 +628,9 @@
     "firstNameLabel": "What is your first name? ",
     "firstNamePlaceholder": "ex: Michel",
     "hasBorrowingCapacityTitle": "Has your bank already validated your borrowing capacity?",
+    "header": "By creating your Masteos account...",
     "invalidEmail": "Invalid email",
+    "invalidTerms": "",
     "investBudget": {
       "ABOVE_700K": "More than €700,000",
       "BELOW_300K": "Less than €300,000",
@@ -624,6 +650,12 @@
       "investBudgetTitle": "What is your investment budget?"
     },
     "lastNameLabel": "And your name? ",
+    "list": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
     "newsletterLabel": "Receive Masteos communications",
     "passwordConfirmationError": "Passwords must be identical",
     "passwordConfirmationLabel": "Confirm password",
@@ -632,7 +664,8 @@
     "philocativeCheckbox": "Subscribe to the philocative newsletter",
     "registerTitle": "Registration",
     "required": "This field is required",
-    "requiredField": "This field is mandatory"
+    "requiredField": "This field is mandatory",
+    "submitButton": ""
   },
   "shared": {
     "acceptAndContinue": "Accept & Continue",
@@ -693,6 +726,7 @@
       "PIECE_IDENTITE": "Identity document",
       "PROCURATION": "Power of Attorney",
       "PV_FIN_CHANTIER": "End of work report",
+      "PV_RECEPTION": "",
       "QUITTANCES": "Receipts",
       "QUOTE": "Quote",
       "RAA": "RAA",
@@ -751,7 +785,6 @@
       "financialModel": "Financial modelling",
       "financials": "Finance",
       "financialsTitle": "Financing the project",
-      "flagEnrichment_lokimo1": "*Property prices have risen by an average of {{avgLast5Years}} per year in {{dataLevel}} over the last 5 years. This value is not a prediction of future developments but gives a trend for the area.",
       "funding": "Financing",
       "furnituresAmount": "Furniture",
       "grossReturn": "Gross yield",
@@ -766,7 +799,7 @@
       "loanMonthlyAmount": "Monthly loan payment",
       "loanMonthlyLabel": "Monthly loan payments",
       "lokimo": "*Average annual increase in land value in the area \nSource: Lokimo - 5 year forecast",
-      "lokimo1": "*5-year valuation of land in the area. (Source: Lokimo).",
+      "lokimo1": "",
       "lokimo2": "Source: Lokimo - next 5 years forecast",
       "masteosCommission": "Fresh Masteos",
       "masteosCommissionSubtitle": "5% net seller",
@@ -823,7 +856,6 @@
         "enrichmentResellingYearNegative": "Net profit generated by the project after {{year}} years.\nFormula: resale price - outstanding capital - contribution - cumulative savings efforts",
         "enrichmentResellingYearPositive": "Net profit generated by the project after {{year}} years.\nFormula: resale price - outstanding capital - contribution + cumulative cash surpluses",
         "evaluationRateUnavaible": "The transaction history available in this area is not sufficient to give an accurate account of the evolution of property prices.",
-        "flagEnrichment_annualTurnoverIndiceDescription": "Annual occupancy rate of the property expressed in number of months. The rental vacancy on this project represents a loss of income of €{{amount}}.",
         "grossReturn": "Gross rate of return",
         "grossReturnDescription": "Allows to measure the gross profitability of the investment.\nFormula : ( Monthly rent including charges * 12 ) / ( Selling price FAI + Works + Furnishing )",
         "investCapitalMultiplier": "Net wealth expressed as a multiple of capital invested.\nFormula: ( Net wealth + capital invested ) / capital invested",
@@ -860,8 +892,8 @@
     "lastName": "Name",
     "loading": "Loading in progress...",
     "login": "Log in",
-    "lot_one": "lot",
-    "lot_other": "lots",
+    "lot_one": "",
+    "lot_other": "",
     "m2": "m²",
     "modifyMeeting": "Modify the appointment",
     "moreInfos": "Read more",

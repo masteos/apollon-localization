@@ -14,12 +14,15 @@
     "email": "Correo",
     "emailUnavailable": "Correo electrónico no disponible",
     "formattedDate": "El {{date}}",
+    "hasAppointment": "",
     "header": "Mi asesor",
     "knowMoreNotify": "Reciba una notificación en cuanto una propiedad esté disponible",
     "knowMoreNotifyOffers": "Formule sus ofertas",
     "knowMorePictures": "Descubra las fotos y la dirección de la propiedad",
     "knownMoreLabel": "Para aprovechar toda la funcionalidad de la aplicación, basta con firmar el mandato de búsqueda recibido por correo electrónico. Gratuito y no exclusivo, ¡sigue siendo una obligación legal! Podrá..:",
     "mailSectionTitle": "Enviar un correo",
+    "newAppointment": "",
+    "newResearch": "",
     "nextAppointment": "Próxima reunión",
     "nextAppointmentMessage": "{{appointmentDate}} con {{advisorName}}",
     "noAppointment": "Sin cita previa",
@@ -27,10 +30,16 @@
     "noAppointmentSearchResult": "No hay citas programadas",
     "phone": "Teléfono",
     "signDocument": "Firmar el mandato",
+    "takeAppointment": "Pedir cita",
+    "takeFirstAppointment": "",
     "title": "Mi asesor",
     "updateAppointmentButton": "Editar",
     "whatsAppSectionTitle": "WhatsApp",
     "whatsapp": "Whatsapp"
+  },
+  "advisorAppointment": {
+    "goToAdvisorPage": "",
+    "takeAppointment": "Pedir cita"
   },
   "appointmentConfirmation": {
     "content": "Tenemos una cita juntos en {{date}}",
@@ -343,12 +352,12 @@
     "preCallTitle": "Estos son algunos ejemplos de propiedades disponibles.\nEstas propuestas se perfeccionarán una vez que haya tenido la reunión con su asesor.",
     "propertyMiniatureTitle": "{{title}} ({{length}})",
     "regions": "Región(es)",
-    "resultAll_one": "{{count}} resultado",
-    "resultAll_other": "{{count}} resultados",
-    "resultFavorites_one": "{{count}} favorito",
-    "resultFavorites_other": "{{count}} favoritos",
-    "resultSelected_one": "{{count}} preseleccionado",
-    "resultSelected_other": "{{count}} preseleccionado",
+    "resultAll_one": "",
+    "resultAll_other": "resultados",
+    "resultFavorites_one": "",
+    "resultFavorites_other": "favoritos",
+    "resultSelected_one": "",
+    "resultSelected_other": "preselectionados",
     "searchTitle": "Nuestros proyectos seleccionados especialmente para usted:\nEstos proyectos serán visibles durante dos días, añádelos a tus favoritos o a tu preselección para mantenerlos en tu lista",
     "selectedLink": {
       "subtitle": "Propiedades en las que estoy posicionado",
@@ -393,9 +402,8 @@
     "Office": "Oficinas",
     "Unknown": "No se sabe",
     "annualRent": "Renta anual bruta",
-    "annualRevalorisation": "Revalorización a 5 años",
+    "annualRevalorisation": "Evolución del valor anual",
     "coOwnership": "Comunidad de propietarios",
-    "flagEnrichment_annualRevalorisation": "Evolución del valor anual",
     "floor": "Planta",
     "furniture": "Muebles",
     "generalAbout": "Acerca de esta propiedad",
@@ -418,13 +426,15 @@
     "type": "Tipo de propiedad"
   },
   "propertyFinances": {
-    "countYears_one": "{{count}} un",
-    "countYears_other": "{{count}} años",
+    "countYears_one": "",
+    "countYears_other": "años",
     "funding": "Financiación",
     "year": "un",
     "years": "años"
   },
   "propertyInfo": {
+    "3DButton": "Descubrir",
+    "3DDescription": "Visite esta propiedad con la visita virtual",
     "3DLink": "Visita 3D",
     "address": "{{city}}, {{postalCode}}, {{country}}",
     "addressWithBreak": "{{street}}\n{{city}}, {{postalCode}}, {{country}}",
@@ -520,7 +530,11 @@
     "revaluationRate": "Revalorización",
     "room": "{{count}} ch.",
     "roomZero": "Estudio",
-    "seen": ""
+    "seen": "",
+    "tooltip": {
+      "noRevaluationRate": "",
+      "revaluationRate": ""
+    }
   },
   "propertyRenovation": {
     "DPE": {
@@ -614,6 +628,7 @@
     "firstNameLabel": "¿Cuál es su nombre de pila? ",
     "firstNamePlaceholder": "ej.: Michel",
     "hasBorrowingCapacityTitle": "¿Su banco ya ha validado su capacidad de endeudamiento?",
+    "header": "Al crear su cuenta de Masteos...",
     "invalidEmail": "Correo electrónico no válido",
     "invalidTerms": "",
     "investBudget": {
@@ -635,6 +650,12 @@
       "investBudgetTitle": "¿Cuál es su presupuesto de inversión?"
     },
     "lastNameLabel": "¿Y tu nombre? ",
+    "list": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
     "newsletterLabel": "Suscríbase al boletín filocativo",
     "passwordConfirmationError": "Las contraseñas deben ser idénticas",
     "passwordConfirmationLabel": "Confirmar contraseña",
@@ -705,6 +726,7 @@
       "PIECE_IDENTITE": "Documento de identidad",
       "PROCURATION": "Poderes",
       "PV_FIN_CHANTIER": "Informe de fin de obra",
+      "PV_RECEPTION": "",
       "QUITTANCES": "Recibos",
       "QUOTE": "Cita",
       "RAA": "RAA",
@@ -763,7 +785,6 @@
       "financialModel": "Modelización financiera",
       "financials": "Finanzas",
       "financialsTitle": "Modelo financiero",
-      "flagEnrichment_lokimo1": "*El precio de la vivienda ha aumentado un promedio de  {{avgLast5Years}} por año {{dataLevel}} durante los últimos 5 años. Este valor es orientativo y no sirve como base de càlculo de la evolución futura.",
       "funding": "Financiación",
       "furnituresAmount": "Muebles",
       "grossReturn": "Rentabilidad bruta",
@@ -778,7 +799,7 @@
       "loanMonthlyAmount": "Cuota mensual",
       "loanMonthlyLabel": "Hipoteca mensual",
       "lokimo": "*Incremento medio anual del valor del suelo en la zona \nFuente: Lokimo - Previsión a 5 años",
-      "lokimo1": "*Revalorización de la zona a 5 años.",
+      "lokimo1": "",
       "lokimo2": "Fuente: Lokimo - previsión de los próximos 5 años",
       "masteosCommission": "Honorarios de Masteos",
       "masteosCommissionSubtitle": "5% vendedor neto",
@@ -872,7 +893,7 @@
     "loading": "Carga en curso...",
     "login": "Entrar en el sistema",
     "lot_one": "",
-    "lot_other": "",
+    "lot_other": "número de vecinos",
     "m2": "m²",
     "modifyMeeting": "Modificar la cita",
     "moreInfos": "Leer más",
