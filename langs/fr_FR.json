@@ -21,6 +21,8 @@
     "knowMorePictures": "Découvrir les photos et l’adresse du bien",
     "knownMoreLabel": "Pour profiter des fonctionnalités complètes de l’application, il vous suffit de signer le mandat de recherche reçu par mail. Gratuit et non-exclusif, il reste cependant une obligation légale ! Vous pourrez ainsi :",
     "mailSectionTitle": "Email",
+    "newAppointment": "Vous avez une offre en cours. Pour entamer une nouvelle recherche, vous devez prendre rendez-vous avec votre conseiller.",
+    "newResearch": "Faire une nouvelle recherche",
     "nextAppointment": "Prochain rendez-vous",
     "nextAppointmentMessage": "{{appointmentDate}} avec {{advisorName}}",
     "noAppointment": "Pas de rendez-vous",
@@ -36,8 +38,8 @@
     "whatsapp": "Whatsapp"
   },
   "advisorAppointment": {
-    "takeAppointment": "Prendre un rendez-vous",
-    "goToAdvisorPage": "Retour à la page conseiller"
+    "goToAdvisorPage": "Retour à la page conseiller",
+    "takeAppointment": "Prendre un rendez-vous"
   },
   "appointmentConfirmation": {
     "content": "Nous avons rendez-vous ensemble le {{date}}",
@@ -432,6 +434,8 @@
     "years": "ans"
   },
   "propertyInfo": {
+    "3DButton": "Découvrir",
+    "3DDescription": "Visitez ce bien grâce à la visite virtuelle",
     "3DLink": "Visite 3D",
     "address": "{{city}}, {{postalCode}}, {{country}}",
     "addressWithBreak": "{{street}}\n{{city}}, {{postalCode}}, {{country}}",
