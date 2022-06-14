@@ -425,6 +425,8 @@
     "years": "años"
   },
   "propertyInfo": {
+    "3DButton": "Descubrir",
+    "3DDescription": "Visite esta propiedad con la visita virtual",
     "3DLink": "Visita 3D",
     "address": "{{city}}, {{postalCode}}, {{country}}",
     "addressWithBreak": "{{street}}\n{{city}}, {{postalCode}}, {{country}}",

@@ -419,6 +419,8 @@
     "years": "years"
   },
   "propertyInfo": {
+    "3DButton": "Discover",
+    "3DDescription": "Visit this property with the virtual tour",
     "3DLink": "3D visit",
     "address": "{{city}}, {{postalCode}}, {{country}}",
     "addressWithBreak": "{{street}}\n{{city}}, {{postalCode}}, {{country}}",
