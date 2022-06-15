@@ -831,6 +831,7 @@
       "return": "Rendement",
       "salePrice": "Prix de vente FAI",
       "sellingPrice": "Prix de vente FAI",
+      "stateAssetsTransferTax": "Champs caché en France",
       "strategy": "Stratégie",
       "sumCharges": "Charges annuelles",
       "tooltip": {
@@ -874,6 +875,8 @@
         "resellingYearCashFlow": "Somme à disposition de l’investisseur l’année de la revente du bien, après remboursement de la banque, si la revente a lieu avant la date d'échéance du prêt.\nFormule : Prix de revente - capital restant dû",
         "resellingYearDescription": "Nombre d’années de détention du bien jusqu’à sa revente.",
         "salePrice": "Le prix de vente frais d'agences inclus. Il comprend le prix négocié avec le vendeur majoré des honoraires de l'agence représentant le vendeur.",
+        "stateAssetsTransferTax": "Champs caché en France",
+        "stateAssetsTransferTaxDescription": "Champs caché en France",
         "totalLoanAmountDescription": "Capital emprunté pour financer l'acquisition.\nFormule : Coût du projet - Apport."
       },
       "totalAnnualCharges": "Somme des charges",
