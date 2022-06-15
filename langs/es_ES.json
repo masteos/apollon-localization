@@ -38,7 +38,7 @@
     "whatsapp": "Whatsapp"
   },
   "advisorAppointment": {
-    "goToAdvisorPage": "",
+    "goToAdvisorPage": "Volver a la página del asesor",
     "takeAppointment": "Pedir cita"
   },
   "appointmentConfirmation": {
@@ -831,6 +831,7 @@
       "return": "Rendimiento",
       "salePrice": "Precio de venta",
       "sellingPrice": "Precio de venta",
+      "stateAssetsTransferTax": "ITP",
       "strategy": "Estrategia",
       "sumCharges": "Gastos anuales",
       "tooltip": {
