@@ -38,8 +38,8 @@
     "whatsapp": "Whatsapp"
   },
   "advisorAppointment": {
-    "goToAdvisorPage": "",
-    "takeAppointment": ""
+    "goToAdvisorPage": "Retour à la page conseiller",
+    "takeAppointment": "Prendre un rendez-vous"
   },
   "appointmentConfirmation": {
     "content": "Nous avons rendez-vous ensemble le {{date}}",
@@ -831,6 +831,7 @@
       "return": "Rendement",
       "salePrice": "Prix de vente",
       "sellingPrice": "Prix de vente",
+      "stateAssetsTransferTax": "Frais d'acte d'achat",
       "strategy": "Stratégie",
       "sumCharges": "Charges annuelles",
       "tooltip": {
