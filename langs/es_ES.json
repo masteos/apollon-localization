@@ -875,6 +875,8 @@
         "resellingYearCashFlow": "El importe del que dispone el inversor en el año de reventa del inmueble, tras el reembolso del banco, si la reventa tiene lugar antes de la fecha de vencimiento del préstamo.\n Fórmula: precio de reventa - capital pendiente",
         "resellingYearDescription": "Número de años de posesión del inmueble hasta su reventa.",
         "salePrice": "El precio de venta incluye los honorarios de la agencia. Incluye el precio negociado con el vendedor más los honorarios de la agencia que lo representa.",
+        "stateAssetsTransferTax": "ITP",
+        "stateAssetsTransferTaxDescription": "Impuesto sobre Transmisiones Patrimoniales. Representa un porcentaje del precio de compra. El porcentaje aplicable depende de la autonomia donde està ubicado la propriedad.",
         "totalLoanAmountDescription": "Capital prestado para financiar la adquisición.\nFórmula: Coste total del proyecto - Contribución."
       },
       "totalAnnualCharges": "Suma de cargos",
