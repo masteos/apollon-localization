@@ -775,6 +775,7 @@
       "cumulativeCashFlowPositive": "Superávit de caja acumulado",
       "cumultiveSavings": "Esfuerzo de ahorro acumulado",
       "cumultiveSavingsBeforeTax": "Aportación mensual",
+      "deedPurchaseFees": "Gastos de la compra",
       "enrichmentProjection": "Proyección de enriquecimiento",
       "enrichmentResellingYear": "Riqueza neta esperada a {{year}} años",
       "enrichmentResellingYearNegative": "Beneficio neto generado por el proyecto después de {{year}} años.\n Fórmula: precio de reventa - capital pendiente - contribución - esfuerzo de ahorro acumulado",
@@ -855,6 +856,7 @@
         "cashflowResellingYear": "El importe del que dispone el inversor en el año de reventa del inmueble, tras el reembolso del banco, si la reventa tiene lugar antes de la fecha de vencimiento del préstamo.\nFórmula: precio de reventa - capital pendiente",
         "cumulativeCashFlowNegative": "Esfuerzo de ahorro acumulado a lo largo del periodo de propiedad del inmueble.\nFórmula: esfuerzo de ahorro año 1 + esfuerzo de ahorro año 2 + ... + esfuerzo de ahorro año X",
         "cumulativeCashFlowPositive": "Exceso de flujo de caja acumulado durante el periodo de propiedad del inmueble.\nFórmula: excedente de caja del año 1 + excedente de caja del año 2 + ... + excedente de tesorería año X",
+        "deedPurchaseFeesDescription": "Los gastos de la compra se componen de gastos de registro (12,5% del precio de vente), gastos de administración IVA incluido y de del registro hipotecario de la propriedad ",
         "enrichmentResellingYearNegative": "Beneficio neto generado por el proyecto después de {{year}} año.\nFórmula: precio de venta - capital pendiente - aportación - beneficio generado",
         "enrichmentResellingYearPositive": "Beneficio neto generado por el proyecto después de {{year}} año.\nFórmula: precio de venta - capital pendiente - aportación - beneficio generado",
         "evaluationRateUnavaible": "El historial de transacciones disponible en esta zona no es suficiente para reflejar con precisión la evolución de los precios de los inmuebles",
@@ -878,7 +880,6 @@
         "resellingYearCashFlow": "El importe del que dispone el inversor en el año de reventa del inmueble, tras el reembolso del banco, si la reventa tiene lugar antes de la fecha de vencimiento del préstamo.\n Fórmula: precio de reventa - capital pendiente",
         "resellingYearDescription": "Número de años de posesión del inmueble hasta su reventa.",
         "salePrice": "El precio de venta incluye los honorarios de la agencia. Incluye el precio negociado con el vendedor más los honorarios de la agencia que lo representa.",
-        "stateAssetsTransferTax": "ITP",
         "stateAssetsTransferTaxDescription": "Impuesto sobre Transmisiones Patrimoniales. Representa un porcentaje del precio de compra. El porcentaje aplicable depende de la autonomía donde está ubicado la propriedad.",
         "totalLoanAmountDescription": "Capital prestado para financiar la adquisición.\nFórmula: Coste total del proyecto - Contribución."
       },
