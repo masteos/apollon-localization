@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.33.1](https://github.com/masteos/apollon-localization/compare/v1.33.0...v1.33.1) (2022-06-17)
+
+
+### Reverts
+
+* Revert "feat(finance) : Add enrichment data block 4/6 (#99)" (#100) ([caf285c](https://github.com/masteos/apollon-localization/commit/caf285c8ba7cbbe8c772a9e646ee0d6145dbca3c)), closes [#99](https://github.com/masteos/apollon-localization/issues/99) [#100](https://github.com/masteos/apollon-localization/issues/100)
+
 # [1.33.0](https://github.com/masteos/apollon-localization/compare/v1.32.0...v1.33.0) (2022-06-16)
 
 
