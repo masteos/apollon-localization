@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.34.0](https://github.com/masteos/apollon-localization/compare/v1.33.1...v1.34.0) (2022-06-17)
+
+
+### Features
+
+* **finance:** add monthly enrichment 4/6 ([#102](https://github.com/masteos/apollon-localization/issues/102)) ([ceb9183](https://github.com/masteos/apollon-localization/commit/ceb9183a3a258abe8a11f993a118613e9a1fb0c6))
+
 ## [1.33.1](https://github.com/masteos/apollon-localization/compare/v1.33.0...v1.33.1) (2022-06-17)
 
 
