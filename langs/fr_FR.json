@@ -833,7 +833,7 @@
       "return": "Rendement",
       "salePrice": "Prix de vente FAI",
       "sellingPrice": "Prix de vente FAI",
-      "stateAssetsTransferTax": "Champ caché en France",
+      "stateAssetsTransferTax": "ITP",
       "strategy": "Stratégie",
       "sumCharges": "Charges annuelles",
       "tooltip": {
