@@ -58,6 +58,7 @@
     "financeHeader": "Profil financier",
     "header": "Inscription",
     "invalidEmail": "L'email est invalide",
+    "emailAuthButton": "Continuer avec un e-mail",
     "modalDeletedAccount": {
       "button": "Compris",
       "description": "Nous sommes tristes de vous voir partir. Si vous le souhaitez vous pouvez recréer un compte. A bientôt.",
@@ -67,7 +68,8 @@
     "takeAnAppointmentErrorMessage": "Le rendez-vous n'a pas pu être pris, veuillez réessayer",
     "title": "Votre compte a été supprimé",
     "title1": "Bienvenue",
-    "title2": "Connectez-vous ou créez votre compte pour retrouver les opportunités de Masteos"
+    "title2": "Connectez-vous ou créez votre compte pour retrouver les opportunités de Masteos",
+    "title3": "Connexion & Inscription"
   },
   "calendar": {
     "availableHours": "Horaires disponibles",
@@ -670,6 +672,7 @@
   "shared": {
     "acceptAndContinue": "Accepter & Continuer",
     "accessTitle": "Accès",
+    "or": "ou",
     "advisorLabel": "Conseiller",
     "appointment": "Rendez-vous",
     "appointmentLabel": "Date et heure",
