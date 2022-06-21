@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.38.0](https://github.com/masteos/apollon-localization/compare/v1.37.0...v1.38.0) (2022-06-21)
+
+
+### Features
+
+* **google-sso:** auth bridge ([#105](https://github.com/masteos/apollon-localization/issues/105)) ([c476212](https://github.com/masteos/apollon-localization/commit/c476212aacfe2611e102a4845614101da2595790))
+
 # [1.37.0](https://github.com/masteos/apollon-localization/compare/v1.36.0...v1.37.0) (2022-06-20)
 
 
