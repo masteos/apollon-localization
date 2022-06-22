@@ -53,8 +53,10 @@
     "createAccount": "Créer un compte",
     "description": "Nous sommes triste de vous voir partir si vous le souhaitez vous pouvez re-créer un compte. A bientôt.",
     "emailAlreadyExists": "Un compte existe déjà avec cette adresse email",
+    "emailAuthButton": "",
     "emailConflict": "Un autre compte existe déjà avec cette adresse mail ",
     "errorAuthenticateMessage": "Une erreur est survenue lors de la connexion, veuillez essayer de vous connecter manuellement.",
+    "errorEmailGoogleMessage": "",
     "financeHeader": "Profil financier",
     "header": "Inscription",
     "invalidEmail": "L'email est invalide",
@@ -67,7 +69,8 @@
     "takeAnAppointmentErrorMessage": "Le rendez-vous n'a pas pu être pris, veuillez réessayer",
     "title": "Votre compte a été supprimé",
     "title1": "Bienvenue",
-    "title2": "Connectez-vous ou créez votre compte pour retrouver les opportunités de Masteos"
+    "title2": "Connectez-vous ou créez votre compte pour retrouver les opportunités de Masteos",
+    "title3": ""
   },
   "calendar": {
     "availableHours": "Horaires disponibles",
@@ -555,6 +558,16 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Ameublement",
+    "furniturePack": {
+      "japandiDescription": "",
+      "japandiName": "Japandi",
+      "loftDescription": "",
+      "loftName": "",
+      "nordicDescription": "",
+      "nordicName": "",
+      "vintageDescription": "",
+      "vintageName": ""
+    },
     "furnitures": "Ameublement",
     "plansTitle": "Plan(s)",
     "renovate": "Travaux",
@@ -911,6 +924,7 @@
     "noAdvisor": "Je n'en connais pas",
     "noLongerinterested": "Plus intéressé(e)",
     "notInterested": "Pas intéressé",
+    "or": "",
     "password": "Mot de passe",
     "passwordConfirmationNotSame": "Les mots de passe ne sont pas identiques",
     "passwordPlaceholder": "******",
