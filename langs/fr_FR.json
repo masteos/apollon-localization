@@ -53,12 +53,13 @@
     "createAccount": "Créer un compte",
     "description": "Nous sommes triste de vous voir partir si vous le souhaitez vous pouvez re-créer un compte. A bientôt.",
     "emailAlreadyExists": "Un compte existe déjà avec cette adresse email",
+    "emailAuthButton": "Continuer avec un e-mail",
     "emailConflict": "Un autre compte existe déjà avec cette adresse mail ",
     "errorAuthenticateMessage": "Une erreur est survenue lors de la connexion, veuillez essayer de vous connecter manuellement.",
+    "errorEmailGoogleMessage": "Cet e-mail est lié à un compte Google.\\\\nCliquez sur Continuer avec Google pour vous connecter.",
     "financeHeader": "Profil financier",
     "header": "Inscription",
     "invalidEmail": "L'email est invalide",
-    "emailAuthButton": "Continuer avec un e-mail",
     "modalDeletedAccount": {
       "button": "Compris",
       "description": "Nous sommes tristes de vous voir partir. Si vous le souhaitez vous pouvez recréer un compte. A bientôt.",
@@ -304,6 +305,12 @@
     "updateProfileErrorMessage": "Votre modification n'a pas été enregistrée",
     "updateProfileMessage": "Modification enregistrée",
     "updateProfilePicture": "Modifier ma photo"
+  },
+  "project": {
+    "transactionStatus": {
+      "finished": "Transaction terminée",
+      "ongoing": "Transaction en cours"
+    }
   },
   "projectList": {
     "finishedProjectMessage": "Vous êtes propriétaire de ce bien locatif acquis clés en main avec Masteos. 🔑",
@@ -557,6 +564,16 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Ameublement",
+    "furniturePack": {
+      "japandiDescription": "La tendance japandi, entre déco japonaise et scandinave, présente un mélange d’accessoires cocooning et artisanal, des touches naturelles pour un intérieur zen et cozy, des couleurs contrastantes pour composer de beaux ensembles chromatiques. Sobriété et minimalisme.",
+      "japandiName": "Japandi",
+      "loftDescription": "Une sélection de meubles qui va à l’essentiel: un univers épuré d’inspiration scandinave, avec tout l’équipement essentiel pour assurer le confort de vos locataires. Une atmosphère douce et cocooning, le bois clair, les camaïeux de blancs et les tons pastels sont à l’honneur.",
+      "loftName": "Loft Contemporain",
+      "nordicDescription": "Le style loft contemporain met l’accent sur les lignes épurées, sobres et modernes. La décoration intérieure design utilise les codes du minimaliste. Un univers plus masculin, plus minéral, utilisant le gris comme toile de fond.",
+      "nordicName": "Nordique",
+      "vintageDescription": "La déco vintage revient sur le devant de la scène ! On y retrouve des meubles esprit 50’s, une petite déco retro, des motifs graphiques et fleuris, des couleurs désuètes. Les couleurs et les formes géométriques sont à l’honneur.",
+      "vintageName": "Retro Vintage"
+    },
     "furnitures": "Ameublement",
     "plansTitle": "Plan(s)",
     "renovate": "Travaux",
@@ -672,7 +689,6 @@
   "shared": {
     "acceptAndContinue": "Accepter & Continuer",
     "accessTitle": "Accès",
-    "or": "ou",
     "advisorLabel": "Conseiller",
     "appointment": "Rendez-vous",
     "appointmentLabel": "Date et heure",
@@ -914,6 +930,7 @@
     "noAdvisor": "Je n'en connais pas",
     "noLongerinterested": "Plus intéressé(e)",
     "notInterested": "Pas intéressé",
+    "or": "ou",
     "password": "Mot de passe",
     "passwordConfirmationNotSame": "Les mots de passe ne sont pas identiques",
     "passwordPlaceholder": "******",
