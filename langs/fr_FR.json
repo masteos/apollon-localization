@@ -306,6 +306,12 @@
     "updateProfileMessage": "Modification enregistrée",
     "updateProfilePicture": "Modifier ma photo"
   },
+  "project": {
+    "transactionStatus": {
+      "finished": "Transaction terminée",
+      "ongoing": "Transaction en cours"
+    }
+  },
   "projectList": {
     "finishedProjectMessage": "Vous êtes propriétaire de ce bien locatif acquis clés en main avec Masteos. 🔑",
     "investmentStepsTitle": "Comment se passe un investissement avec Masteos ?",

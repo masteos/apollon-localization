@@ -306,6 +306,12 @@
     "updateProfileMessage": "Registered change",
     "updateProfilePicture": "Edit my photo"
   },
+  "project": {
+    "transactionStatus": {
+      "finished": "Transaction ended",
+      "ongoing": "Transaction in progress"
+    }
+  },
   "projectList": {
     "finishedProjectMessage": "You are the owner of this rental property acquired turnkey with Masteos. 🔑",
     "investmentStepsTitle": "How does an investment with Masteos work?",
