@@ -1,5 +1,76 @@
 # Apollon Localization Changelog
 
+# [1.38.0](https://github.com/masteos/apollon-localization/compare/v1.37.0...v1.38.0) (2022-06-21)
+
+
+### Features
+
+* **google-sso:** auth bridge ([#105](https://github.com/masteos/apollon-localization/issues/105)) ([c476212](https://github.com/masteos/apollon-localization/commit/c476212aacfe2611e102a4845614101da2595790))
+
+# [1.37.0](https://github.com/masteos/apollon-localization/compare/v1.36.0...v1.37.0) (2022-06-20)
+
+
+### Features
+
+* **finance 4/6:** update translation files ([#104](https://github.com/masteos/apollon-localization/issues/104)) ([1b09cba](https://github.com/masteos/apollon-localization/commit/1b09cbad1b59ab224c65cae5b13f4723b2744a5a))
+
+# [1.36.0](https://github.com/masteos/apollon-localization/compare/v1.35.0...v1.36.0) (2022-06-17)
+
+
+### Features
+
+* update translation files ([#103](https://github.com/masteos/apollon-localization/issues/103)) ([b54a592](https://github.com/masteos/apollon-localization/commit/b54a5926b07acfd93cdb6a02339420e5ac18985c))
+
+# [1.35.0](https://github.com/masteos/apollon-localization/compare/v1.34.0...v1.35.0) (2022-06-17)
+
+
+### Features
+
+* update translation files ([#101](https://github.com/masteos/apollon-localization/issues/101)) ([96e11d0](https://github.com/masteos/apollon-localization/commit/96e11d0804c499d5bffc05aae3db1c8d17cda36e))
+
+# [1.34.0](https://github.com/masteos/apollon-localization/compare/v1.33.1...v1.34.0) (2022-06-17)
+
+
+### Features
+
+* **finance:** add monthly enrichment 4/6 ([#102](https://github.com/masteos/apollon-localization/issues/102)) ([ceb9183](https://github.com/masteos/apollon-localization/commit/ceb9183a3a258abe8a11f993a118613e9a1fb0c6))
+
+## [1.33.1](https://github.com/masteos/apollon-localization/compare/v1.33.0...v1.33.1) (2022-06-17)
+
+
+### Reverts
+
+* Revert "feat(finance) : Add enrichment data block 4/6 (#99)" (#100) ([caf285c](https://github.com/masteos/apollon-localization/commit/caf285c8ba7cbbe8c772a9e646ee0d6145dbca3c)), closes [#99](https://github.com/masteos/apollon-localization/issues/99) [#100](https://github.com/masteos/apollon-localization/issues/100)
+
+# [1.33.0](https://github.com/masteos/apollon-localization/compare/v1.32.0...v1.33.0) (2022-06-16)
+
+
+### Features
+
+* update translation files ([#98](https://github.com/masteos/apollon-localization/issues/98)) ([99a50af](https://github.com/masteos/apollon-localization/commit/99a50afe122f6e9cfc3ce16dbacd1743ca73ae02))
+
+# [1.32.0](https://github.com/masteos/apollon-localization/compare/v1.31.0...v1.32.0) (2022-06-15)
+
+
+### Features
+
+* update translation files ([#96](https://github.com/masteos/apollon-localization/issues/96)) ([296dbc4](https://github.com/masteos/apollon-localization/commit/296dbc424594e6a2581256ae729f742170cafe9d))
+* **visit3D:** add new translations ([#87](https://github.com/masteos/apollon-localization/issues/87)) ([86a6727](https://github.com/masteos/apollon-localization/commit/86a672740fbc8a4c051942ea6733e685fc930cc3))
+
+# [1.31.0](https://github.com/masteos/apollon-localization/compare/v1.30.0...v1.31.0) (2022-06-14)
+
+
+### Features
+
+* **featureFlag:** update translation files ([#95](https://github.com/masteos/apollon-localization/issues/95)) ([11072b7](https://github.com/masteos/apollon-localization/commit/11072b7015c5c0f1287b994a9e2ca8c1c8626ff3))
+
+# [1.30.0](https://github.com/masteos/apollon-localization/compare/v1.29.0...v1.30.0) (2022-06-14)
+
+
+### Features
+
+* **featureFlag:** update translation files ([#94](https://github.com/masteos/apollon-localization/issues/94)) ([a9cd4b1](https://github.com/masteos/apollon-localization/commit/a9cd4b1d166a6d2023eb422aec25a1bf4d51e9af))
+
 # [1.29.0](https://github.com/masteos/apollon-localization/compare/v1.28.1...v1.29.0) (2022-06-13)
 
 
