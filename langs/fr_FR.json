@@ -54,11 +54,11 @@
     "description": "Nous sommes triste de vous voir partir si vous le souhaitez vous pouvez re-créer un compte. A bientôt.",
     "emailAlreadyExists": "Un compte existe déjà avec cette adresse email",
     "emailAuthButton": "Continuer avec un e-mail",
-    "googleAuthButton": "Continuer avec Google",
     "emailConflict": "Un autre compte existe déjà avec cette adresse mail ",
     "errorAuthenticateMessage": "Une erreur est survenue lors de la connexion, veuillez essayer de vous connecter manuellement.",
     "errorEmailGoogleMessage": "Cet e-mail est lié à un compte Google.\\\\nCliquez sur Continuer avec Google pour vous connecter.",
     "financeHeader": "Profil financier",
+    "googleAuthButton": "Continuer avec Google",
     "header": "Inscription",
     "invalidEmail": "L'email est invalide",
     "modalDeletedAccount": {
@@ -141,6 +141,7 @@
       "2": " — Charles Sorel, « le Berger extravagant »",
       "3": "Si votre mémoire est assoupie, on vous envoie un code de vérification !"
     },
+    "metaTitle": "Réinitialiser mon mot de passe",
     "newPasswordLabel": "Choisissez un nouveau mot de passe",
     "passwordConfirmationLabel": "Confirmez votre nouveau mot de passe",
     "passwordLabel": "Mot de passe",
@@ -178,6 +179,7 @@
       "3": "Vous gérez toutes les étapes de votre investissement depuis l'interface : signature électronique, upload de document...",
       "4": "Vous visualisez la performance de votre investissement une fois votre bien en location."
     },
+    "metaTitle": "Se connecter",
     "networkError": "Pas de connexion internet",
     "passwordPlaceholder": "******",
     "register": "Créer un compte",
@@ -308,6 +310,58 @@
     "updateProfilePicture": "Modifier ma photo"
   },
   "project": {
+    "detailSteps": {
+      "1": {
+        "content": "Construisez votre projet d'investissement avec votre conseiller Masteos et trouvez le bien idéal déniché par nos équipes partout en France. Pour une recherche efficace, préparez votre attestation de financement et signez le mandat de recherche envoyé par votre conseiller à la fin du rendez-vous.",
+        "title": "Trouver un bien"
+      },
+      "2": {
+        "content": "Un bien vous intéresse ? Contactez rapidement votre conseiller pour en discuter et commencer à préparer une offre d'achat !",
+        "title": "Faire l'offre d'achat"
+      },
+      "3": {
+        "content": "Vous pouvez assister à la signature du compromis ou établir une procuration au notaire. Passez par un notaire partenaire de Masteos pour une opération plus fluide !",
+        "title": "Signer le compromis de vente"
+      },
+      "4": {
+        "content": "Construisez votre projet d'investissement avec votre conseiller Masteos et trouvez le bien idéal déniché par nos équipes partout en France. Pour une recherche efficace, préparez votre attestation de financement et signez le mandat de recherche envoyé par votre conseiller à la fin du rendez-vous.",
+        "title": "Obtenir le financement"
+      },
+      "5": {
+        "content": "La signature de l’acte authentique entérine définitivement la vente : paiement du prix, remise des clés et transfert définitif de propriété. Quelques démarches vous attendent cependant avant le grand jour. \n\nVous devrez verser un séquestre de 5 à 10 % du prix du bien à cette étape.",
+        "title": ""
+      },
+      "6": {
+        "content": "",
+        "title": "Réalisation des travaux"
+      },
+      "7": {
+        "content": "Nous livrons et installons le mobilier de votre bien dès la fin du chantier pour permettre à vos locataires de s'installer rapidement.",
+        "title": "Ameublement du bien"
+      },
+      "8": {
+        "content": "Dès que le bail est signé et votre locataire installé, nous prenons en charge la gestion administrative et technique du bien. Vous n'avez qu'à percevoir vos loyers.",
+        "title": "La mise en location"
+      },
+      "9": {
+        "content": "Dès que le bail est signé et votre locataire installé, nous prenons en charge la gestion administrative et technique du bien. Vous n'avez qu'à percevoir vos loyers.",
+        "title": "Gestion et suivi de performance"
+      },
+      "estimatedDay_one": "Environ {{count}} jour",
+      "estimatedDay_other": "Environ {{count}} jours",
+      "estimatedDuration": "Durée estimée",
+      "requiredDocument_one": "Document pour Masteos",
+      "requiredDocument_other": "Documents pour Masteos",
+      "requiredDocuments": "Documents pour Masteos",
+      "title": "Votre investissement en un clin d'œil"
+    },
+    "requiredDocuments": {
+      "annualHomeOwnerInsurance": "Assurance Propriétaire Non Occupant",
+      "identityDocument": "Pièce d’identité (à envoyer au notaire)",
+      "loanOffer": "Offre de prêt signée",
+      "signedIntentionLetter": "Offre d’achat signée",
+      "signedQuote": "Devis travaux signé"
+    },
     "transactionStatus": {
       "finished": "Transaction terminée",
       "ongoing": "Transaction en cours"
@@ -565,6 +619,7 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Ameublement",
+    "furnitureDescription": "Notre équipe de décorateurs prend en charge votre intérieur, s’adapte à ses particularités et sélectionne pour vous des meubles et objets décoratifs pour rendre votre projet unique. Quatre styles, au choix, sont à l’honneur : <bold>l’univers loft contemporain</bold>, <bold>l’inspiration nordique</bold>, <bold>la tendance japandi</bold> et le <bold>lifestyle retro vintage</bold>.<br/> La prestation intègre les équipements essentiels pour assurer le confort de vos locataires. Vous découvrirez également votre projet au fur et à mesure de son avancement, aux étapes clés. Notre service ameublement inclut la livraison et le montage des meubles. Photos non contractuelles.",
     "furniturePack": {
       "japandiDescription": "La tendance japandi, entre déco japonaise et scandinave, présente un mélange d’accessoires cocooning et artisanal, des touches naturelles pour un intérieur zen et cozy, des couleurs contrastantes pour composer de beaux ensembles chromatiques. Sobriété et minimalisme.",
       "japandiName": "Japandi",
@@ -676,6 +731,7 @@
       "3": "Réalisez une offre d’achat",
       "4": "Suivez les étapes de votre investissement"
     },
+    "metaTitle": "Créer un compte",
     "newsletterLabel": "Recevoir les communications Masteos",
     "passwordConfirmationError": "Les mots de passe doivent être identiques",
     "passwordConfirmationLabel": "Confirmer le mot de passe",
