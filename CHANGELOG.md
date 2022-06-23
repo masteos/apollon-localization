@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.41.0](https://github.com/masteos/apollon-localization/compare/v1.40.0...v1.41.0) (2022-06-23)
+
+
+### Features
+
+* **google-sso:** google auth button text ([#112](https://github.com/masteos/apollon-localization/issues/112)) ([48acbca](https://github.com/masteos/apollon-localization/commit/48acbca33063fcbd3bd0d3c77e39647cef258879))
+
 # [1.40.0](https://github.com/masteos/apollon-localization/compare/v1.39.0...v1.40.0) (2022-06-22)
 
 
