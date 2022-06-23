@@ -54,6 +54,7 @@
     "description": "Nous sommes triste de vous voir partir si vous le souhaitez vous pouvez re-créer un compte. A bientôt.",
     "emailAlreadyExists": "Un compte existe déjà avec cette adresse email",
     "emailAuthButton": "Continuer avec un e-mail",
+    "googleAuthButton": "Continuer avec Google",
     "emailConflict": "Un autre compte existe déjà avec cette adresse mail ",
     "errorAuthenticateMessage": "Une erreur est survenue lors de la connexion, veuillez essayer de vous connecter manuellement.",
     "errorEmailGoogleMessage": "Cet e-mail est lié à un compte Google.\\\\nCliquez sur Continuer avec Google pour vous connecter.",
