@@ -564,6 +564,7 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Ameublement",
+    "furnitureDescription": "Notre équipe de décorateurs prend en charge votre intérieur, s’adapte à ses particularités et sélectionne pour vous des meubles et objets décoratifs pour rendre votre projet unique. Quatre styles, au choix, sont à l’honneur : l’univers loft contemporain, l’inspiration nordique, la tendance japandi et le lifestyle retro vintage. La prestation intègre les équipements essentiels pour assurer le confort de vos locataires. Vous découvrirez également votre projet au fur et à mesure de son avancement, aux étapes clés. Notre service ameublement inclut la livraison et le montage des meubles. Photos non contractuelles.",
     "furniturePack": {
       "japandiDescription": "La tendance japandi, entre déco japonaise et scandinave, présente un mélange d’accessoires cocooning et artisanal, des touches naturelles pour un intérieur zen et cozy, des couleurs contrastantes pour composer de beaux ensembles chromatiques. Sobriété et minimalisme.",
       "japandiName": "Japandi",
