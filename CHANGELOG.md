@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.43.0](https://github.com/masteos/apollon-localization/compare/v1.42.1...v1.43.0) (2022-06-24)
+
+
+### Features
+
+* **project:** view RealEstate button on project page ([#119](https://github.com/masteos/apollon-localization/issues/119)) ([9779dcb](https://github.com/masteos/apollon-localization/commit/9779dcb33bd344f6ef9f8e5e848aac42f0ce62d5))
+
 ## [1.42.1](https://github.com/masteos/apollon-localization/compare/v1.42.0...v1.42.1) (2022-06-24)
 
 
