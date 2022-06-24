@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.42.1](https://github.com/masteos/apollon-localization/compare/v1.42.0...v1.42.1) (2022-06-24)
+
+
+### Bug Fixes
+
+* **project:** emoji wasn't shown correctly ([#118](https://github.com/masteos/apollon-localization/issues/118)) ([1c8d4b9](https://github.com/masteos/apollon-localization/commit/1c8d4b93600978903dcbd3adc01eae4b179c4b3f))
+
 # [1.42.0](https://github.com/masteos/apollon-localization/compare/v1.41.0...v1.42.0) (2022-06-24)
 
 
