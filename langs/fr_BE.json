@@ -58,7 +58,6 @@
     "errorAuthenticateMessage": "Une erreur est survenue lors de la connexion, veuillez essayer de vous connecter manuellement.",
     "errorEmailGoogleMessage": "",
     "financeHeader": "Profil financier",
-    "googleAuthButton": "",
     "header": "Inscription",
     "invalidEmail": "L'email est invalide",
     "modalDeletedAccount": {
@@ -141,7 +140,6 @@
       "2": " — Charles Sorel, « le Berger extravagant »",
       "3": "Si votre mémoire est assoupie, on vous envoie un code de vérification !"
     },
-    "metaTitle": "",
     "newPasswordLabel": "Choisissez un nouveau mot de passe",
     "passwordConfirmationLabel": "Confirmez votre nouveau mot de passe",
     "passwordLabel": "Mot de passe",
@@ -179,7 +177,6 @@
       "3": "Vous gérez toutes les étapes de votre investissement depuis l'interface : signature électronique, upload de document...",
       "4": "Vous visualisez la performance de votre investissement une fois votre bien en location."
     },
-    "metaTitle": "",
     "networkError": "Pas de connexion internet",
     "passwordPlaceholder": "******",
     "register": "Créer un compte",
@@ -308,65 +305,6 @@
     "updateProfileErrorMessage": "Votre modification n'a pas été enregistrée",
     "updateProfileMessage": "Modification enregistrée",
     "updateProfilePicture": "Modifier ma photo"
-  },
-  "project": {
-    "detailSteps": {
-      "1": {
-        "content": "",
-        "title": ""
-      },
-      "2": {
-        "content": "",
-        "title": ""
-      },
-      "3": {
-        "content": "",
-        "title": ""
-      },
-      "4": {
-        "content": "",
-        "title": ""
-      },
-      "5": {
-        "content": "",
-        "title": ""
-      },
-      "6": {
-        "content": "",
-        "title": ""
-      },
-      "7": {
-        "content": "",
-        "title": ""
-      },
-      "8": {
-        "content": "",
-        "title": ""
-      },
-      "9": {
-        "content": "",
-        "title": ""
-      },
-      "estimatedDay_one": "",
-      "estimatedDay_other": "",
-      "estimatedDuration": "",
-      "requiredDocument_one": "",
-      "requiredDocument_other": "",
-      "requiredDocuments": "",
-      "title": ""
-    },
-    "realEstateLink": "",
-    "requiredDocuments": {
-      "annualHomeOwnerInsurance": "",
-      "identityDocument": "",
-      "loanOffer": "",
-      "signedIntentionLetter": "",
-      "signedQuote": ""
-    },
-    "transactionStatus": {
-      "finished": "",
-      "ongoing": ""
-    }
   },
   "projectList": {
     "finishedProjectMessage": "Vous êtes propriétaire de ce bien locatif acquis clés en main avec Masteos. 🔑",
@@ -597,8 +535,6 @@
     "roomZero": "Studio",
     "seen": "Vu",
     "tooltip": {
-      "netReturn": "",
-      "netReturnDescription": "",
       "noRevaluationRate": "La valeur n'est pas disponible pour cette ville.",
       "revaluationRate": "Le prix de l'immobilier a augmenté en moyenne de {{value}} par an sur la zone ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone."
     }
@@ -622,7 +558,6 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Ameublement",
-    "furnitureDescription": "",
     "furniturePack": {
       "japandiDescription": "",
       "japandiName": "Japandi",
@@ -734,7 +669,6 @@
       "3": "Réalisez une offre d’achat",
       "4": "Suivez les étapes de votre investissement"
     },
-    "metaTitle": "",
     "newsletterLabel": "Recevoir les communications Masteos",
     "passwordConfirmationError": "Les mots de passe doivent être identiques",
     "passwordConfirmationLabel": "Confirmer le mot de passe",
