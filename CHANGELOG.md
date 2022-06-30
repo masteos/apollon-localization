@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.43.1](https://github.com/masteos/apollon-localization/compare/v1.43.0...v1.43.1) (2022-06-30)
+
+
+### Bug Fixes
+
+* **frFR:** update of cumulative key ([#123](https://github.com/masteos/apollon-localization/issues/123)) ([dda30e3](https://github.com/masteos/apollon-localization/commit/dda30e3bc26e148474e6602a19025677ffc67f02))
+
 # [1.43.0](https://github.com/masteos/apollon-localization/compare/v1.42.1...v1.43.0) (2022-06-24)
 
 
