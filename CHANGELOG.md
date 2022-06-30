@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.44.0](https://github.com/masteos/apollon-localization/compare/v1.43.1...v1.44.0) (2022-06-30)
+
+
+### Features
+
+* **preview:** Add tooltip for net return ([#121](https://github.com/masteos/apollon-localization/issues/121)) ([5c245cf](https://github.com/masteos/apollon-localization/commit/5c245cf421302926f6fa3efc98a30bb9942fc82c))
+
 ## [1.43.1](https://github.com/masteos/apollon-localization/compare/v1.43.0...v1.43.1) (2022-06-30)
 
 
