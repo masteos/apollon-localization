@@ -597,6 +597,8 @@
     "roomZero": "Studio",
     "seen": "Vu",
     "tooltip": {
+      "netReturn": "Rendement net",
+      "netReturnDescription": "Permet de mesurer la rentabilité nette de charges.\nFormule : ( Loyer annuel charges comprises - charges annuelles ) / ( Prix de vente FAI + Travaux + Ameublement )",
       "noRevaluationRate": "L’historique de transactions disponibles sur cette zone n’est pas suffisant pour rendre compte avec précision de l’évolution des prix de l’immobilier.",
       "revaluationRate": "Le prix de l'immobilier a augmenté en moyenne de {{value}} par an dans {{location}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone."
     }
@@ -620,7 +622,7 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Ameublement",
-    "furnitureDescription": "Notre équipe de décorateurs prend en charge votre intérieur, s’adapte à ses particularités et sélectionne pour vous des meubles et objets décoratifs pour rendre votre projet unique. Quatre styles, au choix, sont à l’honneur : <bold>l’univers loft contemporain</bold>, <bold>l’inspiration nordique</bold>, <bold>la tendance japandi</bold> et le <bold>lifestyle retro vintage</bold>.<br/> La prestation intègre les équipements essentiels pour assurer le confort de vos locataires. Vous découvrirez également votre projet au fur et à mesure de son avancement, aux étapes clés. Notre service ameublement inclut la livraison et le montage des meubles. Photos non contractuelles.",
+    "furnitureDescription": "Notre équipe de décorateurs prend en charge votre intérieur, s’adapte à ses particularités et sélectionne pour vous des meubles et objets décoratifs pour rendre votre projet unique. Quatre styles, au choix, sont à l’honneur : <medium>l’univers loft contemporain</medium>, <medium>l’inspiration nordique</medium>, <medium>la tendance japandi</medium> et le <medium>lifestyle retro vintage</medium>.<br/> La prestation intègre les équipements essentiels pour assurer le confort de vos locataires. Vous découvrirez également votre projet au fur et à mesure de son avancement, aux étapes clés. Notre service ameublement inclut la livraison et le montage des meubles. Photos non contractuelles.",
     "furniturePack": {
       "japandiDescription": "La tendance japandi, entre déco japonaise et scandinave, présente un mélange d’accessoires cocooning et artisanal, des touches naturelles pour un intérieur zen et cozy, des couleurs contrastantes pour composer de beaux ensembles chromatiques. Sobriété et minimalisme.",
       "japandiName": "Japandi",
@@ -931,8 +933,8 @@
         "brokerageFees": "Frais de courtage",
         "brokerageFeesDescription": "Formule : 1% du capital emprunté",
         "cashflowResellingYear": "Somme à disposition de l’investisseur l’année de la revente du bien, après remboursement de la banque, si la revente a lieu avant la date d'échéance du prêt.\nFormule : Prix de revente - capital restant dû",
-        "cumulativeCashFlowNegative": "Cumul des efforts d'épargne tout au long de la durée de détention du bien.\nFormule : effort d'épargne année 1 + effort d'épargne année 2 + ... + effort d'épargne année X",
-        "cumulativeCashFlowPositive": "Cumul des excédents de trésorerie tout au long de la durée de détention du bien.\nFormule : excédent trésorerie année 1 + excédent trésorerie année 2 + ... + excédent trésorerie année X",
+        "cumulativeCashFlowNegative": "Cumul des efforts d'épargne tout au long de la durée de détention du bien. Les revenus et les charges annuelles sont indexés selon l'indice de référence des loyers publié par l'Insee. Le dernier indice publié est de 2,48%. C'est pour cette raison qu'un projet demandant un effort d'épargne en année 1 pourrait tout de même avoir un cumul de trésorerie excédentaire sur 10 années de détention.",
+        "cumulativeCashFlowPositive": "Cumul des excédents de trésorerie tout au long de la durée de détention du bien. Les revenus et les charges annuelles sont indexés selon l'indice de référence des loyers publié par l'Insee. Le dernier indice publié est de 2,48%. C'est pour cette raison qu'un projet demandant un effort d'épargne en année 1 pourrait tout de même avoir un cumul de trésorerie excédentaire sur 10 années de détention.",
         "deedPurchaseFeesDescription": "Les frais d'actes d'achat comprennent notamment les droits d'enregistrements (=taxe régionale à l'acquisition d'un bien) de 12,5 % de la valeur d'achat, les frais administratifs de recherche, la TVA sur ces frais ainsi que l'inscription hypothécaire du bien.",
         "enrichmentResellingYearNegative": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport - cumul des efforts d'épargne",
         "enrichmentResellingYearPositive": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport + cumul des excédents de trésorerie",
