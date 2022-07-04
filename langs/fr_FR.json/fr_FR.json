@@ -53,12 +53,9 @@
     "createAccount": "Créer un compte",
     "description": "Nous sommes triste de vous voir partir si vous le souhaitez vous pouvez re-créer un compte. A bientôt.",
     "emailAlreadyExists": "Un compte existe déjà avec cette adresse email",
-    "emailAuthButton": "Continuer avec un e-mail",
     "emailConflict": "Un autre compte existe déjà avec cette adresse mail ",
     "errorAuthenticateMessage": "Une erreur est survenue lors de la connexion, veuillez essayer de vous connecter manuellement.",
-    "errorEmailGoogleMessage": "Cet e-mail est lié à un compte Google.\\\\nCliquez sur Continuer avec Google pour vous connecter.",
     "financeHeader": "Profil financier",
-    "googleAuthButton": "Continuer avec Google",
     "header": "Inscription",
     "invalidEmail": "L'email est invalide",
     "modalDeletedAccount": {
@@ -70,8 +67,7 @@
     "takeAnAppointmentErrorMessage": "Le rendez-vous n'a pas pu être pris, veuillez réessayer",
     "title": "Votre compte a été supprimé",
     "title1": "Bienvenue",
-    "title2": "Connectez-vous ou créez votre compte pour retrouver les opportunités de Masteos",
-    "title3": "Connexion & Inscription"
+    "title2": "Connectez-vous ou créez votre compte pour retrouver les opportunités de Masteos"
   },
   "calendar": {
     "availableHours": "Horaires disponibles",
@@ -141,7 +137,6 @@
       "2": " — Charles Sorel, « le Berger extravagant »",
       "3": "Si votre mémoire est assoupie, on vous envoie un code de vérification !"
     },
-    "metaTitle": "Réinitialiser mon mot de passe",
     "newPasswordLabel": "Choisissez un nouveau mot de passe",
     "passwordConfirmationLabel": "Confirmez votre nouveau mot de passe",
     "passwordLabel": "Mot de passe",
@@ -179,7 +174,6 @@
       "3": "Vous gérez toutes les étapes de votre investissement depuis l'interface : signature électronique, upload de document...",
       "4": "Vous visualisez la performance de votre investissement une fois votre bien en location."
     },
-    "metaTitle": "Se connecter",
     "networkError": "Pas de connexion internet",
     "passwordPlaceholder": "******",
     "register": "Créer un compte",
@@ -308,65 +302,6 @@
     "updateProfileErrorMessage": "Votre modification n'a pas été enregistrée",
     "updateProfileMessage": "Modification enregistrée",
     "updateProfilePicture": "Modifier ma photo"
-  },
-  "project": {
-    "detailSteps": {
-      "1": {
-        "content": "Construisez votre projet d'investissement avec votre conseiller Masteos et trouvez le bien idéal déniché par nos équipes partout en France. Pour une recherche efficace, préparez votre attestation de financement et signez le mandat de recherche envoyé par votre conseiller à la fin du rendez-vous.",
-        "title": "Trouver un bien"
-      },
-      "2": {
-        "content": "Un bien vous intéresse ? Contactez rapidement votre conseiller pour en discuter et commencer à préparer une offre d'achat !",
-        "title": "Faire l'offre d'achat"
-      },
-      "3": {
-        "content": "Vous pouvez assister à la signature du compromis ou établir une procuration au notaire. Passez par un notaire partenaire de Masteos pour une opération plus fluide !",
-        "title": "Signer le compromis de vente"
-      },
-      "4": {
-        "content": "Construisez votre projet d'investissement avec votre conseiller Masteos et trouvez le bien idéal déniché par nos équipes partout en France. Pour une recherche efficace, préparez votre attestation de financement et signez le mandat de recherche envoyé par votre conseiller à la fin du rendez-vous.",
-        "title": "Obtenir le financement"
-      },
-      "5": {
-        "content": "La signature de l’acte authentique entérine définitivement la vente : paiement du prix, remise des clés et transfert définitif de propriété. Quelques démarches vous attendent cependant avant le grand jour. \n\nVous devrez verser un séquestre de 5 à 10 % du prix du bien à cette étape.",
-        "title": "Signer l’acte authentique 🎉"
-      },
-      "6": {
-        "content": "Notre équipe travaux lance le chantier de rénovation de votre bien à la fin de la transaction pour fournir un logement aux normes à vos futurs locataires.",
-        "title": "Réalisation des travaux"
-      },
-      "7": {
-        "content": "Nous livrons et installons le mobilier de votre bien dès la fin du chantier pour permettre à vos locataires de s'installer rapidement.",
-        "title": "Ameublement du bien"
-      },
-      "8": {
-        "content": "Dès que le bail est signé et votre locataire installé, nous prenons en charge la gestion administrative et technique du bien. Vous n'avez qu'à percevoir vos loyers.",
-        "title": "La mise en location"
-      },
-      "9": {
-        "content": "Dès que le bail est signé et votre locataire installé, nous prenons en charge la gestion administrative et technique du bien. Vous n'avez qu'à percevoir vos loyers.",
-        "title": "Gestion et suivi de performance"
-      },
-      "estimatedDay_one": "Environ {{count}} jour",
-      "estimatedDay_other": "Environ {{count}} jours",
-      "estimatedDuration": "Durée estimée",
-      "requiredDocument_one": "Document pour Masteos",
-      "requiredDocument_other": "Documents pour Masteos",
-      "requiredDocuments": "Documents pour Masteos",
-      "title": "Votre investissement en un clin d'œil"
-    },
-    "realEstateLink": "Voir la fiche de bien",
-    "requiredDocuments": {
-      "annualHomeOwnerInsurance": "Assurance Propriétaire Non Occupant",
-      "identityDocument": "Pièce d’identité (à envoyer au notaire)",
-      "loanOffer": "Offre de prêt signée",
-      "signedIntentionLetter": "Offre d’achat signée",
-      "signedQuote": "Devis travaux signé"
-    },
-    "transactionStatus": {
-      "finished": "Transaction terminée",
-      "ongoing": "Transaction en cours"
-    }
   },
   "projectList": {
     "finishedProjectMessage": "Vous êtes propriétaire de ce bien locatif acquis clés en main avec Masteos. 🔑",
@@ -597,8 +532,6 @@
     "roomZero": "Studio",
     "seen": "Vu",
     "tooltip": {
-      "netReturn": "Rendement net",
-      "netReturnDescription": "Permet de mesurer la rentabilité nette de charges.\nFormule : ( Loyer annuel charges comprises - charges annuelles ) / ( Prix de vente FAI + Travaux + Ameublement )",
       "noRevaluationRate": "L’historique de transactions disponibles sur cette zone n’est pas suffisant pour rendre compte avec précision de l’évolution des prix de l’immobilier.",
       "revaluationRate": "Le prix de l'immobilier a augmenté en moyenne de {{value}} par an dans {{location}} ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone."
     }
@@ -622,17 +555,6 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Ameublement",
-    "furnitureDescription": "Notre équipe de décorateurs prend en charge votre intérieur, s’adapte à ses particularités et sélectionne pour vous des meubles et objets décoratifs pour rendre votre projet unique. Quatre styles, au choix, sont à l’honneur : <medium>l’univers loft contemporain</medium>, <medium>l’inspiration nordique</medium>, <medium>la tendance japandi</medium> et le <medium>lifestyle retro vintage</medium>.<br/> La prestation intègre les équipements essentiels pour assurer le confort de vos locataires. Vous découvrirez également votre projet au fur et à mesure de son avancement, aux étapes clés. Notre service ameublement inclut la livraison et le montage des meubles. Photos non contractuelles.",
-    "furniturePack": {
-      "japandiDescription": "La tendance japandi, entre déco japonaise et scandinave, présente un mélange d’accessoires cocooning et artisanal, des touches naturelles pour un intérieur zen et cozy, des couleurs contrastantes pour composer de beaux ensembles chromatiques. Sobriété et minimalisme.",
-      "japandiName": "Japandi",
-      "loftDescription": "Une sélection de meubles qui va à l’essentiel: un univers épuré d’inspiration scandinave, avec tout l’équipement essentiel pour assurer le confort de vos locataires. Une atmosphère douce et cocooning, le bois clair, les camaïeux de blancs et les tons pastels sont à l’honneur.",
-      "loftName": "Loft Contemporain",
-      "nordicDescription": "Le style loft contemporain met l’accent sur les lignes épurées, sobres et modernes. La décoration intérieure design utilise les codes du minimaliste. Un univers plus masculin, plus minéral, utilisant le gris comme toile de fond.",
-      "nordicName": "Nordique",
-      "vintageDescription": "La déco vintage revient sur le devant de la scène ! On y retrouve des meubles esprit 50’s, une petite déco retro, des motifs graphiques et fleuris, des couleurs désuètes. Les couleurs et les formes géométriques sont à l’honneur.",
-      "vintageName": "Retro Vintage"
-    },
     "furnitures": "Ameublement",
     "plansTitle": "Plan(s)",
     "renovate": "Travaux",
@@ -734,7 +656,6 @@
       "3": "Réalisez une offre d’achat",
       "4": "Suivez les étapes de votre investissement"
     },
-    "metaTitle": "Créer un compte",
     "newsletterLabel": "Recevoir les communications Masteos",
     "passwordConfirmationError": "Les mots de passe doivent être identiques",
     "passwordConfirmationLabel": "Confirmer le mot de passe",
@@ -940,7 +861,7 @@
         "enrichmentResellingYearPositive": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport + cumul des excédents de trésorerie",
         "evaluationRateUnavaible": "L’historique de transactions disponibles sur cette zone n’est pas suffisant pour rendre compte avec précision de l’évolution des prix de l’immobilier",
         "grossReturn": "Taux de rendement brut",
-        "grossReturnDescription": "Permet de mesurer la rentabilité brute de l'investissement.\nFormule : ( Loyer annuel charges comprises * 12 ) / ( Prix de vente FAI + Travaux + Ameublement )",
+        "grossReturnDescription": "Permet de mesurer la rentabilité brute de l'investissement.\nFormule : ( Loyer annuel charges comprises) / ( Prix de vente FAI + Travaux + Ameublement )",
         "investCapitalMultiplier": "Enrichissement net exprimé comme multiple des capitaux investis.\nFormule : ( Enrichissement net + capitaux investis ) / capitaux investis",
         "loanDown": "Apport",
         "loanDownDescription": "Somme versée par l'investisseur pour financer la partie de l'acquisition non couverte par le prêt. Les banques requièrent un apport de 10 à 15% du coût du projet.",
@@ -990,7 +911,6 @@
     "noAdvisor": "Je n'en connais pas",
     "noLongerinterested": "Plus intéressé(e)",
     "notInterested": "Pas intéressé",
-    "or": "ou",
     "password": "Mot de passe",
     "passwordConfirmationNotSame": "Les mots de passe ne sont pas identiques",
     "passwordPlaceholder": "******",
