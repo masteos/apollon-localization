@@ -1,0 +1,99 @@
+{
+  "authTunnel": {
+    "emailAuthButton": "Continuer avec un e-mail",
+    "errorEmailGoogleMessage": "Cet e-mail est lié à un compte Google.\\\\nCliquez sur Continuer avec Google pour vous connecter.",
+    "googleAuthButton": "Continuer avec Google",
+    "title3": "Connexion & Inscription"
+  },
+  "forgotPassword": {
+    "metaTitle": "Réinitialiser mon mot de passe"
+  },
+  "login": {
+    "metaTitle": "Se connecter"
+  },
+  "project": {
+    "detailSteps": {
+      "1": {
+        "content": "Construisez votre projet d'investissement avec votre conseiller Masteos et trouvez le bien idéal déniché par nos équipes partout en France. Pour une recherche efficace, préparez votre attestation de financement et signez le mandat de recherche envoyé par votre conseiller à la fin du rendez-vous.",
+        "title": "Trouver un bien"
+      },
+      "2": {
+        "content": "Un bien vous intéresse ? Contactez rapidement votre conseiller pour en discuter et commencer à préparer une offre d'achat !",
+        "title": "Faire l'offre d'achat"
+      },
+      "3": {
+        "content": "Vous pouvez assister à la signature du compromis ou établir une procuration au notaire. Passez par un notaire partenaire de Masteos pour une opération plus fluide !",
+        "title": "Signer le compromis de vente"
+      },
+      "4": {
+        "content": "Construisez votre projet d'investissement avec votre conseiller Masteos et trouvez le bien idéal déniché par nos équipes partout en France. Pour une recherche efficace, préparez votre attestation de financement et signez le mandat de recherche envoyé par votre conseiller à la fin du rendez-vous.",
+        "title": "Obtenir le financement"
+      },
+      "5": {
+        "content": "La signature de l’acte authentique entérine définitivement la vente : paiement du prix, remise des clés et transfert définitif de propriété. Quelques démarches vous attendent cependant avant le grand jour. \n\nVous devrez verser un séquestre de 5 à 10 % du prix du bien à cette étape.",
+        "title": "Signer l’acte authentique 🎉"
+      },
+      "6": {
+        "content": "Notre équipe travaux lance le chantier de rénovation de votre bien à la fin de la transaction pour fournir un logement aux normes à vos futurs locataires.",
+        "title": "Réalisation des travaux"
+      },
+      "7": {
+        "content": "Nous livrons et installons le mobilier de votre bien dès la fin du chantier pour permettre à vos locataires de s'installer rapidement.",
+        "title": "Ameublement du bien"
+      },
+      "8": {
+        "content": "Dès que le bail est signé et votre locataire installé, nous prenons en charge la gestion administrative et technique du bien. Vous n'avez qu'à percevoir vos loyers.",
+        "title": "La mise en location"
+      },
+      "9": {
+        "content": "Dès que le bail est signé et votre locataire installé, nous prenons en charge la gestion administrative et technique du bien. Vous n'avez qu'à percevoir vos loyers.",
+        "title": "Gestion et suivi de performance"
+      },
+      "estimatedDay_one": "Environ {{count}} jour",
+      "estimatedDay_other": "Environ {{count}} jours",
+      "estimatedDuration": "Durée estimée",
+      "requiredDocument_one": "Document pour Masteos",
+      "requiredDocument_other": "Documents pour Masteos",
+      "requiredDocuments": "Documents pour Masteos",
+      "title": "Votre investissement en un clin d'œil"
+    },
+    "realEstateLink": "Voir la fiche de bien",
+    "requiredDocuments": {
+      "annualHomeOwnerInsurance": "Assurance Propriétaire Non Occupant",
+      "identityDocument": "Pièce d’identité (à envoyer au notaire)",
+      "loanOffer": "Offre de prêt signée",
+      "signedIntentionLetter": "Offre d’achat signée",
+      "signedQuote": "Devis travaux signé"
+    },
+    "statusDescription": " Le statut de votre projet prend en compte la <bold>transaction de la signature de l’offre d’achat jusqu’à la signature de l’acte authentique</bold>",
+    "transactionStatus": {
+      "finished": "Transaction terminée",
+      "ongoing": "Transaction en cours"
+    }
+  },
+  "propertyPreview": {
+    "tooltip": {
+      "netReturn": "Rendement net",
+      "netReturnDescription": "Permet de mesurer la rentabilité nette de charges.\nFormule : ( Loyer annuel charges comprises - charges annuelles ) / ( Prix de vente FAI + Travaux + Ameublement )"
+    }
+  },
+  "propertyRenovation": {
+    "furnitureDescription": "Notre équipe de décorateurs prend en charge votre intérieur, s’adapte à ses particularités et sélectionne pour vous des meubles et objets décoratifs pour rendre votre projet unique. Quatre styles, au choix, sont à l’honneur : <medium>l’univers loft contemporain</medium>, <medium>l’inspiration nordique</medium>, <medium>la tendance japandi</medium> et le <medium>lifestyle retro vintage</medium>.<br/>La prestation intègre les équipements essentiels pour assurer le confort de vos locataires. Vous découvrirez également votre projet au fur et à mesure de son avancement, aux étapes clés. Notre service ameublement inclut la livraison et le montage des meubles. Photos non contractuelles.",
+    "furniturePack": {
+      "japandiDescription": "La tendance japandi, entre déco japonaise et scandinave, présente un mélange d’accessoires cocooning et artisanal, des touches naturelles pour un intérieur zen et cozy, des couleurs contrastantes pour composer de beaux ensembles chromatiques. Sobriété et minimalisme.",
+      "japandiName": "Japandi",
+      "loftDescription": "Une sélection de meubles qui va à l’essentiel: un univers épuré d’inspiration scandinave, avec tout l’équipement essentiel pour assurer le confort de vos locataires. Une atmosphère douce et cocooning, le bois clair, les camaïeux de blancs et les tons pastels sont à l’honneur.",
+      "loftName": "Loft Contemporain",
+      "nordicDescription": "Le style loft contemporain met l’accent sur les lignes épurées, sobres et modernes. La décoration intérieure design utilise les codes du minimaliste. Un univers plus masculin, plus minéral, utilisant le gris comme toile de fond.",
+      "nordicName": "Nordique",
+      "vintageDescription": "La déco vintage revient sur le devant de la scène ! On y retrouve des meubles esprit 50’s, une petite déco retro, des motifs graphiques et fleuris, des couleurs désuètes. Les couleurs et les formes géométriques sont à l’honneur.",
+      "vintageName": "Retro Vintage"
+    }
+  },
+  "register": {
+    "metaTitle": "Créer un compte"
+  },
+  "shared": {
+    "or": "ou"
+  }
+}
