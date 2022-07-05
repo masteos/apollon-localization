@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+## [1.47.1](https://github.com/masteos/apollon-localization/compare/v1.47.0...v1.47.1) (2022-07-05)
+
+
+### Bug Fixes
+
+* **translation:** add missing trailing point ([#132](https://github.com/masteos/apollon-localization/issues/132)) ([39f6c0a](https://github.com/masteos/apollon-localization/commit/39f6c0a80854671ad885065e6a1e4c61c07f9012))
+
 # [1.47.0](https://github.com/masteos/apollon-localization/compare/v1.46.0...v1.47.0) (2022-07-05)
 
 
