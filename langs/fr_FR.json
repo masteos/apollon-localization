@@ -1065,10 +1065,7 @@
     "trending": {
       "CITY": "la commune",
       "NEIGHBORHOOD": "le quartier",
-      "NO_DATA": "NO_DATA",
-      "City": "la commune",
-      "Neighborhood": "le quartier",
-      "NoData": "NO_DATA"
+      "NO_DATA": "NO_DATA"
     },
     "unavailableProperty": "Bien indisponible",
     "virtualVisit": "Visite 3D",
