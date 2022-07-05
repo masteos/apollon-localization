@@ -363,7 +363,7 @@
       "signedIntentionLetter": "Offre d’achat signée",
       "signedQuote": "Devis travaux signé"
     },
-    "statusDescription": "<italic>Le statut de votre projet prend en compte la</italic> <medium>transaction de la signature de l’offre d’achat jusqu’à la signature de l’acte authentique</medium>",
+    "statusDescription": "<italic>Le statut de votre projet prend en compte la</italic> <medium>transaction de la signature de l’offre d’achat jusqu’à la signature de l’acte authentique.</medium>",
     "transactionStatus": {
       "finished": "Transaction terminée",
       "ongoing": "Transaction en cours"
