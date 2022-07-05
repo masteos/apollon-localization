@@ -328,7 +328,7 @@
         "title": "Obtenir le financement"
       },
       "5": {
-        "content": "La signature de l’acte authentique entérine définitivement la vente : paiement du prix, remise des clés et transfert définitif de propriété. Quelques démarches vous attendent cependant avant le grand jour.\nVous devrez verser un séquestre de 5 à 10 % du prix du bien à cette étape.",
+        "content": "La signature de l’acte authentique entérine définitivement la vente : paiement du prix, remise des clés et transfert définitif de propriété. Quelques démarches vous attendent cependant avant le grand jour.\n\nVous devrez verser un séquestre de 5 à 10 % du prix du bien à cette étape.",
         "title": "Signer l’acte authentique 🎉"
       },
       "6": {
@@ -363,7 +363,7 @@
       "signedIntentionLetter": "Offre d’achat signée",
       "signedQuote": "Devis travaux signé"
     },
-    "statusDescription": "<italic>Le statut de votre projet prend en compte la</italic> <medium>transaction de la signature de l’offre d’achat jusqu’à la signature de l’acte authentique</medium>",
+    "statusDescription": "<italic>Le statut de votre projet prend en compte la</italic> <medium>transaction de la signature de l’offre d’achat jusqu’à la signature de l’acte authentique.</medium>",
     "transactionStatus": {
       "finished": "Transaction terminée",
       "ongoing": "Transaction en cours"
