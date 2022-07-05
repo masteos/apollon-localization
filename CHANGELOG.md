@@ -1,5 +1,26 @@
 # Apollon Localization Changelog
 
+# [1.45.0](https://github.com/masteos/apollon-localization/compare/v1.44.0...v1.45.0) (2022-07-05)
+
+
+### Features
+
+* update translation files ([#125](https://github.com/masteos/apollon-localization/issues/125)) ([4454067](https://github.com/masteos/apollon-localization/commit/44540678603837068cc4e03126f1465a1eee554b))
+
+# [1.44.0](https://github.com/masteos/apollon-localization/compare/v1.43.1...v1.44.0) (2022-06-30)
+
+
+### Features
+
+* **preview:** Add tooltip for net return ([#121](https://github.com/masteos/apollon-localization/issues/121)) ([5c245cf](https://github.com/masteos/apollon-localization/commit/5c245cf421302926f6fa3efc98a30bb9942fc82c))
+
+## [1.43.1](https://github.com/masteos/apollon-localization/compare/v1.43.0...v1.43.1) (2022-06-30)
+
+
+### Bug Fixes
+
+* **frFR:** update of cumulative key ([#123](https://github.com/masteos/apollon-localization/issues/123)) ([dda30e3](https://github.com/masteos/apollon-localization/commit/dda30e3bc26e148474e6602a19025677ffc67f02))
+
 # [1.43.0](https://github.com/masteos/apollon-localization/compare/v1.42.1...v1.43.0) (2022-06-24)
 
 
