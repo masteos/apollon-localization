@@ -58,6 +58,7 @@
     "errorAuthenticateMessage": "Se ha producido un error durante la conexión, por favor, intente conectarse manualmente.",
     "errorEmailGoogleMessage": "",
     "financeHeader": "Perfil financiero",
+    "googleAuthButton": "",
     "header": "Registrarse",
     "invalidEmail": "El correo electrónico no es válido",
     "modalDeletedAccount": {
@@ -140,6 +141,7 @@
       "2": " - Charles Sorel, \"el pastor extravagante",
       "3": "Si su memoria es lenta, se le enviará un código de verificación."
     },
+    "metaTitle": "",
     "newPasswordLabel": "Elija una nueva contraseña",
     "passwordConfirmationLabel": "Confirme su nueva contraseña",
     "passwordLabel": "Contraseña",
@@ -177,6 +179,7 @@
       "3": "Usted gestiona todos los pasos de su inversión desde la interfaz: firma electrónica, carga de documentos...",
       "4": "Podrá ver el rendimiento de su inversión una vez que su propiedad esté alquilada."
     },
+    "metaTitle": "",
     "networkError": "No hay conexión a Internet",
     "passwordPlaceholder": "******",
     "register": "Crear una cuenta",
@@ -305,6 +308,66 @@
     "updateProfileErrorMessage": "Su cambio no se ha guardado",
     "updateProfileMessage": "Cambio registrado",
     "updateProfilePicture": "Editar mi foto"
+  },
+  "project": {
+    "detailSteps": {
+      "1": {
+        "content": "",
+        "title": ""
+      },
+      "2": {
+        "content": "",
+        "title": ""
+      },
+      "3": {
+        "content": "",
+        "title": ""
+      },
+      "4": {
+        "content": "",
+        "title": ""
+      },
+      "5": {
+        "content": "",
+        "title": ""
+      },
+      "6": {
+        "content": "",
+        "title": ""
+      },
+      "7": {
+        "content": "",
+        "title": ""
+      },
+      "8": {
+        "content": "",
+        "title": ""
+      },
+      "9": {
+        "content": "",
+        "title": ""
+      },
+      "estimatedDay_one": "",
+      "estimatedDay_other": "",
+      "estimatedDuration": "",
+      "requiredDocument_one": "",
+      "requiredDocument_other": "",
+      "requiredDocuments": "",
+      "title": ""
+    },
+    "realEstateLink": "",
+    "requiredDocuments": {
+      "annualHomeOwnerInsurance": "",
+      "identityDocument": "",
+      "loanOffer": "",
+      "signedIntentionLetter": "",
+      "signedQuote": ""
+    },
+    "statusDescription": "",
+    "transactionStatus": {
+      "finished": "",
+      "ongoing": ""
+    }
   },
   "projectList": {
     "finishedProjectMessage": "Usted es el propietario de esta vivienda de alquiler adquirida llave en mano con Masteos. 🔑",
@@ -535,6 +598,8 @@
     "roomZero": "Estudio",
     "seen": "",
     "tooltip": {
+      "netReturn": "",
+      "netReturnDescription": "",
       "noRevaluationRate": "",
       "revaluationRate": ""
     }
@@ -558,6 +623,7 @@
     "description": "Descripción",
     "descriptionTitle": "Descripción",
     "furniture": "Muebles",
+    "furnitureDescription": "",
     "furniturePack": {
       "japandiDescription": "",
       "japandiName": "Japandi",
@@ -669,6 +735,7 @@
       "3": "",
       "4": ""
     },
+    "metaTitle": "",
     "newsletterLabel": "Suscríbase al boletín filocativo",
     "passwordConfirmationError": "Las contraseñas deben ser idénticas",
     "passwordConfirmationLabel": "Confirmar contraseña",
@@ -997,8 +1064,11 @@
     "translatedBy": "Traducido con {{providerName}}",
     "trending": {
       "CITY": "la ciudad",
+      "City": "la ciudad",
       "NEIGHBORHOOD": "el barrio",
-      "NO_DATA": ""
+      "NO_DATA": "",
+      "Neighborhood": "el barrio",
+      "NoData": ""
     },
     "unavailableProperty": "Propiedad no disponible",
     "virtualVisit": "Visita 3D",

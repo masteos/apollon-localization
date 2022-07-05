@@ -1064,9 +1064,9 @@
     "translatedBy": "Traduit avec {{providerName}}",
     "trending": {
       "CITY": "la commune",
+      "City": "la commune",
       "NEIGHBORHOOD": "le quartier",
       "NO_DATA": "NO_DATA",
-      "City": "la commune",
       "Neighborhood": "le quartier",
       "NoData": "NO_DATA"
     },
