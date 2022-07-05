@@ -328,7 +328,7 @@
         "title": "Obtenir le financement"
       },
       "5": {
-        "content": "La signature de l’acte authentique entérine définitivement la vente : paiement du prix, remise des clés et transfert définitif de propriété. Quelques démarches vous attendent cependant avant le grand jour. \n\nVous devrez verser un séquestre de 5 à 10 % du prix du bien à cette étape.",
+        "content": "La signature de l’acte authentique entérine définitivement la vente : paiement du prix, remise des clés et transfert définitif de propriété. Quelques démarches vous attendent cependant avant le grand jour.\n\nVous devrez verser un séquestre de 5 à 10 % du prix du bien à cette étape.",
         "title": "Signer l’acte authentique 🎉"
       },
       "6": {
@@ -363,6 +363,7 @@
       "signedIntentionLetter": "Offre d’achat signée",
       "signedQuote": "Devis travaux signé"
     },
+    "statusDescription": "<italic>Le statut de votre projet prend en compte la</italic> <medium>transaction de la signature de l’offre d’achat jusqu’à la signature de l’acte authentique</medium>",
     "transactionStatus": {
       "finished": "Transaction terminée",
       "ongoing": "Transaction en cours"
@@ -933,8 +934,8 @@
         "brokerageFees": "Frais de courtage",
         "brokerageFeesDescription": "Formule : 1% du capital emprunté",
         "cashflowResellingYear": "Somme à disposition de l’investisseur l’année de la revente du bien, après remboursement de la banque, si la revente a lieu avant la date d'échéance du prêt.\nFormule : Prix de revente - capital restant dû",
-        "cumulativeCashFlowNegative": "Cumul des efforts d'épargne tout au long de la durée de détention du bien. Les revenus et les charges annuelles sont indexés selon l'indice de référence des loyers publié par l'Insee. Le dernier indice publié est de 2,48%. C'est pour cette raison qu'un projet demandant un effort d'épargne en année 1 pourrait tout de même avoir un cumul de trésorerie excédentaire sur 10 années de détention.",
-        "cumulativeCashFlowPositive": "Cumul des excédents de trésorerie tout au long de la durée de détention du bien. Les revenus et les charges annuelles sont indexés selon l'indice de référence des loyers publié par l'Insee. Le dernier indice publié est de 2,48%. C'est pour cette raison qu'un projet demandant un effort d'épargne en année 1 pourrait tout de même avoir un cumul de trésorerie excédentaire sur 10 années de détention.",
+        "cumulativeCashFlowNegative": "Cumul des flux de trésorerie annuels nets tout au long de la durée de détention du bien. Les loyers et les charges annuels sont indexés annuellement sur l'indice de référence des loyers (IRL) publié par l'Insee (2,48% T1 2022). C'est pour cette raison qu'un projet demandant un effort d'épargne en année 1 pourra tout de même avoir un cumul des flux de trésorerie positif après quelques années de détention.",
+        "cumulativeCashFlowPositive": "Cumul des flux de trésorerie annuels nets tout au long de la durée de détention du bien. Les loyers et les charges annuels sont indexés annuellement sur l'indice de référence des loyers (IRL) publié par l'Insee (2,48% T1 2022). C'est pour cette raison qu'un projet demandant un effort d'épargne en année 1 pourra tout de même avoir un cumul des flux de trésorerie positif après quelques années de détention.",
         "deedPurchaseFeesDescription": "Les frais d'actes d'achat comprennent notamment les droits d'enregistrements (=taxe régionale à l'acquisition d'un bien) de 12,5 % de la valeur d'achat, les frais administratifs de recherche, la TVA sur ces frais ainsi que l'inscription hypothécaire du bien.",
         "enrichmentResellingYearNegative": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport - cumul des efforts d'épargne",
         "enrichmentResellingYearPositive": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport + cumul des excédents de trésorerie",
