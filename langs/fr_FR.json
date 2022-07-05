@@ -129,7 +129,7 @@
     },
     "errorCode": "Votre code est incorrect",
     "errorDifferentEmails": "Les adresses e-mail ne correspondent pas",
-    "errorDifferentPasswords": "Les mots de passe e-mail ne correspondent pas",
+    "errorDifferentPasswords": "Confirmation de mot de passe incorrecte",
     "errorEmailMessage": "L'adresse email n'existe pas",
     "errorLoginMessage": "Il y a eu un problème lors de la connexion automatique",
     "genericError": "Une erreur est survenue",
