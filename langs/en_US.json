@@ -14,7 +14,7 @@
     "email": "Mail",
     "emailUnavailable": "Email not available",
     "formattedDate": "On {{date}}",
-    "hasAppointment": "",
+    "hasAppointment": "_",
     "header": "My advisor",
     "knowMoreNotify": "Be notified as soon as a property is available",
     "knowMoreNotifyOffers": "Formulate your bids",
