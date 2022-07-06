@@ -627,9 +627,9 @@
     "furniturePack": {
       "japandiDescription": "La tendance japandi, entre déco japonaise et scandinave, présente un mélange d’accessoires cocooning et artisanal, des touches naturelles pour un intérieur zen et cozy, des couleurs contrastantes pour composer de beaux ensembles chromatiques. Sobriété et minimalisme.",
       "japandiName": "Japandi",
-      "loftDescription": "Une sélection de meubles qui va à l’essentiel: un univers épuré d’inspiration scandinave, avec tout l’équipement essentiel pour assurer le confort de vos locataires. Une atmosphère douce et cocooning, le bois clair, les camaïeux de blancs et les tons pastels sont à l’honneur.",
+      "loftDescription": "Le style loft contemporain met l’accent sur les lignes épurées, sobres et modernes. La décoration intérieure design utilise les codes du minimaliste. Un univers plus masculin, plus minéral, utilisant le gris comme toile de fond.",
       "loftName": "Loft Contemporain",
-      "nordicDescription": "Le style loft contemporain met l’accent sur les lignes épurées, sobres et modernes. La décoration intérieure design utilise les codes du minimaliste. Un univers plus masculin, plus minéral, utilisant le gris comme toile de fond.",
+      "nordicDescription": "Une sélection de meubles qui va à l’essentiel: un univers épuré d’inspiration scandinave, avec tout l’équipement essentiel pour assurer le confort de vos locataires. Une atmosphère douce et cocooning, le bois clair, les camaïeux de blancs et les tons pastels sont à l’honneur.",
       "nordicName": "Nordique",
       "vintageDescription": "La déco vintage revient sur le devant de la scène ! On y retrouve des meubles esprit 50’s, une petite déco retro, des motifs graphiques et fleuris, des couleurs désuètes. Les couleurs et les formes géométriques sont à l’honneur.",
       "vintageName": "Retro Vintage"
@@ -1064,9 +1064,9 @@
     "translatedBy": "Traduit avec {{providerName}}",
     "trending": {
       "CITY": "la commune",
+      "City": "la commune",
       "NEIGHBORHOOD": "le quartier",
       "NO_DATA": "NO_DATA",
-      "City": "la commune",
       "Neighborhood": "le quartier",
       "NoData": "NO_DATA"
     },
