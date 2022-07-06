@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.48.0](https://github.com/masteos/apollon-localization/compare/v1.47.2...v1.48.0) (2022-07-06)
+
+
+### Features
+
+* update translation files ([#139](https://github.com/masteos/apollon-localization/issues/139)) ([da9f5b9](https://github.com/masteos/apollon-localization/commit/da9f5b99d9f5d65b84b02e11f092b42354b09e0f))
+
 ## [1.47.2](https://github.com/masteos/apollon-localization/compare/v1.47.1...v1.47.2) (2022-07-05)
 
 
