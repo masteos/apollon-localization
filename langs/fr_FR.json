@@ -313,18 +313,75 @@
     "detailSteps": {
       "1": {
         "content": "Construisez votre projet d'investissement avec votre conseiller Masteos et trouvez le bien idéal déniché par nos équipes partout en France. Pour une recherche efficace, préparez votre attestation de financement et signez le mandat de recherche envoyé par votre conseiller à la fin du rendez-vous.",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": "Rendez-vous conseiller"
+          },
+          "2": {
+            "content": "",
+            "title": "Signer le mandat de recherche"
+          },
+          "3": {
+            "content": "",
+            "title": "Chercher un bien"
+          }
+        },
         "title": "Trouver un bien"
       },
       "2": {
         "content": "Un bien vous intéresse ? Contactez rapidement votre conseiller pour en discuter et commencer à préparer une offre d'achat !",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": "Rendez-vous conseiller"
+          },
+          "2": {
+            "content": "",
+            "title": "Signer électroniquement l'offre d'achat"
+          },
+          "3": {
+            "content": "",
+            "title": "Votre offre a été acceptée !"
+          }
+        },
         "title": "Faire l'offre d'achat"
       },
       "3": {
         "content": "Vous pouvez assister à la signature du compromis ou établir une procuration au notaire. Passez par un notaire partenaire de Masteos pour une opération plus fluide !",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": "Mise en relation des notaires"
+          },
+          "2": {
+            "content": "",
+            "title": "Prise de contact du notaire"
+          },
+          "3": {
+            "content": "",
+            "title": "Étude du compromis et recherche de date de signature"
+          },
+          "4": {
+            "content": "",
+            "title": "Réception du devis travaux"
+          },
+          "5": {
+            "content": "",
+            "title": "Signature du compromis"
+          }
+        },
         "title": "Signer le compromis de vente"
       },
       "4": {
         "content": "Construisez votre projet d'investissement avec votre conseiller Masteos et trouvez le bien idéal déniché par nos équipes partout en France. Pour une recherche efficace, préparez votre attestation de financement et signez le mandat de recherche envoyé par votre conseiller à la fin du rendez-vous.",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": "Prendre rendez-vous avec un partenaire financier"
+          },
+          "2.content": "La législation vous impose un délai de réflexion de 10 jours pour examiner l'offre de prêt. Vous ne pouvez donc pas l'accepter et la signer avant le 11e jour.\nPrévenez cependant votre conseiller dès qu'elle est éditée afin qu'il organise la signature de l'acte authentique."
+        },
         "title": "Obtenir le financement"
       },
       "5": {
@@ -358,12 +415,15 @@
     "realEstateLink": "Voir la fiche de bien",
     "requiredDocuments": {
       "annualHomeOwnerInsurance": "Assurance Propriétaire Non Occupant",
+      "financingCapacity": "Capacité de financement",
       "identityDocument": "Pièce d’identité (à envoyer au notaire)",
       "loanOffer": "Offre de prêt signée",
+      "managementMandate": "Mandat de gestion",
       "signedIntentionLetter": "Offre d’achat signée",
+      "signedMandate": "Mandat de recherche signé",
       "signedQuote": "Devis travaux signé"
     },
-    "statusDescription": "<italic>Le statut de votre projet prend en compte la</italic> <medium>transaction de la signature de l’offre d’achat jusqu’à la signature de l’acte authentique.</medium>",
+    "statusDescription": "<medium>Le statut du projet indique l’avancement de votre transaction</medium>, de la signature de l’offre d’achat à celle de l’acte authentique.",
     "transactionStatus": {
       "finished": "Transaction terminée",
       "ongoing": "Transaction en cours"
