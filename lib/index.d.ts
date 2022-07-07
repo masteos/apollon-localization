@@ -1,6 +1,30 @@
-export { default as enUS } from '../langs/en_US.json';
-export { default as esES } from '../langs/es_ES.json';
-export { default as frBE } from '../langs/fr_BE.json';
-export { default as frFR } from '../langs/fr_FR.json';
-export { default as nl } from '../langs/nl.json';
-export { default as nlBE } from '../langs/nl_BE.json';
+export declare const enUS: any;
+export declare const esES: any;
+export declare const frBE: any;
+export declare const frFR: any;
+export declare const nl: any;
+export declare const nlBE: any;
+export declare const regionBE: {
+    enUS: any;
+    esES: any;
+    frBE: any;
+    frFR: any;
+    nl: any;
+    nlBE: any;
+};
+export declare const regionBE_VLG: {
+    enUS: any;
+    esES: any;
+    frBE: any;
+    frFR: any;
+    nl: any;
+    nlBE: any;
+};
+export declare const regionES: {
+    enUS: any;
+    esES: any;
+    frBE: any;
+    frFR: any;
+    nl: any;
+    nlBE: any;
+};
