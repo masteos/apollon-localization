@@ -1,5 +1,13 @@
 # Apollon Localization Changelog
 
+# [1.43.0-beta.1](https://github.com/masteos/apollon-localization/compare/v1.42.1...v1.43.0-beta.1) (2022-07-07)
+
+
+### Features
+
+* **duplicate-translation-key:** explo with i18n namespaces ([b6487f8](https://github.com/masteos/apollon-localization/commit/b6487f8447b5398477ac01cdcdb297bdf5a29afc))
+* **test-namespaces:** do not merge ([#141](https://github.com/masteos/apollon-localization/issues/141)) ([c3ab584](https://github.com/masteos/apollon-localization/commit/c3ab58447926c44079f03d61bf4779e0b6d46331))
+
 ## [1.42.1](https://github.com/masteos/apollon-localization/compare/v1.42.0...v1.42.1) (2022-06-24)
 
 
