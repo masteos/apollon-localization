@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.43.0-beta.2](https://github.com/masteos/apollon-localization/compare/v1.43.0-beta.1...v1.43.0-beta.2) (2022-07-07)
+
+
+### Features
+
+* **test-namespaces:** do not merge ([#143](https://github.com/masteos/apollon-localization/issues/143)) ([62bd46c](https://github.com/masteos/apollon-localization/commit/62bd46cfabd5b405ac091472ac56fc3fa95c3860))
+
 # [1.43.0-beta.1](https://github.com/masteos/apollon-localization/compare/v1.42.1...v1.43.0-beta.1) (2022-07-07)
 
 
