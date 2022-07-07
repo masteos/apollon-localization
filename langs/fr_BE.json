@@ -58,6 +58,7 @@
     "errorAuthenticateMessage": "Une erreur est survenue lors de la connexion, veuillez essayer de vous connecter manuellement.",
     "errorEmailGoogleMessage": "",
     "financeHeader": "Profil financier",
+    "googleAuthButton": "",
     "header": "Inscription",
     "invalidEmail": "L'email est invalide",
     "modalDeletedAccount": {
@@ -140,6 +141,7 @@
       "2": " — Charles Sorel, « le Berger extravagant »",
       "3": "Si votre mémoire est assoupie, on vous envoie un code de vérification !"
     },
+    "metaTitle": "",
     "newPasswordLabel": "Choisissez un nouveau mot de passe",
     "passwordConfirmationLabel": "Confirmez votre nouveau mot de passe",
     "passwordLabel": "Mot de passe",
@@ -177,6 +179,7 @@
       "3": "Vous gérez toutes les étapes de votre investissement depuis l'interface : signature électronique, upload de document...",
       "4": "Vous visualisez la performance de votre investissement une fois votre bien en location."
     },
+    "metaTitle": "",
     "networkError": "Pas de connexion internet",
     "passwordPlaceholder": "******",
     "register": "Créer un compte",
@@ -305,6 +308,65 @@
     "updateProfileErrorMessage": "Votre modification n'a pas été enregistrée",
     "updateProfileMessage": "Modification enregistrée",
     "updateProfilePicture": "Modifier ma photo"
+  },
+  "project": {
+    "detailSteps": {
+      "1": {
+        "content": "",
+        "title": ""
+      },
+      "2": {
+        "content": "",
+        "title": ""
+      },
+      "3": {
+        "content": "",
+        "title": ""
+      },
+      "4": {
+        "content": "",
+        "title": ""
+      },
+      "5": {
+        "content": "",
+        "title": ""
+      },
+      "6": {
+        "content": "",
+        "title": ""
+      },
+      "7": {
+        "content": "",
+        "title": ""
+      },
+      "8": {
+        "content": "",
+        "title": ""
+      },
+      "9": {
+        "content": "",
+        "title": ""
+      },
+      "estimatedDay_one": "",
+      "estimatedDay_other": "",
+      "estimatedDuration": "",
+      "requiredDocument_one": "",
+      "requiredDocument_other": "",
+      "requiredDocuments": "",
+      "title": ""
+    },
+    "realEstateLink": "",
+    "requiredDocuments": {
+      "annualHomeOwnerInsurance": "",
+      "identityDocument": "",
+      "loanOffer": "",
+      "signedIntentionLetter": "",
+      "signedQuote": ""
+    },
+    "transactionStatus": {
+      "finished": "",
+      "ongoing": ""
+    }
   },
   "projectList": {
     "finishedProjectMessage": "Vous êtes propriétaire de ce bien locatif acquis clés en main avec Masteos. 🔑",
@@ -535,6 +597,8 @@
     "roomZero": "Studio",
     "seen": "Vu",
     "tooltip": {
+      "netReturn": "",
+      "netReturnDescription": "",
       "noRevaluationRate": "La valeur n'est pas disponible pour cette ville.",
       "revaluationRate": "Le prix de l'immobilier a augmenté en moyenne de {{value}} par an sur la zone ces 5 dernières années. Cette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone."
     }
@@ -558,6 +622,7 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Ameublement",
+    "furnitureDescription": "",
     "furniturePack": {
       "japandiDescription": "",
       "japandiName": "Japandi",
@@ -669,6 +734,7 @@
       "3": "Réalisez une offre d’achat",
       "4": "Suivez les étapes de votre investissement"
     },
+    "metaTitle": "",
     "newsletterLabel": "Recevoir les communications Masteos",
     "passwordConfirmationError": "Les mots de passe doivent être identiques",
     "passwordConfirmationLabel": "Confirmer le mot de passe",
@@ -785,7 +851,7 @@
       "capitalisation": "Appreciation du bien + capitalisation",
       "cumulativeCashFlow": "Cumul cash-flow (ou Cumul effort d'épargne)",
       "cumulativeCashFlowNegative": "Cumul effort d'épargne",
-      "cumulativeCashFlowPositive": "Cumul excédent de trésorerie",
+      "cumulativeCashFlowPositive": "Cumul trésorerie excédentaire",
       "cumultiveSavings": "Effort d'épargne cumulé",
       "cumultiveSavingsBeforeTax": "Effort d'épargne mensuel",
       "deedPurchaseFees": "Frais d'acte d'achat",
@@ -867,8 +933,8 @@
         "brokerageFees": "Frais de courtage",
         "brokerageFeesDescription": "Formule : 1% du capital emprunté",
         "cashflowResellingYear": "Somme à disposition de l’investisseur l’année de la revente du bien, après remboursement de la banque, si la revente a lieu avant la date d'échéance du prêt.\nFormule : Prix de revente - capital restant dû",
-        "cumulativeCashFlowNegative": "Cumul des efforts d'épargne tout au long de la durée de détention du bien.\nFormule : effort d'épargne année 1 + effort d'épargne année 2 + ... + effort d'épargne année X",
-        "cumulativeCashFlowPositive": "Cumul des excédents de trésorerie tout au long de la durée de détention du bien.\nFormule : excédent trésorerie année 1 + excédent trésorerie année 2 + ... + excédent trésorerie année X",
+        "cumulativeCashFlowNegative": "Cumul des flux de trésorerie annuels nets tout au long de la durée de détention du bien. Les loyers et les charges annuels sont indexés annuellement sur l'indice de référence des loyers (IRL) publié par l'Insee (2,48% T1 2022). C'est pour cette raison qu'un projet demandant un effort d'épargne en année 1 pourra tout de même avoir un cumul des flux de trésorerie positif après quelques années de détention.",
+        "cumulativeCashFlowPositive": "Cumul des flux de trésorerie annuels nets tout au long de la durée de détention du bien. Les loyers et les charges annuels sont indexés annuellement sur l'indice de référence des loyers (IRL) publié par l'Insee (2,48% T1 2022). C'est pour cette raison qu'un projet demandant un effort d'épargne en année 1 pourra tout de même avoir un cumul des flux de trésorerie positif après quelques années de détention.",
         "deedPurchaseFeesDescription": "Les frais d'actes d'achat comprennent notamment les droits d'enregistrements (=taxe régionale à l'acquisition d'un bien) de 12,5 % de la valeur d'achat, les frais administratifs de recherche, la TVA sur ces frais ainsi que l'inscription hypothécaire du bien.",
         "enrichmentResellingYearNegative": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport - cumul des efforts d'épargne",
         "enrichmentResellingYearPositive": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport + cumul des excédents de trésorerie",
@@ -1071,6 +1137,7 @@
     },
     "loading": "Chargement..."
   },
+  "test": "",
   "ui": {
     "closeButton": "Fermer"
   }
