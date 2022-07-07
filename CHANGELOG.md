@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.43.0-beta.3](https://github.com/masteos/apollon-localization/compare/v1.43.0-beta.2...v1.43.0-beta.3) (2022-07-07)
+
+
+### Features
+
+* add namespace files ([4834c96](https://github.com/masteos/apollon-localization/commit/4834c9662701a7e2d77dfe24eefa679cd99bd817))
+
 # [1.43.0-beta.2](https://github.com/masteos/apollon-localization/compare/v1.43.0-beta.1...v1.43.0-beta.2) (2022-07-07)
 
 ### Features
