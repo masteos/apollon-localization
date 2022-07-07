@@ -4,6 +4,7 @@
       "tooltip": {
         "masteosCommission": "Tarifas de los servicios de contratación y seguimiento de las transacciones. < Règles spécifiques en Belgique >"
       }
-    }
+    },
+    "test": ""
   }
 }

@@ -58,6 +58,7 @@
     "errorAuthenticateMessage": "",
     "errorEmailGoogleMessage": "",
     "financeHeader": "",
+    "googleAuthButton": "",
     "header": "",
     "invalidEmail": "",
     "modalDeletedAccount": {
@@ -140,6 +141,7 @@
       "2": "",
       "3": ""
     },
+    "metaTitle": "",
     "newPasswordLabel": "",
     "passwordConfirmationLabel": "",
     "passwordLabel": "",
@@ -177,6 +179,7 @@
       "3": "",
       "4": ""
     },
+    "metaTitle": "",
     "networkError": "",
     "passwordPlaceholder": "",
     "register": "",
@@ -305,6 +308,65 @@
     "updateProfileErrorMessage": "",
     "updateProfileMessage": "",
     "updateProfilePicture": ""
+  },
+  "project": {
+    "detailSteps": {
+      "1": {
+        "content": "",
+        "title": ""
+      },
+      "2": {
+        "content": "",
+        "title": ""
+      },
+      "3": {
+        "content": "",
+        "title": ""
+      },
+      "4": {
+        "content": "",
+        "title": ""
+      },
+      "5": {
+        "content": "",
+        "title": ""
+      },
+      "6": {
+        "content": "",
+        "title": ""
+      },
+      "7": {
+        "content": "",
+        "title": ""
+      },
+      "8": {
+        "content": "",
+        "title": ""
+      },
+      "9": {
+        "content": "",
+        "title": ""
+      },
+      "estimatedDay_one": "",
+      "estimatedDay_other": "",
+      "estimatedDuration": "",
+      "requiredDocument_one": "",
+      "requiredDocument_other": "",
+      "requiredDocuments": "",
+      "title": ""
+    },
+    "realEstateLink": "",
+    "requiredDocuments": {
+      "annualHomeOwnerInsurance": "",
+      "identityDocument": "",
+      "loanOffer": "",
+      "signedIntentionLetter": "",
+      "signedQuote": ""
+    },
+    "transactionStatus": {
+      "finished": "",
+      "ongoing": ""
+    }
   },
   "projectList": {
     "finishedProjectMessage": "",
@@ -535,6 +597,8 @@
     "roomZero": "",
     "seen": "",
     "tooltip": {
+      "netReturn": "",
+      "netReturnDescription": "",
       "noRevaluationRate": "",
       "revaluationRate": ""
     }
@@ -558,6 +622,7 @@
     "description": "",
     "descriptionTitle": "",
     "furniture": "",
+    "furnitureDescription": "",
     "furniturePack": {
       "japandiDescription": "",
       "japandiName": "Japandi",
@@ -669,6 +734,7 @@
       "3": "",
       "4": ""
     },
+    "metaTitle": "",
     "newsletterLabel": "",
     "passwordConfirmationError": "",
     "passwordConfirmationLabel": "",
