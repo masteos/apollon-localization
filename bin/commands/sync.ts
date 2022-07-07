@@ -5,8 +5,61 @@ import fs from 'fs/promises';
 
 import { print, Args } from '../utils';
 
-const langFolder = path.join(process.cwd(), 'langs');
+const langFolder = path.join(process.cwd(), 'langs/');
 const lib = path.join(process.cwd(), '/lib/index.ts');
+
+const formatFileName = (name: string) =>
+  name
+    .replace(/\.json$/, '')
+    .replace(/_/g, '')
+    .replace(/\//g, '_');
+
+const getFiles = async (folderPath: string): Promise<string[]> => {
+  const dirents = await fs.readdir(folderPath, { withFileTypes: true });
+  const files = await Promise.all(
+    dirents.map(dirent => {
+      const subPath = path.join(folderPath, dirent.name);
+      return dirent.isDirectory() ? getFiles(subPath) : subPath;
+    })
+  );
+
+  return Array.prototype.concat(...files);
+};
+
+const groupByFolders = (files: string[], basePath: string) =>
+  files.reduce<Record<string, string[]>>(
+    (acc, item) => {
+      const relativePath = item.replace(basePath, '');
+      const dirname = path.dirname(relativePath);
+
+      if (dirname === '.') {
+        acc.root.push(item);
+      } else {
+        if (acc[dirname] === undefined) {
+          acc[dirname] = [];
+        }
+
+        acc[dirname].push(item.replace(dirname + '/', ''));
+      }
+
+      return acc;
+    },
+    { root: [] }
+  );
+
+const importFolderFiles = (folder: string, files: string[]) => {
+  switch (folder) {
+    case 'root':
+      return files
+        .map(name => `export const ${formatFileName(name)} = require('../langs/${name}');`)
+        .join('\n');
+
+    default:
+      return `export const ${folder} = {\n${files
+        .map(name => `  ${formatFileName(name)}: require('../langs/${folder}/${name}'),`)
+        .join('\n')}\n};`;
+  }
+};
 
 export const sync: CommandModule<Record<string, unknown>, Args> = {
   command: 'sync',
@@ -18,62 +71,23 @@ export const sync: CommandModule<Record<string, unknown>, Args> = {
 
     // const files = (await fs.readdir(langFolder)).filter(name => name.endsWith('.json'));
 
-    const getFiles = async (folderPath: string): Promise<Record<string, string[]>> => {
-      const dirents = await fs.readdir(folderPath, { withFileTypes: true });
-      const files = await Promise.all(
-        dirents.map(dirent => {
-          const subPath = path.join(folderPath, dirent.name);
-          return dirent.isDirectory() ? getFiles(subPath) : subPath;
-        })
-      );
+    const files = (await getFiles(langFolder)).reduce<string[]>((acc, name) => {
+      if (name.endsWith('.json')) {
+        acc.push(name.replace(langFolder, ''));
+      }
 
-      const fileStruct = files.reduce<Record<string, string[]>>(
-        (acc, item) => {
-          if (Array.isArray(item)) {
-            console.log(item[0]);
-            
-            const key = path.dirname(item[0]).split('/').pop() as string;
-            acc[key] = item;
-          } else {
-            acc.root.push(item as string);
-          }
+      return acc;
+    }, []);
 
-          return acc;
-        },
-        { root: [] }
-      );
+    const filesGrouped = groupByFolders(files, langFolder);
 
-      return fileStruct;
-      // return Array.prototype.concat(...files);
-    };
-
-    console.log(await getFiles(langFolder));
-
-    return;
-
-    const files = [];
-    // const files = (await getFiles(langFolder)).reduce<string[]>((acc, name) => {
-    //   if (name.endsWith('.json')) {
-    //     acc.push(name.replace(langFolder + '/', ''));
-    //   }
-
-    //   return acc;
-    // }, []);
-
-    console.log(files);
     task.succeed();
 
     task = print('Updating lib', { loading: true });
 
-    const libScript = files
-      .map(
-        name =>
-          `export { default as ${name
-            .replace(/\.json$/, '')
-            .replace(/_/g, '')
-            .replace(/\//g, '_')} } from '../langs/${name}';`
-      )
-      .join('\n');
+    const libScript = Object.entries(filesGrouped)
+      .map(([folder, files]) => importFolderFiles(folder, files))
+      .join('\n\n');
     const disclamerComment =
       '/*\n * This file is auto-generated using the sync command.\n * Do not edit directly.\n */\n\n';
 
