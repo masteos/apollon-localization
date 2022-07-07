@@ -1,0 +1,9 @@
+{
+  "shared": {
+    "financialTool": {
+      "tooltip": {
+        "masteosCommission": "Frais pour les services de sourcing et de suivi transactionnel. < Règles spécifiques en Flandre >"
+      }
+    }
+  }
+}
