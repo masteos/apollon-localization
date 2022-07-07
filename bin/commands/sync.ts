@@ -16,8 +16,51 @@ export const sync: CommandModule<Record<string, unknown>, Args> = {
 
     task = print('Fetching languages', { loading: true });
 
-    const files = (await fs.readdir(langFolder)).filter(name => name.endsWith('.json'));
+    // const files = (await fs.readdir(langFolder)).filter(name => name.endsWith('.json'));
 
+    const getFiles = async (folderPath: string): Promise<Record<string, string[]>> => {
+      const dirents = await fs.readdir(folderPath, { withFileTypes: true });
+      const files = await Promise.all(
+        dirents.map(dirent => {
+          const subPath = path.join(folderPath, dirent.name);
+          return dirent.isDirectory() ? getFiles(subPath) : subPath;
+        })
+      );
+
+      const fileStruct = files.reduce<Record<string, string[]>>(
+        (acc, item) => {
+          if (Array.isArray(item)) {
+            console.log(item[0]);
+            
+            const key = path.dirname(item[0]).split('/').pop() as string;
+            acc[key] = item;
+          } else {
+            acc.root.push(item as string);
+          }
+
+          return acc;
+        },
+        { root: [] }
+      );
+
+      return fileStruct;
+      // return Array.prototype.concat(...files);
+    };
+
+    console.log(await getFiles(langFolder));
+
+    return;
+
+    const files = [];
+    // const files = (await getFiles(langFolder)).reduce<string[]>((acc, name) => {
+    //   if (name.endsWith('.json')) {
+    //     acc.push(name.replace(langFolder + '/', ''));
+    //   }
+
+    //   return acc;
+    // }, []);
+
+    console.log(files);
     task.succeed();
 
     task = print('Updating lib', { loading: true });
@@ -25,9 +68,10 @@ export const sync: CommandModule<Record<string, unknown>, Args> = {
     const libScript = files
       .map(
         name =>
-          `export { default as ${path
-            .basename(name, '.json')
-            .replace('_', '')} } from '../langs/${name}';`
+          `export { default as ${name
+            .replace(/\.json$/, '')
+            .replace(/_/g, '')
+            .replace(/\//g, '_')} } from '../langs/${name}';`
       )
       .join('\n');
     const disclamerComment =
