@@ -4,6 +4,7 @@
       "tooltip": {
         "masteosCommission": "Frais pour les services de sourcing et de suivi transactionnel. < Règles spécifique en Belgique >"
       }
-    }
+    },
+    "test": "test"
   }
 }
