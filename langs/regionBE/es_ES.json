@@ -2,9 +2,9 @@
   "shared": {
     "financialTool": {
       "tooltip": {
+        "bankCommissionDescription": "Comisión de solicitud cobrada por el banco (800 euros) y comisión de garantía hipotecaria (3% del capital prestado) < Specificidad ... >",
         "masteosCommission": "Tarifas de los servicios de contratación y seguimiento de las transacciones. < Règles spécifiques en Belgique >"
       }
-    },
-    "test": ""
+    }
   }
 }
