@@ -3,6 +3,7 @@
     "financialTool": {
       "tooltip": {
         "bankCommissionDescription": "Comisión de solicitud cobrada por el banco (800 euros) y comisión de garantía hipotecaria (3% del capital prestado) < Specificidad ... >",
+        "loanDownDescription": "Somme versée par l'investisseur pour financer la partie de l'acquisition non couverte par le prêt. Les banques requièrent un apport de 20% du coût du projet.",
         "masteosCommission": "Tarifas de los servicios de contratación y seguimiento de las transacciones. < Règles spécifiques en Belgique >"
       }
     }
