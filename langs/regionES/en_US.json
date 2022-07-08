@@ -5,6 +5,7 @@
   "shared": {
     "financialTool": {
       "tooltip": {
+        "loanDownDescription": "Test spicific for SPanish real estates",
         "masteosCommission": "Fees for sourcing and transactional follow-up services. < Specific for Spanish Real Estates >"
       }
     }

@@ -5,6 +5,7 @@
   "shared": {
     "financialTool": {
       "tooltip": {
+        "loanDownDescription": "Test specific espagne",
         "masteosCommission": "Frais pour les services de sourcing et de suivi transactionnel. < Règles spécifique en Espagne >"
       }
     }

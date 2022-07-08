@@ -5,6 +5,7 @@
   "shared": {
     "financialTool": {
       "tooltip": {
+        "loanDownDescription": "",
         "masteosCommission": ""
       }
     }
