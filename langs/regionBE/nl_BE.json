@@ -2,9 +2,9 @@
   "shared": {
     "financialTool": {
       "tooltip": {
+        "bankCommissionDescription": "",
         "masteosCommission": ""
       }
-    },
-    "test": ""
+    }
   }
 }

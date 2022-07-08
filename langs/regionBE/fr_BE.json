@@ -2,9 +2,9 @@
   "shared": {
     "financialTool": {
       "tooltip": {
+        "bankCommissionDescription": "Frais de dossier prélevés par la banque (800€) et frais de garantie de prêt immobilier (1% du capital emprunté) < Spécificité des bien belge une fois >",
         "masteosCommission": "Frais pour les services de sourcing et de suivi transactionnel. < Règles spécifiques en Belgique >"
       }
-    },
-    "test": ""
+    }
   }
 }

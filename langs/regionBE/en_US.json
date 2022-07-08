@@ -2,9 +2,9 @@
   "shared": {
     "financialTool": {
       "tooltip": {
+        "bankCommissionDescription": "Application fee charged by the bank (800€) and mortgage guarantee fee (1% of the capital borrowed) < Specificities of Belgian real estates \n>",
         "masteosCommission": "Fees for sourcing and transactional follow-up services. < Specific for Belgian Real Estates >"
       }
-    },
-    "test": ""
+    }
   }
 }
