@@ -5,6 +5,7 @@
   "shared": {
     "financialTool": {
       "tooltip": {
+        "loanDownDescription": "",
         "masteosCommission": "Tarifas de los servicios de contratación y seguimiento de las transacciones. < Regles spécifiques en Espagne >"
       }
     }
