@@ -3,6 +3,7 @@
     "financialTool": {
       "tooltip": {
         "bankCommissionDescription": "Application fee charged by the bank (800€) and mortgage guarantee fee (1% of the capital borrowed) < Specificities of Belgian real estates \n>",
+        "loanDownDescription": "The amount paid by the investor to finance the part of the acquisition not covered by the loan. Banks require a deposit of 20% of the project cost.",
         "masteosCommission": "Fees for sourcing and transactional follow-up services. < Specific for Belgian Real Estates >"
       }
     }
