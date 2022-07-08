@@ -380,12 +380,41 @@
             "content": "",
             "title": "Prendre rendez-vous avec un partenaire financier"
           },
-          "2.content": "La législation vous impose un délai de réflexion de 10 jours pour examiner l'offre de prêt. Vous ne pouvez donc pas l'accepter et la signer avant le 11e jour.\nPrévenez cependant votre conseiller dès qu'elle est éditée afin qu'il organise la signature de l'acte authentique."
+          "2": {
+            "content": "La législation vous impose un délai de réflexion de 10 jours pour examiner l'offre de prêt. Vous ne pouvez donc pas l'accepter et la signer avant le 11e jour.\nPrévenez cependant votre conseiller dès qu'elle est éditée afin qu'il organise la signature de l'acte authentique.",
+            "title": "Envoyer l’offre de prêt à mon conseiller"
+          },
+          "3": {
+            "content": "",
+            "title": "Signer l’offre de prêt"
+          }
         },
         "title": "Obtenir le financement"
       },
       "5": {
         "content": "La signature de l’acte authentique entérine définitivement la vente : paiement du prix, remise des clés et transfert définitif de propriété. Quelques démarches vous attendent cependant avant le grand jour.\nVous devrez verser un séquestre de 5 à 10 % du prix du bien à cette étape.",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": "Souscrire à une assurance Propriétaire Non Occupant"
+          },
+          "2": {
+            "content": "",
+            "title": "Trouver une date de signature"
+          },
+          "3": {
+            "content": "",
+            "title": "Visite avant-vente"
+          },
+          "4": {
+            "content": "",
+            "title": "Signer l'acte authentique"
+          },
+          "5": {
+            "content": "",
+            "title": "Préparation à la suite du projet"
+          }
+        },
         "title": "Signer l’acte authentique 🎉"
       },
       "6": {
@@ -412,6 +441,7 @@
       "requiredDocuments": "Documents pour Masteos",
       "title": "Votre investissement en un clin d'œil"
     },
+    "hideDetails": "Masquer les détails",
     "optional": "optionnel",
     "realEstateLink": "Voir la fiche de bien",
     "requiredDocuments": {
@@ -428,7 +458,8 @@
     "transactionStatus": {
       "finished": "Transaction terminée",
       "ongoing": "Transaction en cours"
-    }
+    },
+    "viewDetails": "Afficher les détails"
   },
   "projectList": {
     "finishedProjectMessage": "Vous êtes propriétaire de ce bien locatif acquis clés en main avec Masteos. 🔑",
