@@ -315,15 +315,15 @@
         "content": "Construisez votre projet d'investissement avec votre conseiller Masteos et trouvez le bien idéal déniché par nos équipes partout en France. Pour une recherche efficace, préparez votre attestation de financement et signez le mandat de recherche envoyé par votre conseiller à la fin du rendez-vous.",
         "subSteps": {
           "1": {
-            "content": "",
+            "content": "Le premier rendez-vous avec votre conseiller permet d'établir une stratégie d'investissement qui correspond à vos objectifs et à votre budget.",
             "title": "Rendez-vous conseiller"
           },
           "2": {
-            "content": "",
+            "content": "Signez le mandat de recherche reçu sur votre adresse email par pour avoir accès à l'ensemble des biens. Ce mandat gratuit et non-exclusif est une obligation légale.",
             "title": "Signer le mandat de recherche"
           },
           "3": {
-            "content": "",
+            "content": "Recherchez les biens qui correspondent à votre projet sur l'application et découvrez leurs performances financières en un clin d'oeil.",
             "title": "Chercher un bien"
           }
         },
@@ -333,15 +333,15 @@
         "content": "Un bien vous intéresse ? Contactez rapidement votre conseiller pour en discuter et commencer à préparer une offre d'achat !",
         "subSteps": {
           "1": {
-            "content": "",
+            "content": "Signalez votre intérêt pour un bien à votre conseiller pour discuter de cette opportunité.\nIl organisera également un échange avec le chasseur ayant déniché le bien.",
             "title": "Rendez-vous conseiller"
           },
           "2": {
-            "content": "",
+            "content": "Signez électroniquement l'offre d'achat que votre conseiller vous envoie par email.\nIl la transmet au vendeur dès que vous la signez.",
             "title": "Signer électroniquement l'offre d'achat"
           },
           "3": {
-            "content": "",
+            "content": "Prochaine étape : signature du compromis de vente ! Prenez RDV avec votre banque dès que l'offre est acceptée pour accélérer la recherche de financement.",
             "title": "Votre offre a été acceptée !"
           }
         },
@@ -351,19 +351,19 @@
         "content": "Vous pouvez assister à la signature du compromis ou établir une procuration au notaire. Passez par un notaire partenaire de Masteos pour une opération plus fluide !",
         "subSteps": {
           "1": {
-            "content": "",
+            "content": "Votre conseiller met en relation votre notaire et le notaire vendeur et leur fournit les informations nécessaires pour établir le compromis de vente.",
             "title": "Mise en relation des notaires"
           },
           "2": {
-            "content": "",
+            "content": "Si vous passez par un notaire partenaire, votre conseiller lui transmet vos informations afin qu'il vous contacte avant la signature du compromis.",
             "title": "Prise de contact du notaire"
           },
           "3": {
-            "content": "",
+            "content": "Une date de signature prévisionnelle est arrêtée par le notaire.\nIl étudie l'ensemble des pièces du dossier (état de copropriété, dettes...) pour s'assurer que le projet soit sécurisée avant de proposer une date de signature définitive.",
             "title": "Étude du compromis et recherche de date de signature"
           },
           "4": {
-            "content": "",
+            "content": "Le devis travaux estimatif initial est confirmé ou modifié par un expert avant la signature du compromis. Nous nous engageons sur ce montant définitif.",
             "title": "Réception du devis travaux"
           },
           "5": {
@@ -377,7 +377,7 @@
         "content": "Construisez votre projet d'investissement avec votre conseiller Masteos et trouvez le bien idéal déniché par nos équipes partout en France. Pour une recherche efficace, préparez votre attestation de financement et signez le mandat de recherche envoyé par votre conseiller à la fin du rendez-vous.",
         "subSteps": {
           "1": {
-            "content": "",
+            "content": "Soyez réactif : prenez rendez-vous et envoyez le compromis à votre banque ou à votre courtier dès sa signature pour une transaction sereine et obtenir votre offre de prêt rapidement.",
             "title": "Prendre rendez-vous avec un partenaire financier"
           },
           "2": {
@@ -395,7 +395,7 @@
         "content": "La signature de l’acte authentique entérine définitivement la vente : paiement du prix, remise des clés et transfert définitif de propriété. Quelques démarches vous attendent cependant avant le grand jour.\nVous devrez verser un séquestre de 5 à 10 % du prix du bien à cette étape.",
         "subSteps": {
           "1": {
-            "content": "",
+            "content": "Vous pouvez souscrire une assurance PNO auprès de la banque qui vous a octroyé le prêt.",
             "title": "Souscrire à une assurance Propriétaire Non Occupant"
           },
           "2": {
@@ -403,15 +403,15 @@
             "title": "Trouver une date de signature"
           },
           "3": {
-            "content": "",
+            "content": "Vous recevez une vidéo de la visite avant-vente effectuée par nos équipes la veille de la signature de l'acte authentique.\nLe relevé du compteur est effectué à ce moment.",
             "title": "Visite avant-vente"
           },
           "4": {
-            "content": "",
+            "content": "C'est le grand jour : la signature de l'acte authentique marque le transfert de propriété du bien.\nVous êtes propriétaire !",
             "title": "Signer l'acte authentique"
           },
           "5": {
-            "content": "",
+            "content": "Votre investissement locatif ne fait que commencer.\nUn account manager vous accompagnera pour la suite de votre projet : travaux, ameublement et gestion locative.",
             "title": "Préparation à la suite du projet"
           }
         },
