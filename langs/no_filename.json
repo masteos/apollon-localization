@@ -1,0 +1,6 @@
+{
+  "advisor": {
+    "info": "Si vous avez modifié ou annulé votre rendez-vous depuis l’email de confirmation reçu, veuillez actualiser cette page afin de mettre à jour les informations affichées.",
+    "scheduledAppointment": "Rendez-vous planifié le {{date}} à {{hour}}."
+  }
+}
