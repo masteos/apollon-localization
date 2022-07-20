@@ -29,7 +29,7 @@
     "noAppointmentSchedule": "Pas de rendez-vous prévu",
     "noAppointmentSearchResult": "Aucun rendez-vous de prévu",
     "phone": "Téléphone",
-    "scheduledAppointment": "Rendez-vous planifié",
+    "scheduledAppointment": "Rendez-vous planifié {{date}}",
     "signDocument": "Signer le mandat",
     "takeAppointment": "Prendre rendez-vous",
     "takeFirstAppointment": "Prenez rendez-vous avec un conseiller pour discuter de votre projet.",
