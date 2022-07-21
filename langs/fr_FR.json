@@ -25,6 +25,7 @@
     "newResearch": "Faire une nouvelle recherche",
     "nextAppointment": "Prochain rendez-vous",
     "nextAppointmentMessage": "{{appointmentDate}} avec {{advisorName}}",
+    "noAdvisorInfo": "Si vous avez déjà pris rendez-vous avec votre conseiller, veuillez actualiser cette page afin de mettre à jour les informations affichées.",
     "noAppointment": "Pas de rendez-vous",
     "noAppointmentSchedule": "Pas de rendez-vous prévu",
     "noAppointmentSearchResult": "Aucun rendez-vous de prévu",
