@@ -14,8 +14,8 @@
     "email": "Correo",
     "emailUnavailable": "Correo electrónico no disponible",
     "formattedDate": "El {{date}}",
-    "hasAppointment": "",
     "header": "Mi asesor",
+    "info": "",
     "knowMoreNotify": "Reciba una notificación en cuanto una propiedad esté disponible",
     "knowMoreNotifyOffers": "Formule sus ofertas",
     "knowMorePictures": "Descubra las fotos y la dirección de la propiedad",
@@ -25,10 +25,12 @@
     "newResearch": "",
     "nextAppointment": "Próxima reunión",
     "nextAppointmentMessage": "{{appointmentDate}} con {{advisorName}}",
+    "noAdvisorInfo": "",
     "noAppointment": "Sin cita previa",
     "noAppointmentSchedule": "No hay cita programada",
     "noAppointmentSearchResult": "No hay citas programadas",
     "phone": "Teléfono",
+    "scheduledAppointment": "",
     "signDocument": "Firmar el mandato",
     "takeAppointment": "Pedir cita",
     "takeFirstAppointment": "",
@@ -58,6 +60,7 @@
     "errorAuthenticateMessage": "Se ha producido un error durante la conexión, por favor, intente conectarse manualmente.",
     "errorEmailGoogleMessage": "",
     "financeHeader": "Perfil financiero",
+    "googleAuthButton": "",
     "header": "Registrarse",
     "invalidEmail": "El correo electrónico no es válido",
     "modalDeletedAccount": {
@@ -140,6 +143,7 @@
       "2": " - Charles Sorel, \"el pastor extravagante",
       "3": "Si su memoria es lenta, se le enviará un código de verificación."
     },
+    "metaTitle": "",
     "newPasswordLabel": "Elija una nueva contraseña",
     "passwordConfirmationLabel": "Confirme su nueva contraseña",
     "passwordLabel": "Contraseña",
@@ -177,6 +181,7 @@
       "3": "Usted gestiona todos los pasos de su inversión desde la interfaz: firma electrónica, carga de documentos...",
       "4": "Podrá ver el rendimiento de su inversión una vez que su propiedad esté alquilada."
     },
+    "metaTitle": "",
     "networkError": "No hay conexión a Internet",
     "passwordPlaceholder": "******",
     "register": "Crear una cuenta",
@@ -305,6 +310,158 @@
     "updateProfileErrorMessage": "Su cambio no se ha guardado",
     "updateProfileMessage": "Cambio registrado",
     "updateProfilePicture": "Editar mi foto"
+  },
+  "project": {
+    "detailSteps": {
+      "1": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "2": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "3": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "4": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "5": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "6": {
+        "content": "",
+        "title": ""
+      },
+      "7": {
+        "content": "",
+        "title": ""
+      },
+      "8": {
+        "content": "",
+        "title": ""
+      },
+      "9": {
+        "content": "",
+        "title": ""
+      },
+      "estimatedDay_one": "",
+      "estimatedDay_other": "",
+      "estimatedDuration": "",
+      "requiredDocument_one": "",
+      "requiredDocument_other": "",
+      "requiredDocuments": "",
+      "title": ""
+    },
+    "hideDetails": "",
+    "optional": "",
+    "realEstateLink": "",
+    "requiredDocuments": {
+      "annualHomeOwnerInsurance": "",
+      "financingCapacity": "",
+      "identityDocument": "",
+      "loanOffer": "",
+      "managementMandate": "",
+      "signedIntentionLetter": "",
+      "signedMandate": "",
+      "signedQuote": ""
+    },
+    "statusDescription": "",
+    "transactionStatus": {
+      "finished": "",
+      "ongoing": ""
+    },
+    "viewDetails": ""
   },
   "projectList": {
     "finishedProjectMessage": "Usted es el propietario de esta vivienda de alquiler adquirida llave en mano con Masteos. 🔑",
@@ -535,6 +692,8 @@
     "roomZero": "Estudio",
     "seen": "",
     "tooltip": {
+      "netReturn": "",
+      "netReturnDescription": "",
       "noRevaluationRate": "",
       "revaluationRate": ""
     }
@@ -558,6 +717,7 @@
     "description": "Descripción",
     "descriptionTitle": "Descripción",
     "furniture": "Muebles",
+    "furnitureDescription": "",
     "furniturePack": {
       "japandiDescription": "",
       "japandiName": "Japandi",
@@ -618,23 +778,10 @@
   "register": {
     "alreadyEmailMessage": "Este correo electrónico ya está en uso",
     "borrowingCapacityInfo": "Un certificado de financiación establece su capacidad de endeudamiento. Obténgalo directamente de su banco.",
-    "cgu1": "Al seleccionar \"Continuar\" a continuación, acepto la ",
-    "cgu2": "Condiciones de uso",
-    "cgu3": " y el ",
-    "cgu4": "Política de privacidad",
-    "cgu5": " de Masteos.",
     "cguStep1": "",
     "cguStep2": "Condiciones de uso",
     "cguStep3": " y el ",
     "cguStep4": "",
-    "cguTextNew": {
-      "cgu": "Condiciones de uso ",
-      "confidentiality": "Política de privacidad",
-      "first": "Al seleccionar \"Aceptar y continuar\" a continuación, acepto la ",
-      "second": "y el ",
-      "third": " de Masteos"
-    },
-    "confirmPasswordLabel": "Confirmar contraseña",
     "emailLabel": "Dirección de correo electrónico",
     "emailPlaceholder": "Ej: juliette.dupont@mail.com",
     "financialTitle": "Perfil financiero",
@@ -669,6 +816,7 @@
       "3": "",
       "4": ""
     },
+    "metaTitle": "",
     "newsletterLabel": "Suscríbase al boletín filocativo",
     "passwordConfirmationError": "Las contraseñas deben ser idénticas",
     "passwordConfirmationLabel": "Confirmar contraseña",
@@ -997,8 +1145,11 @@
     "translatedBy": "Traducido con {{providerName}}",
     "trending": {
       "CITY": "la ciudad",
+      "City": "la ciudad",
       "NEIGHBORHOOD": "el barrio",
-      "NO_DATA": ""
+      "NO_DATA": "",
+      "Neighborhood": "el barrio",
+      "NoData": ""
     },
     "unavailableProperty": "Propiedad no disponible",
     "virtualVisit": "Visita 3D",

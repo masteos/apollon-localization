@@ -14,8 +14,8 @@
     "email": "Mail",
     "emailUnavailable": "Email not available",
     "formattedDate": "On {{date}}",
-    "hasAppointment": "_",
     "header": "My advisor",
+    "info": "",
     "knowMoreNotify": "Be notified as soon as a property is available",
     "knowMoreNotifyOffers": "Formulate your bids",
     "knowMorePictures": "Discover the photos and the address of the property",
@@ -25,10 +25,12 @@
     "newResearch": "Do a new search",
     "nextAppointment": "Next meeting",
     "nextAppointmentMessage": "{{appointmentDate}} with {{advisorName}}",
+    "noAdvisorInfo": "",
     "noAppointment": "No appointment",
     "noAppointmentSchedule": "No appointment planned",
     "noAppointmentSearchResult": "No appointments scheduled",
     "phone": "Telephone",
+    "scheduledAppointment": "",
     "signDocument": "Sign the mandate",
     "takeAppointment": "Make an appointment",
     "takeFirstAppointment": "",
@@ -58,6 +60,7 @@
     "errorAuthenticateMessage": "An error occurred during the connection, please try to connect manually.",
     "errorEmailGoogleMessage": "",
     "financeHeader": "Financial profile",
+    "googleAuthButton": "",
     "header": "Registration",
     "invalidEmail": "The email is invalid",
     "modalDeletedAccount": {
@@ -140,6 +143,7 @@
       "2": " - Charles Sorel, \"the extravagant shepherd",
       "3": "If your memory is sluggish, you will be sent a verification code!"
     },
+    "metaTitle": "",
     "newPasswordLabel": "Choose a new password",
     "passwordConfirmationLabel": "Confirm your new password",
     "passwordLabel": "Password",
@@ -177,6 +181,7 @@
       "3": "You manage all the steps of your investment from the interface: electronic signature, document upload...",
       "4": "You can see the performance of your investment once your property is rented."
     },
+    "metaTitle": "",
     "networkError": "No internet connection",
     "passwordPlaceholder": "******",
     "register": "Create an account",
@@ -307,10 +312,156 @@
     "updateProfilePicture": "Edit my photo"
   },
   "project": {
+    "detailSteps": {
+      "1": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "2": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "3": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "4": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": "Obtaining funding"
+      },
+      "5": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "6": {
+        "content": "",
+        "title": ""
+      },
+      "7": {
+        "content": "",
+        "title": ""
+      },
+      "8": {
+        "content": "",
+        "title": ""
+      },
+      "9": {
+        "content": "",
+        "title": ""
+      },
+      "estimatedDay_one": "",
+      "estimatedDay_other": "",
+      "estimatedDuration": "",
+      "requiredDocument_one": "",
+      "requiredDocument_other": "",
+      "requiredDocuments": "",
+      "title": ""
+    },
+    "hideDetails": "",
+    "optional": "",
+    "realEstateLink": "",
+    "requiredDocuments": {
+      "annualHomeOwnerInsurance": "",
+      "financingCapacity": "",
+      "identityDocument": "",
+      "loanOffer": "",
+      "managementMandate": "",
+      "signedIntentionLetter": "",
+      "signedMandate": "",
+      "signedQuote": ""
+    },
+    "statusDescription": "",
     "transactionStatus": {
       "finished": "Transaction ended",
       "ongoing": "Transaction in progress"
-    }
+    },
+    "viewDetails": ""
   },
   "projectList": {
     "finishedProjectMessage": "You are the owner of this rental property acquired turnkey with Masteos. 🔑",
@@ -327,13 +478,13 @@
   "projectTimeline": {
     "steps": {
       "findProperty": "Find a property",
-      "furnishing": "Furnishing the property",
+      "furnishing": "Furnishing of the property",
       "makeProposalOffer": "Making the offer to purchase",
       "obtainFinancing": "Obtaining funding",
       "performanceManagement": "Performance management and monitoring",
       "renovation": "Carrying out the work",
       "renting": "Renting out",
-      "signCompromise": "Signing the compromise",
+      "signCompromise": "Sign the sales agreement",
       "signRAA": "Signing the deed"
     }
   },
@@ -499,7 +650,7 @@
         "title": "Other"
       },
       "RENOVATION": {
-        "description": "The project's construction budget is too high",
+        "description": "The renovation budget of the project is too high",
         "title": "Work"
       }
     },
@@ -541,6 +692,8 @@
     "roomZero": "Studio",
     "seen": "",
     "tooltip": {
+      "netReturn": "",
+      "netReturnDescription": "",
       "noRevaluationRate": "",
       "revaluationRate": ""
     }
@@ -549,7 +702,7 @@
     "DPE": {
       "data": "Class {{value}}",
       "inProgress": "In progress...",
-      "title": "Energy consumption (ECD)"
+      "title": "Energy consumption (EPC)"
     },
     "GES": {
       "data": "Class {{value}}",
@@ -564,6 +717,7 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Furniture",
+    "furnitureDescription": "",
     "furniturePack": {
       "japandiDescription": "",
       "japandiName": "Japandi",
@@ -599,7 +753,7 @@
     "annualRentIncome": "Annual rent HC",
     "annualRentIncomeTooltip": {
       "content": "Annual rent excluding charges generated by the investment project",
-      "title": "Annual rent HC"
+      "title": "Annual rent (excl. charges)"
     },
     "charge": "Tenant charges",
     "chargeDescription": "Charges recoverable from the tenant. They are paid by the tenant at the same time as the rent.",
@@ -624,23 +778,10 @@
   "register": {
     "alreadyEmailMessage": "This email is already in use",
     "borrowingCapacityInfo": "A financing certificate establishes your borrowing capacity. Get it directly from your bank.",
-    "cgu1": "By selecting \"Continue\" below, I agree to the ",
-    "cgu2": "Terms and conditions of use",
-    "cgu3": " and the ",
-    "cgu4": "Privacy Policy",
-    "cgu5": " of Masteos.",
     "cguStep1": "",
     "cguStep2": "Terms and conditions of use",
     "cguStep3": " and the ",
     "cguStep4": "",
-    "cguTextNew": {
-      "cgu": "Terms and conditions of use ",
-      "confidentiality": "Privacy Policy",
-      "first": "By selecting \"Accept & Continue\" below, I agree to the ",
-      "second": "and the ",
-      "third": " of Masteos"
-    },
-    "confirmPasswordLabel": "Confirm password",
     "emailLabel": "Email address",
     "emailPlaceholder": "Ex: juliette.dupont@mail.com",
     "financialTitle": "Financial profile",
@@ -675,6 +816,7 @@
       "3": "",
       "4": ""
     },
+    "metaTitle": "",
     "newsletterLabel": "Receive Masteos communications",
     "passwordConfirmationError": "Passwords must be identical",
     "passwordConfirmationLabel": "Confirm password",
@@ -719,7 +861,7 @@
       "ACTE_AUTHENTIQUE_VENTE": "Deed of sale",
       "AVIS_VALEUR_LOCATIVE": "Notice of rental value",
       "BAUX_LOCATAIRE": "Tenant leases",
-      "COMPROMIS": "Compromise",
+      "COMPROMIS": "Sales agreement",
       "CONTRAT_MARCHE": "Market contract",
       "CONTRAT_MARIAGE": "Marriage contract",
       "CONTRAT_PRET": "Loan contract",
@@ -773,7 +915,7 @@
       "annualHomeOwnerInsurance": "PNO Insurance",
       "annualLoanPayments": "Loan annuity",
       "annualPercentEvolution": "Annual evolution of the price of the property",
-      "annualPercentEvolutionDescription": "Average annual evolution of the land in the last years: {{evolution}}",
+      "annualPercentEvolutionDescription": "Average annual evolution of the land prices in the last years: {{evolution}}",
       "annualPropertyManagement": "Rental management",
       "annualPropertyTax": "Property tax",
       "annualRentIncome": "Annual income",
@@ -882,7 +1024,7 @@
         "grossReturn": "Gross rate of return",
         "grossReturnDescription": "Allows to measure the gross profitability of the investment.\nFormula : ( Monthly rent including charges * 12 ) / ( Selling price FAI + Works + Furnishing )",
         "investCapitalMultiplier": "Net wealth expressed as a multiple of capital invested.\nFormula: ( Net wealth + capital invested ) / capital invested",
-        "loanDown": "Input",
+        "loanDown": "Personal contribution",
         "loanDownDescription": "The amount paid by the investor to finance the part of the acquisition not covered by the loan. Banks require a deposit of 10-15% of the project cost.",
         "loanDownResellingDescription": "The amount paid by the investor to finance the part of the acquisition not covered by the loan. Banks require a deposit of 10-15% of the project cost.",
         "masteosCommission": "Fees for sourcing and transactional follow-up services. These are degressive depending on the price of the property.",
@@ -892,7 +1034,7 @@
         "netReturn": "Operational performance",
         "netReturnDescription": "Allows you to measure the profitability net of charges.\nFormula: ( Monthly rent including charges - annual charges ) / ( Selling price FAI + Works + Furnishing )",
         "positiveMonthlyEnrichmentDescription": "",
-        "projectAmountDescription": "Formula : Sale price FAI + Works + Furnishing + Notary fees + Masteos fees + Bank fees + Brokerage fees",
+        "projectAmountDescription": "Formula : Sale price + Works + Furnishing + Notary fees + Masteos fees + Bank fees + Brokerage fees",
         "rentalVacation": "Vacancies",
         "rentalVacationDescription": "Cost of vacancy (the period between two lettings during which the property does not generate income). For this project, we estimate that the vacancy will be {{value}} months per year",
         "resellingPrice": "Resale price of the property projected over {{resellingYear}} years at an annual rate of change in land prices of {{evaluationRate}} %",
@@ -938,7 +1080,7 @@
       "DPE": {
         "aDescription": "Very energy-efficient property: it does not require thermal renovation until 2050.",
         "aLabel": "< 50",
-        "acronym": "ECD",
+        "acronym": "EPC",
         "bDescription": "Energy efficient: no thermal renovation is required before 2050.",
         "bLabel": "51 à 90",
         "cDescription": "Relatively energy-efficient property: no need for thermal renovation until 2050.",
@@ -1003,8 +1145,11 @@
     "translatedBy": "Translated with {{providerName}}",
     "trending": {
       "CITY": "the municipality",
+      "City": "the municipality",
       "NEIGHBORHOOD": "the neighbourhood",
-      "NO_DATA": "NO_DATA"
+      "NO_DATA": "NO_DATA",
+      "Neighborhood": "the neighbourhood",
+      "NoData": "NO_DATA"
     },
     "unavailableProperty": "Property not available",
     "virtualVisit": "3D visit",
