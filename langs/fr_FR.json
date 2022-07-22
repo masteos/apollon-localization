@@ -441,6 +441,11 @@
       "requiredDocument_one": "Document pour Masteos",
       "requiredDocument_other": "Documents pour Masteos",
       "requiredDocuments": "Documents pour Masteos",
+      "status": {
+        "finished": "Terminé",
+        "incoming": "À venir",
+        "ongoing": "En cours"
+      },
       "title": "Votre investissement en un clin d'œil"
     },
     "hideDetails": "Masquer les détails",
