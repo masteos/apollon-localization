@@ -14,8 +14,8 @@
     "email": "Correo",
     "emailUnavailable": "Correo electrónico no disponible",
     "formattedDate": "El {{date}}",
-    "hasAppointment": "",
     "header": "Mi asesor",
+    "info": "",
     "knowMoreNotify": "Reciba una notificación en cuanto una propiedad esté disponible",
     "knowMoreNotifyOffers": "Formule sus ofertas",
     "knowMorePictures": "Descubra las fotos y la dirección de la propiedad",
@@ -25,10 +25,12 @@
     "newResearch": "",
     "nextAppointment": "Próxima reunión",
     "nextAppointmentMessage": "{{appointmentDate}} con {{advisorName}}",
+    "noAdvisorInfo": "",
     "noAppointment": "Sin cita previa",
     "noAppointmentSchedule": "No hay cita programada",
     "noAppointmentSearchResult": "No hay citas programadas",
     "phone": "Teléfono",
+    "scheduledAppointment": "",
     "signDocument": "Firmar el mandato",
     "takeAppointment": "Pedir cita",
     "takeFirstAppointment": "",
@@ -313,22 +315,108 @@
     "detailSteps": {
       "1": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "2": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "3": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "4": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "5": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "6": {
@@ -355,19 +443,25 @@
       "requiredDocuments": "",
       "title": ""
     },
+    "hideDetails": "",
+    "optional": "",
     "realEstateLink": "",
     "requiredDocuments": {
       "annualHomeOwnerInsurance": "",
+      "financingCapacity": "",
       "identityDocument": "",
       "loanOffer": "",
+      "managementMandate": "",
       "signedIntentionLetter": "",
+      "signedMandate": "",
       "signedQuote": ""
     },
     "statusDescription": "",
     "transactionStatus": {
       "finished": "",
       "ongoing": ""
-    }
+    },
+    "viewDetails": ""
   },
   "projectList": {
     "finishedProjectMessage": "Usted es el propietario de esta vivienda de alquiler adquirida llave en mano con Masteos. 🔑",
@@ -684,23 +778,10 @@
   "register": {
     "alreadyEmailMessage": "Este correo electrónico ya está en uso",
     "borrowingCapacityInfo": "Un certificado de financiación establece su capacidad de endeudamiento. Obténgalo directamente de su banco.",
-    "cgu1": "Al seleccionar \"Continuar\" a continuación, acepto la ",
-    "cgu2": "Condiciones de uso",
-    "cgu3": " y el ",
-    "cgu4": "Política de privacidad",
-    "cgu5": " de Masteos.",
     "cguStep1": "",
     "cguStep2": "Condiciones de uso",
     "cguStep3": " y el ",
     "cguStep4": "",
-    "cguTextNew": {
-      "cgu": "Condiciones de uso ",
-      "confidentiality": "Política de privacidad",
-      "first": "Al seleccionar \"Aceptar y continuar\" a continuación, acepto la ",
-      "second": "y el ",
-      "third": " de Masteos"
-    },
-    "confirmPasswordLabel": "Confirmar contraseña",
     "emailLabel": "Dirección de correo electrónico",
     "emailPlaceholder": "Ej: juliette.dupont@mail.com",
     "financialTitle": "Perfil financiero",

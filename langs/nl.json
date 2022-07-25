@@ -14,8 +14,8 @@
     "email": "",
     "emailUnavailable": "",
     "formattedDate": "",
-    "hasAppointment": "",
     "header": "",
+    "info": "Si vous avez modifié ou annulé votre rendez-vous depuis l’email de confirmation reçu, veuillez actualiser cette page afin de mettre à jour les informations affichées.",
     "knowMoreNotify": "",
     "knowMoreNotifyOffers": "",
     "knowMorePictures": "",
@@ -25,10 +25,12 @@
     "newResearch": "",
     "nextAppointment": "",
     "nextAppointmentMessage": "",
+    "noAdvisorInfo": "",
     "noAppointment": "",
     "noAppointmentSchedule": "",
     "noAppointmentSearchResult": "",
     "phone": "",
+    "scheduledAppointment": "Rendez-vous planifié le {{date}} à {{hour}}.",
     "signDocument": "",
     "takeAppointment": "",
     "takeFirstAppointment": "",
@@ -58,6 +60,7 @@
     "errorAuthenticateMessage": "",
     "errorEmailGoogleMessage": "",
     "financeHeader": "",
+    "googleAuthButton": "",
     "header": "",
     "invalidEmail": "",
     "modalDeletedAccount": {
@@ -140,6 +143,7 @@
       "2": "",
       "3": ""
     },
+    "metaTitle": "",
     "newPasswordLabel": "",
     "passwordConfirmationLabel": "",
     "passwordLabel": "",
@@ -177,6 +181,7 @@
       "3": "",
       "4": ""
     },
+    "metaTitle": "",
     "networkError": "",
     "passwordPlaceholder": "",
     "register": "",
@@ -305,6 +310,158 @@
     "updateProfileErrorMessage": "",
     "updateProfileMessage": "",
     "updateProfilePicture": ""
+  },
+  "project": {
+    "detailSteps": {
+      "1": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "2": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "3": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "4": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "5": {
+        "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
+        "title": ""
+      },
+      "6": {
+        "content": "",
+        "title": ""
+      },
+      "7": {
+        "content": "",
+        "title": ""
+      },
+      "8": {
+        "content": "",
+        "title": ""
+      },
+      "9": {
+        "content": "",
+        "title": ""
+      },
+      "estimatedDay_one": "",
+      "estimatedDay_other": "",
+      "estimatedDuration": "",
+      "requiredDocument_one": "",
+      "requiredDocument_other": "",
+      "requiredDocuments": "",
+      "title": ""
+    },
+    "hideDetails": "",
+    "optional": "",
+    "realEstateLink": "",
+    "requiredDocuments": {
+      "annualHomeOwnerInsurance": "",
+      "financingCapacity": "",
+      "identityDocument": "",
+      "loanOffer": "",
+      "managementMandate": "",
+      "signedIntentionLetter": "",
+      "signedMandate": "",
+      "signedQuote": ""
+    },
+    "statusDescription": "",
+    "transactionStatus": {
+      "finished": "",
+      "ongoing": ""
+    },
+    "viewDetails": ""
   },
   "projectList": {
     "finishedProjectMessage": "",
@@ -535,6 +692,8 @@
     "roomZero": "",
     "seen": "",
     "tooltip": {
+      "netReturn": "",
+      "netReturnDescription": "",
       "noRevaluationRate": "",
       "revaluationRate": ""
     }
@@ -558,6 +717,7 @@
     "description": "",
     "descriptionTitle": "",
     "furniture": "",
+    "furnitureDescription": "",
     "furniturePack": {
       "japandiDescription": "",
       "japandiName": "Japandi",
@@ -618,23 +778,10 @@
   "register": {
     "alreadyEmailMessage": "",
     "borrowingCapacityInfo": "",
-    "cgu1": "",
-    "cgu2": "",
-    "cgu3": "",
-    "cgu4": "",
-    "cgu5": "",
     "cguStep1": "",
     "cguStep2": "",
     "cguStep3": "",
     "cguStep4": "",
-    "cguTextNew": {
-      "cgu": "",
-      "confidentiality": "",
-      "first": "",
-      "second": "",
-      "third": ""
-    },
-    "confirmPasswordLabel": "",
     "emailLabel": "",
     "emailPlaceholder": "",
     "financialTitle": "",
@@ -669,6 +816,7 @@
       "3": "",
       "4": ""
     },
+    "metaTitle": "",
     "newsletterLabel": "",
     "passwordConfirmationError": "",
     "passwordConfirmationLabel": "",
@@ -997,8 +1145,11 @@
     "translatedBy": "",
     "trending": {
       "CITY": "",
+      "City": "",
       "NEIGHBORHOOD": "",
-      "NO_DATA": ""
+      "NO_DATA": "",
+      "Neighborhood": "",
+      "NoData": ""
     },
     "unavailableProperty": "",
     "virtualVisit": "",

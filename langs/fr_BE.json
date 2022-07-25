@@ -14,8 +14,8 @@
     "email": "Mail",
     "emailUnavailable": "Email indisponible",
     "formattedDate": "Le {{date}}",
-    "hasAppointment": "Vous avez un rendez-vous planifié, consultez la date et l'heure dans l'email qui vous a été envoyé.",
     "header": "Mon conseiller",
+    "info": "",
     "knowMoreNotify": "Être notifié dès qu’un bien est disponible",
     "knowMoreNotifyOffers": "Formuler vos offres d'achat",
     "knowMorePictures": "Découvrir les photos et l’adresse du bien",
@@ -25,10 +25,12 @@
     "newResearch": "",
     "nextAppointment": "Prochain rendez-vous",
     "nextAppointmentMessage": "{{appointmentDate}} avec {{advisorName}}",
+    "noAdvisorInfo": "",
     "noAppointment": "Pas de rendez-vous",
     "noAppointmentSchedule": "Pas de rendez-vous prévu",
     "noAppointmentSearchResult": "Aucun rendez-vous de prévu",
     "phone": "Téléphone",
+    "scheduledAppointment": "",
     "signDocument": "Signer le mandat",
     "takeAppointment": "Prendre rendez-vous",
     "takeFirstAppointment": "Prenez rendez-vous avec un conseiller pour discuter de votre projet.",
@@ -313,22 +315,108 @@
     "detailSteps": {
       "1": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "2": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "3": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "4": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "5": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "6": {
@@ -355,19 +443,25 @@
       "requiredDocuments": "",
       "title": ""
     },
+    "hideDetails": "",
+    "optional": "",
     "realEstateLink": "",
     "requiredDocuments": {
       "annualHomeOwnerInsurance": "",
+      "financingCapacity": "",
       "identityDocument": "",
       "loanOffer": "",
+      "managementMandate": "",
       "signedIntentionLetter": "",
+      "signedMandate": "",
       "signedQuote": ""
     },
     "statusDescription": "",
     "transactionStatus": {
       "finished": "",
       "ongoing": ""
-    }
+    },
+    "viewDetails": ""
   },
   "projectList": {
     "finishedProjectMessage": "Vous êtes propriétaire de ce bien locatif acquis clés en main avec Masteos. 🔑",
@@ -476,7 +570,7 @@
     "grossReturn": "Rendement brut",
     "groundFloor": "RDC",
     "guide": "{{city}} (guide)",
-    "lokimo": "*Valorisation à 5 ans du foncier sur la zone. (Source : Lokimo).",
+    "lokimo": "*Valorisation à 5 ans du foncier sur la zone.",
     "moreInfos": "En découvrir plus sur la ville",
     "pricePerMeter": "Prix/m² actuel",
     "propertyInfo": "Le bien",
@@ -684,23 +778,10 @@
   "register": {
     "alreadyEmailMessage": "Cet email est déjà utilisé",
     "borrowingCapacityInfo": "Une attestation de financement établit votre capacité d'emprunt. Obtenez-la directement auprès de votre banque.",
-    "cgu1": "En sélectionnant “Continuer” ci-dessous, j'accepte les ",
-    "cgu2": "Conditions générales d'utilisation",
-    "cgu3": " et la ",
-    "cgu4": "Politique de confidentialité",
-    "cgu5": " de Masteos.",
     "cguStep1": "J'accepte les ",
     "cguStep2": "Conditions générales d'utilisation",
     "cguStep3": " et la ",
     "cguStep4": "Politique de confidentialité de Masteos.",
-    "cguTextNew": {
-      "cgu": "Conditions générales d'utilisation ",
-      "confidentiality": "Politique de confidentialité",
-      "first": "En sélectionnant “Accepter & Continuer” ci-dessous, j'accepte les ",
-      "second": "et la ",
-      "third": " de Masteos"
-    },
-    "confirmPasswordLabel": "Confirmer le mot de passe",
     "emailLabel": "Adresse mail",
     "emailPlaceholder": "Ex : juliette.dupont@mail.com",
     "financialTitle": "Profil financier",
@@ -834,7 +915,7 @@
       "annualHomeOwnerInsurance": "Assurance PNO",
       "annualLoanPayments": "Annuité emprunt",
       "annualPercentEvolution": "Evolution annuelle du prix du bien",
-      "annualPercentEvolutionDescription": "Evolution annuelle moyenne du foncier constaté les {{years}} dernières années: {{evolution}}",
+      "annualPercentEvolutionDescription": "Evolution annuelle moyenne du prix du foncier constaté les {{years}} dernières années: {{evolution}}",
       "annualPropertyManagement": "Gestion locative",
       "annualPropertyTax": "Précompte immobilier",
       "annualRentIncome": "Revenus annuels",
@@ -892,7 +973,7 @@
       "monthlyRentIncomeNoCharges": "Loyer mensuel hors charges",
       "negativeMonthlyCashflowLabel": "Effort d'épargne mensuel",
       "netReturn": "Rendement net",
-      "netSeller": "Prix net vendeur",
+      "netSeller": "Prix de vente",
       "notaryCommission": "Frais de notaire",
       "paymentCash": "Achat 100% cash",
       "positiveMonthlyCashflowLabel": "Excédent de trésorerie mensuel",
@@ -925,18 +1006,18 @@
         "annualHomeOwnerInsuranceDescription": "Assurance propriétaire non-occupant. Cette assurance fournit au propriétaire toutes les garanties pour couvrir aussi bien le logement que les dommages qui pourraient être causés aux locataires.",
         "annualPercentEvolution": "Le prix de l'immobilier a augmenté en moyenne de {{evaluationRate}} par an dans {{zone}} ces 5 dernières années.\nCette valeur n'est pas une prévision des évolutions futures mais permet de donner une tendance sur la zone. Il est important de projeter différents scénarios en modifiant l'hypothèse d'évolution du prix du marché.",
         "annualPropertyManagement": "Gestion locative",
-        "annualPropertyManagementDescription": "Frais de mise en location (10€ par m2 loué) et de gestion courante (4.99% des loyers encaissés).",
+        "annualPropertyManagementDescription": "Frais de mise en location (1 mois de loyer HTVA) et de gestion courante (7% des loyers encaissés).",
         "annualTurnoverIndice": "Taux d'occupation annuel",
         "annualTurnoverIndiceDescription": "Taux d'occupation annuel du bien exprimé en nombre de mois. La vacance locative sur ce projet représente un manque à gagner de {{amount}}",
         "bankCapitalStillDue": "Somme à rembourser à la banque l'année de la revente du bien lorsque ce dernier est vendu avant la date d'échéance du prêt. Cette somme est connue à l’avance car elle figure dans le tableau d’amortissement du prêt fourni par la banque. ",
         "bankCommission": "Frais bancaires",
-        "bankCommissionDescription": "Frais de dossier prélevés par la banque (800€) et frais de garantie de prêt immobilier (1% du capital emprunté) ",
+        "bankCommissionDescription": "Frais de dossier prélevés par la banque (+/-800€)",
         "brokerageFees": "Frais de courtage",
         "brokerageFeesDescription": "Formule : 1% du capital emprunté",
         "cashflowResellingYear": "Somme à disposition de l’investisseur l’année de la revente du bien, après remboursement de la banque, si la revente a lieu avant la date d'échéance du prêt.\nFormule : Prix de revente - capital restant dû",
         "cumulativeCashFlowNegative": "Cumul des flux de trésorerie annuels nets tout au long de la durée de détention du bien. Les loyers et les charges annuels sont indexés annuellement sur l'indice de référence des loyers (IRL) publié par l'Insee (2,48% T1 2022). C'est pour cette raison qu'un projet demandant un effort d'épargne en année 1 pourra tout de même avoir un cumul des flux de trésorerie positif après quelques années de détention.",
         "cumulativeCashFlowPositive": "Cumul des flux de trésorerie annuels nets tout au long de la durée de détention du bien. Les loyers et les charges annuels sont indexés annuellement sur l'indice de référence des loyers (IRL) publié par l'Insee (2,48% T1 2022). C'est pour cette raison qu'un projet demandant un effort d'épargne en année 1 pourra tout de même avoir un cumul des flux de trésorerie positif après quelques années de détention.",
-        "deedPurchaseFeesDescription": "Les frais d'actes d'achat comprennent notamment les droits d'enregistrements (=taxe régionale à l'acquisition d'un bien) de 12,5 % de la valeur d'achat, les frais administratifs de recherche, la TVA sur ces frais ainsi que l'inscription hypothécaire du bien.",
+        "deedPurchaseFeesDescription": "Les frais d'actes d'achat comprennent notamment les droits d'enregistrements (=taxe régionale à l'acquisition d'un bien de 12,5 % ou 12% de la valeur d'achat selon la région), les frais administratifs de recherche, la TVA sur ces frais ainsi que l'inscription hypothécaire du bien.",
         "enrichmentResellingYearNegative": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport - cumul des efforts d'épargne",
         "enrichmentResellingYearPositive": "Bénéfice net généré par le projet au bout de {{year}} années.\nFormule : prix de revente - capital restant dû - apport + cumul des excédents de trésorerie",
         "evaluationRateUnavaible": "L’historique de transactions disponibles sur cette zone n’est pas suffisant pour rendre compte avec précision de l’évolution des prix de l’immobilier",
@@ -944,13 +1025,13 @@
         "grossReturnDescription": "Permet de mesurer la rentabilité brute de l'investissement.\nFormule : ( Loyer mensuel charges comprises * 12 ) / ( Prix de vente + Travaux + Ameublement )",
         "investCapitalMultiplier": "Enrichissement net exprimé comme multiple des capitaux investis.\nFormule : ( Enrichissement net + capitaux investis ) / capitaux investis",
         "loanDown": "Apport",
-        "loanDownDescription": "Somme versée par l'investisseur pour financer la partie de l'acquisition non couverte par le prêt. Les banques requièrent un apport de 10 à 15% du coût du projet.",
-        "loanDownResellingDescription": "Somme versée par l'investisseur pour financer la partie de l'acquisition non couverte par le prêt. Les banques requièrent un apport de 10 à 15% du coût du projet.",
+        "loanDownDescription": "Somme versée par l'investisseur pour financer la partie de l'acquisition non couverte par le prêt. Les banques requièrent un apport de 20% du coût du projet auquel s'ajoutent les frais d'acte d'achat.",
+        "loanDownResellingDescription": "Somme versée par l'investisseur pour financer la partie de l'acquisition non couverte par le prêt. Les banques requièrent un apport de 20% du coût du projet auquel s'ajoutent les frais d'acte d'achat.",
         "masteosCommission": "Frais pour les services de sourcing et de suivi transactionnel. Ces derniers sont dégressifs en fonction du prix du bien.",
         "masteosCommissionLink": "[Voir la grille tarifaire]",
         "monthlyCashflowDescription": "- Si positif :\nTrésorerie excédentaire contribuant à l'enrichissement lié au projet\n- Si négatif :\nSomme que l'investisseur devra débourser pour couvrir les charges non-couvertes par les loyers",
         "negativeMonthlyEnrichmentDescription": "Enrichissement mensuel moyen calculé sur la base de la durée de détention et de l'évolution annuelle du foncier sélectionnées. Il se compose du capital remboursé à la banque et de la prise de valeur du bien auxquels est retiré l'effort d'épargne.",
-        "netReturn": "Rendement opérationnel",
+        "netReturn": "Rendement net",
         "netReturnDescription": "Permet de mesurer la rentabilité nette de charges.\nFormule : ( Loyer mensuel charges comprises - charges annuelles ) / ( Prix de vente + Travaux + Ameublement )",
         "positiveMonthlyEnrichmentDescription": "Enrichissement mensuel moyen calculé sur la base de la durée de détention et de l'évolution annuelle du foncier sélectionnées. Il se compose du capital remboursé à la banque, la prise de valeur du bien et de la trésorerie excédentaire.",
         "projectAmountDescription": "Formule : Prix de vente + Travaux + Ameublement + Frais de notaire + Frais Masteos + Frais bancaires + Frais de courtage",
