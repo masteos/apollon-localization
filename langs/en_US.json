@@ -14,7 +14,7 @@
     "email": "Mail",
     "emailUnavailable": "Email not available",
     "formattedDate": "On {{date}}",
-    "hasAppointment": "_",
+    "hasAppointment": "",
     "header": "My advisor",
     "knowMoreNotify": "Be notified as soon as a property is available",
     "knowMoreNotifyOffers": "Formulate your bids",
@@ -58,6 +58,7 @@
     "errorAuthenticateMessage": "An error occurred during the connection, please try to connect manually.",
     "errorEmailGoogleMessage": "",
     "financeHeader": "Financial profile",
+    "googleAuthButton": "",
     "header": "Registration",
     "invalidEmail": "The email is invalid",
     "modalDeletedAccount": {
@@ -140,6 +141,7 @@
       "2": " - Charles Sorel, \"the extravagant shepherd",
       "3": "If your memory is sluggish, you will be sent a verification code!"
     },
+    "metaTitle": "",
     "newPasswordLabel": "Choose a new password",
     "passwordConfirmationLabel": "Confirm your new password",
     "passwordLabel": "Password",
@@ -177,6 +179,7 @@
       "3": "You manage all the steps of your investment from the interface: electronic signature, document upload...",
       "4": "You can see the performance of your investment once your property is rented."
     },
+    "metaTitle": "",
     "networkError": "No internet connection",
     "passwordPlaceholder": "******",
     "register": "Create an account",
@@ -307,6 +310,60 @@
     "updateProfilePicture": "Edit my photo"
   },
   "project": {
+    "detailSteps": {
+      "1": {
+        "content": "",
+        "title": ""
+      },
+      "2": {
+        "content": "",
+        "title": ""
+      },
+      "3": {
+        "content": "",
+        "title": ""
+      },
+      "4": {
+        "content": "",
+        "title": "Obtaining funding"
+      },
+      "5": {
+        "content": "",
+        "title": ""
+      },
+      "6": {
+        "content": "",
+        "title": ""
+      },
+      "7": {
+        "content": "",
+        "title": ""
+      },
+      "8": {
+        "content": "",
+        "title": ""
+      },
+      "9": {
+        "content": "",
+        "title": ""
+      },
+      "estimatedDay_one": "",
+      "estimatedDay_other": "",
+      "estimatedDuration": "",
+      "requiredDocument_one": "",
+      "requiredDocument_other": "",
+      "requiredDocuments": "",
+      "title": ""
+    },
+    "realEstateLink": "",
+    "requiredDocuments": {
+      "annualHomeOwnerInsurance": "",
+      "identityDocument": "",
+      "loanOffer": "",
+      "signedIntentionLetter": "",
+      "signedQuote": ""
+    },
+    "statusDescription": "",
     "transactionStatus": {
       "finished": "Transaction ended",
       "ongoing": "Transaction in progress"
@@ -541,6 +598,8 @@
     "roomZero": "Studio",
     "seen": "",
     "tooltip": {
+      "netReturn": "",
+      "netReturnDescription": "",
       "noRevaluationRate": "",
       "revaluationRate": ""
     }
@@ -564,6 +623,7 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Furniture",
+    "furnitureDescription": "",
     "furniturePack": {
       "japandiDescription": "",
       "japandiName": "Japandi",
@@ -675,6 +735,7 @@
       "3": "",
       "4": ""
     },
+    "metaTitle": "",
     "newsletterLabel": "Receive Masteos communications",
     "passwordConfirmationError": "Passwords must be identical",
     "passwordConfirmationLabel": "Confirm password",
@@ -1003,8 +1064,11 @@
     "translatedBy": "Translated with {{providerName}}",
     "trending": {
       "CITY": "the municipality",
+      "City": "the municipality",
       "NEIGHBORHOOD": "the neighbourhood",
-      "NO_DATA": "NO_DATA"
+      "NO_DATA": "NO_DATA",
+      "Neighborhood": "the neighbourhood",
+      "NoData": "NO_DATA"
     },
     "unavailableProperty": "Property not available",
     "virtualVisit": "3D visit",
