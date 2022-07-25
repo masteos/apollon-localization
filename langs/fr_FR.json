@@ -463,6 +463,7 @@
     },
     "statusDescription": "<medium>Le statut du projet indique l’avancement de votre transaction</medium>, de la signature de l’offre d’achat à celle de l’acte authentique.",
     "transactionStatus": {
+      "canceled": "Transaction annulée",
       "finished": "Transaction terminée",
       "ongoing": "Transaction en cours"
     },
