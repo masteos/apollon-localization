@@ -1,5 +1,12 @@
 # Apollon Localization Changelog
 
+# [1.58.0](https://github.com/masteos/apollon-localization/compare/v1.57.0...v1.58.0) (2022-07-25)
+
+
+### Features
+
+* **project:** add missing translation for transaction status ([#166](https://github.com/masteos/apollon-localization/issues/166)) ([5ca1b11](https://github.com/masteos/apollon-localization/commit/5ca1b11a009ac9c7d64f9a37e405cd0aded34338))
+
 # [1.57.0](https://github.com/masteos/apollon-localization/compare/v1.56.0...v1.57.0) (2022-07-21)
 
 
