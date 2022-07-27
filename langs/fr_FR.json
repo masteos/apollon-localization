@@ -50,6 +50,7 @@
     "title": "Rendez-vous confirmé"
   },
   "authTunnel": {
+    "appleAuthButton": "Continuer avec Apple",
     "appointmentDate": "Veuillez Prendre un RDV",
     "appointmentHeader": "Votre rendez-vous",
     "createAccount": "Créer un compte",
