@@ -15,7 +15,7 @@
     "emailUnavailable": "",
     "formattedDate": "",
     "header": "",
-    "info": "Si vous avez modifié ou annulé votre rendez-vous depuis l’email de confirmation reçu, veuillez actualiser cette page afin de mettre à jour les informations affichées.",
+    "info": "",
     "knowMoreNotify": "",
     "knowMoreNotifyOffers": "",
     "knowMorePictures": "",
@@ -30,7 +30,7 @@
     "noAppointmentSchedule": "",
     "noAppointmentSearchResult": "",
     "phone": "",
-    "scheduledAppointment": "Rendez-vous planifié le {{date}} à {{hour}}.",
+    "scheduledAppointment": "",
     "signDocument": "",
     "takeAppointment": "",
     "takeFirstAppointment": "",
@@ -523,9 +523,9 @@
       "requiredDocument_other": "",
       "requiredDocuments": "",
       "status": {
-        "finished": "",
-        "incoming": "",
-        "ongoing": ""
+        "finished": "Terminé",
+        "incoming": "À venir",
+        "ongoing": "En cours"
       },
       "title": ""
     },
@@ -807,7 +807,7 @@
     "furnitureDescription": "",
     "furniturePack": {
       "japandiDescription": "",
-      "japandiName": "Japandi",
+      "japandiName": "",
       "loftDescription": "",
       "loftName": "",
       "nordicDescription": "",

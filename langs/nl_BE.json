@@ -50,6 +50,7 @@
     "title": ""
   },
   "authTunnel": {
+    "appleAuthButton": "",
     "appointmentDate": "",
     "appointmentHeader": "",
     "createAccount": "",
@@ -421,18 +422,98 @@
       },
       "6": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "7": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "8": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "9": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          },
+          "6": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "estimatedDay_one": "",
@@ -441,6 +522,11 @@
       "requiredDocument_one": "",
       "requiredDocument_other": "",
       "requiredDocuments": "",
+      "status": {
+        "finished": "",
+        "incoming": "",
+        "ongoing": ""
+      },
       "title": ""
     },
     "hideDetails": "",
@@ -458,6 +544,7 @@
     },
     "statusDescription": "",
     "transactionStatus": {
+      "canceled": "",
       "finished": "",
       "ongoing": ""
     },
