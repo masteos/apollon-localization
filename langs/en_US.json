@@ -50,6 +50,7 @@
     "title": "Appointment confirmed"
   },
   "authTunnel": {
+    "appleAuthButton": "",
     "appointmentDate": "Please Make an Appointment",
     "appointmentHeader": "Your appointment",
     "createAccount": "Create an account",
@@ -421,18 +422,98 @@
       },
       "6": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "7": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "8": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "9": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          },
+          "6": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "estimatedDay_one": "",
@@ -441,6 +522,11 @@
       "requiredDocument_one": "",
       "requiredDocument_other": "",
       "requiredDocuments": "",
+      "status": {
+        "finished": "",
+        "incoming": "",
+        "ongoing": ""
+      },
       "title": ""
     },
     "hideDetails": "",
@@ -458,6 +544,7 @@
     },
     "statusDescription": "",
     "transactionStatus": {
+      "canceled": "",
       "finished": "Transaction ended",
       "ongoing": "Transaction in progress"
     },
@@ -717,7 +804,7 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Furniture",
-    "furnitureDescription": "",
+    "furnitureDescription": "Our team of decorators takes care of your interior, adapts to its particularities and selects furniture and decorative objects for you to make your project unique. Four styles, to choose from, are in the spotlight: <medium> the contemporary loft universe </medium> , <medium> Nordic inspiration </medium> , <medium> the japandi trend </medium> and the <medium> retro vintage lifestyle </medium> . <br/> The service includes essential equipment to ensure the comfort of your tenants. You will also discover your project as it progresses, at key stages. Our furnishing service includes the delivery and assembly of furniture. Non-contractual photo.",
     "furniturePack": {
       "japandiDescription": "",
       "japandiName": "Japandi",
@@ -1070,7 +1157,7 @@
     "newPassword": "New password",
     "no": "No",
     "noAdvisor": "I don't know of any",
-    "noLongerinterested": "More interested",
+    "noLongerinterested": "No longer interested",
     "notInterested": "Not interested",
     "or": "",
     "password": "Password",
