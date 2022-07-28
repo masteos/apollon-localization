@@ -422,18 +422,98 @@
       },
       "6": {
         "content": "Notre équipe travaux lance le chantier de rénovation de votre bien à la fin de la transaction pour fournir un logement aux normes à vos futurs locataires.",
+        "subSteps": {
+          "1": {
+            "content": "Travaux de déconstruction\nL'opération de déconstruction a démarré sur votre chantier.\nÀ l'inverse d'une démolition classique, une opération de déconstruction permet de recycler et de valoriser l'ensemble des déchets de chantiers.",
+            "title": "Démolition"
+          },
+          "2": {
+            "content": "Travaux d'agencement\nLes opérations d'agencement de votre bien ont démarré.\nElles comprennent en particulier la création et le déplacement des cloisons, l'isolation des murs et des fenêtres ainsi que la préparation au passage des circuits de plomberie et d'électricité.",
+            "title": "Agencement"
+          },
+          "3": {
+            "content": "Préparation des supports\n La préparation des différents supports au sol et muraux a démarré (enduisage, ragréage...).\nCette étape permet de préparer la pose des sols et des peintures et/ou papiers peints.",
+            "title": "Préparation des supports"
+          },
+          "4": {
+            "content": "Menuiseries extérieures\nLa pose des menuiseries extérieures a commencé. Cette étape permet d'assurer l'étanchéité et l'isolation des fenêtres et autres baies.",
+            "title": "Menuiseries extérieures"
+          },
+          "5": {
+            "content": "Travaux de finition\nLes travaux de finition ont démarré dans votre bien ! Cette étape comprend la pose des revêtements de sol, de la peinture, ainsi que le raccordement de l'électricité et de la tuyauterie à leurs circuits.",
+            "title": "Finitions"
+          }
+        },
         "title": "Réalisation des travaux"
       },
       "7": {
         "content": "Nous livrons et installons le mobilier de votre bien dès la fin du chantier pour permettre à vos locataires de s'installer rapidement.",
+        "subSteps": {
+          "1": {
+            "content": "Installation des meubles et électroménagers\nLes travaux ont pris fin et il est temps d'équiper le logement !\nNous installons actuellement les meubles et les appareils électroménagers de votre bien.",
+            "title": "Installation des meubles et électroménagers"
+          },
+          "2": {
+            "content": "Décoration\nNos équipes déco mettent les dernières touches au logement pour le présenter sous son meilleur jour et séduire les locataires.",
+            "title": "Décoration"
+          },
+          "3": {
+            "content": "Réceptionnez votre chantier\nLe chantier de rénovation, l'ameublement et la décoration de votre bien ont pris fin !\nVotre account manager vous contactera bientôt pour organiser un rendez-vous de réception du chantier.",
+            "title": "Réception du bien"
+          }
+        },
         "title": "Ameublement du bien"
       },
       "8": {
         "content": "Dès que le bail est signé et votre locataire installé, nous prenons en charge la gestion administrative et technique du bien. Vous n'avez qu'à percevoir vos loyers.",
+        "subSteps": {
+          "1": {
+            "content": "Publication de l'annonce\nNous rédigeons et publions l'annonce de location sur toutes les plateformes immobilières nationales ainsi que sur notre propre site Amastas.\nNous faisons appel à un prestataire pour réaliser des photographies professionnelles et une visite 3D du bien.\nNous vous rendons compte de l'avancement de la recherche de biens.",
+            "title": "Publication de l'annonce"
+          },
+          "2": {
+            "content": "Visites et qualification candidats\nNous qualifions le dossier de tous les candidats avant d'organiser les visites dans le logement. Les visites 3D préalables permettent d'avoir des réservations plus rapides et de recevoir uniquement les locataires intéressés.",
+            "title": "Visites"
+          },
+          "3": {
+            "content": "Choix du locataire\nNous choisissons les locataires dans votre meilleur intérêt, en privilégiant leur solvabilité et leur stabilité. Si vous avez souscrit à une Garantie loyers impayés, il faut que votre assureur valide le dossier des candidats. En colocation, nous proposons uniquement des baux simples pour éviter les vacances locatives prolongées.",
+            "title": "Choix du/des locataire(s)"
+          },
+          "4": {
+            "content": "Signature du bail\nLe bail est envoyé au candidat pour signature électronique dès que le choix du locataire est définitif. Le bail est rédigé conformément à la loi ALUR.\n",
+            "title": "Signature du bail"
+          }
+        },
         "title": "La mise en location"
       },
       "9": {
         "content": "Dès que le bail est signé et votre locataire installé, nous prenons en charge la gestion administrative et technique du bien. Vous n'avez qu'à percevoir vos loyers.",
+        "subSteps": {
+          "1": {
+            "content": "Entrée dans les lieux\nAprès signature du bail, paiement des sommes dûes et souscription à l'attestation habitation, un état des lieux est réalisé en présence du locataire.\nCette étape est réalisée photos à l'appui et est sécurisé par une partie tierce.",
+            "title": "Entrée des lieux"
+          },
+          "2": {
+            "content": "Appel de loyers\nNous envoyons automatiquement les appels de loyer aux locataires le 25 de chaque mois.",
+            "title": "Envoi des appels de loyers"
+          },
+          "3": {
+            "content": "Paiement du loyer\nLe locataire doit régler son loyer avant le 5 du mois en cours.\nNous privilégions le prélèvement automatique, mais le locataire est libre de son mode de règlement.",
+            "title": "Paiement du loyer par le locataire"
+          },
+          "4": {
+            "content": "Versement du loyer\nNous vous reversons votre loyer autour du 15 du mois en cours, minoré des honoraires de gestion et des éventuels débits.",
+            "title": "Reversement du loyer"
+          },
+          "5": {
+            "content": "Compte-rendu de gestion\nNous vous envoyons un compte-rendu mensuel de gestion par mail, en même temps que le loyer.\nIl recense les recettes et les débits (réparations, charges de copropriété, honoraires...) du mois écoulé.",
+            "title": "Compte-rendu de gestion"
+          },
+          "6": {
+            "content": "Sortie des lieux\nVotre locataire dispose d'un préavis d'un mois s'il souhaite quitter le logement. À la réception de son préavis, nous organisons la remise des clés ainsi que l'état des lieux de sortie.\nS'il révèle des anomalies, nous effectuons une retenue sur le dépôt de garantie du locataire, basé sur un devis ou une facture.",
+            "title": "Sortie des lieux"
+          }
+        },
         "title": "Gestion et suivi de performance"
       },
       "estimatedDay_one": "Environ {{count}} jour",
