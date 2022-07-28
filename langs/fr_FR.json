@@ -421,7 +421,7 @@
         "title": "Signer l’acte authentique 🎉"
       },
       "6": {
-        "content": "Notre équipe travaux lance le chantier de rénovation de votre bien à la fin de la transaction pour fournir un logement aux normes à vos futurs locataires.",
+        "content": "Une fois votre bien acquis, notre équipe travaux prend le relai sur la rénovation pour l'adapter aux besoins et au bien-être de vos futurs locataires grâce à une rénovation durable.\n\nPour le lancer, deux étapes sont essentielles : \n- Souscrire à un abonnement en eau et électricité\n- Prévenir le syndic de copropriété qu'un chantier sera effectué dans le bien.\n\nVous pouvez les réaliser ou nous les déléguer.",
         "subSteps": {
           "1": {
             "content": "L'opération de déconstruction a démarré sur votre chantier.\nCette opération permet de recycler l'ensemble des déchets de chantiers.",
@@ -444,10 +444,10 @@
             "title": "Finitions"
           }
         },
-        "title": "Réalisation des travaux"
+        "title": "Travaux de rénovation"
       },
       "7": {
-        "content": "Nous livrons et installons le mobilier de votre bien dès la fin du chantier pour permettre à vos locataires de s'installer rapidement.",
+        "content": "Les packs meubles Masteos sont conçus pour assurer le confort et le bien-être de vos locataires.\nNos équipes les livrent et les installent dans votre bien à la fin du chantier.",
         "subSteps": {
           "1": {
             "content": "Nous livrons, installons et montons les meubles et l’électroménager dans les différentes pièces du logement.",
@@ -465,7 +465,7 @@
         "title": "Ameublement du bien"
       },
       "8": {
-        "content": "Nos équipes gestion diffusent l'annonce de location, organisent les visites, sélectionnent les locataires et effectuent les états des lieux d'entrée et de sortie.",
+        "content": "Masteos assure la mise en location de votre bien dans les meilleurs délais à la suite de votre acquisition.\nNos équipes gestions se chargent de commercialiser le bien, d'organiser les visites, de sélectionner les locataires, et d'effectuer les états des lieux d'entrée et de sortie.",
         "subSteps": {
           "1": {
             "content": "Nous rédigeons et publions l'annonce de location sur toutes les plateformes immobilières nationales ainsi que sur notre propre site Amastas.\nNous faisons appel à un prestataire pour réaliser des photographies professionnelles et une visite 3D du bien.\nNous vous rendons compte de l'avancement de la recherche de biens.",
@@ -484,10 +484,10 @@
             "title": "Signature du bail"
           }
         },
-        "title": "La mise en location"
+        "title": "Mise en location"
       },
       "9": {
-        "content": "Dès que le bail est signé et votre locataire installé, nous prenons en charge la gestion administrative et technique du bien. Vous n'avez qu'à percevoir vos loyers.",
+        "content": "Une fois le bail signé et votre locataire installé, nous prenons en charge la gestion administrative et technique du bien.\n\nAppels de loyers, interventions et réparations, gestion des procédures et démarches administratives : vous n'avez qu'à percevoir vos loyers.",
         "subSteps": {
           "1": {
             "content": "Après signature du bail, paiement des sommes dûes et souscription à l'attestation habitation, un état des lieux est réalisé en présence du locataire.\nCette étape est réalisée photos à l'appui et est sécurisé par une partie tierce.",
