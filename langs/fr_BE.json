@@ -50,6 +50,7 @@
     "title": "Rendez-vous confirmé"
   },
   "authTunnel": {
+    "appleAuthButton": "",
     "appointmentDate": "Veuillez Prendre un RDV",
     "appointmentHeader": "Votre rendez-vous",
     "createAccount": "Créer un compte",
@@ -421,18 +422,98 @@
       },
       "6": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "7": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "8": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "9": {
         "content": "",
+        "subSteps": {
+          "1": {
+            "content": "",
+            "title": ""
+          },
+          "2": {
+            "content": "",
+            "title": ""
+          },
+          "3": {
+            "content": "",
+            "title": ""
+          },
+          "4": {
+            "content": "",
+            "title": ""
+          },
+          "5": {
+            "content": "",
+            "title": ""
+          },
+          "6": {
+            "content": "",
+            "title": ""
+          }
+        },
         "title": ""
       },
       "estimatedDay_one": "",
@@ -441,6 +522,11 @@
       "requiredDocument_one": "",
       "requiredDocument_other": "",
       "requiredDocuments": "",
+      "status": {
+        "finished": "",
+        "incoming": "",
+        "ongoing": ""
+      },
       "title": ""
     },
     "hideDetails": "",
@@ -458,6 +544,7 @@
     },
     "statusDescription": "",
     "transactionStatus": {
+      "canceled": "",
       "finished": "",
       "ongoing": ""
     },
@@ -717,7 +804,7 @@
     "description": "Description",
     "descriptionTitle": "Description",
     "furniture": "Ameublement",
-    "furnitureDescription": "",
+    "furnitureDescription": "Notre équipe de décorateurs prend en charge votre intérieur, s’adapte à ses particularités et sélectionne pour vous des meubles et objets décoratifs pour rendre votre projet unique. Quatre styles, au choix, sont à l’honneur : <medium>l’univers loft contemporain</medium>, <medium>l’inspiration nordique</medium>, <medium>la tendance japandi</medium> et le <medium>lifestyle retro vintage</medium>.<br/>La prestation intègre les équipements essentiels pour assurer le confort de vos locataires. Vous découvrirez également votre projet au fur et à mesure de son avancement, aux étapes clés. Notre service ameublement inclut la livraison et le montage des meubles. Photos non contractuelles.",
     "furniturePack": {
       "japandiDescription": "",
       "japandiName": "Japandi",
